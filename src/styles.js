@@ -6,6 +6,11 @@ export const Pigeonwrap = styled.div`
   max-width: 40%;
   font-family: 'Raleway';
   font-size: 20px;
+
+  @media (max-width: 800px) {
+    max-width: 100%;
+  }
+
 `;
 
 export const Option = styled.span`
