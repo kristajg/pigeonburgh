@@ -115,11 +115,32 @@ class Pigeonburgh extends Component {
 				/>
 			);
 		} else if (step === 7) {
-			return <Step7 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
+			return (
+				<Step7
+					changeStep={this.changeStep}
+					changeSubstep={this.changeSubstep}
+					resetSubstep={this.resetSubstep}
+					addItem={this.addItem}
+				/>
+			);
 		} else if (step === 8) {
-			return <Step8 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
+			return (
+				<Step8
+					changeStep={this.changeStep}
+					changeSubstep={this.changeSubstep}
+					resetSubstep={this.resetSubstep}
+					addItem={this.addItem}
+				/>
+			);
 		} else if (step === 9) {
-			return <Step9 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
+			return (
+				<Step9
+					changeStep={this.changeStep}
+					changeSubstep={this.changeSubstep}
+					resetSubstep={this.resetSubstep}
+					addItem={this.addItem}
+				/>
+			);
 		} else if (step === 10) {
 			return (
 				<Step10 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
