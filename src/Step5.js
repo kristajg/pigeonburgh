@@ -1,11 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Option, Pigeongraph } from './styles';
 
-const Step5 = ({ changeStep, changeSubstep }) => (
+const Step5 = ({ changeStep }) => (
 	<div>
 		<Pigeongraph>
 			The crust punk sneers and flicks the end of a cheap cigarette at you, but graciously allow you to pick your method
-			of shreddin'.
+			of shreddin&#39;.
 		</Pigeongraph>
 		<Pigeongraph>Looking into his arsenal reveals three choices of handlebar-less transportation:</Pigeongraph>
 		<Option onClick={() => changeStep(7)}>the ripped denim tradition of a regular skateboard</Option>
@@ -17,5 +18,9 @@ const Step5 = ({ changeStep, changeSubstep }) => (
 		<Option onClick={() => changeStep(9)}>the alternative boot-glide of rollerblades</Option>
 	</div>
 );
+
+Step5.propTypes = {
+	changeStep: PropTypes.func.isRequired,
+};
 
 export default Step5;

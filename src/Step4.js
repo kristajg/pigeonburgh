@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Option, Pigeongraph } from './styles';
 
 const Step4 = ({ changeStep, changeSubstep }) => (
@@ -18,5 +19,10 @@ const Step4 = ({ changeStep, changeSubstep }) => (
 		<Option onClick={() => changeStep(6)}>Ask if he&#39;s seen any good movies lately</Option>
 	</div>
 );
+
+Step4.propTypes = {
+	changeStep: PropTypes.func.isRequired,
+	changeSubstep: PropTypes.func.isRequired,
+};
 
 export default Step4;

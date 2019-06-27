@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import cloneDeep from 'lodash.clonedeep';
 import Substep from './Substep';
 import Step1 from './Step1';
 import Step2 from './Step2';
@@ -18,11 +19,21 @@ import Step15 from './Step15';
 import Step16 from './Step16';
 import { Pigeonwrap } from './styles';
 import * as stext from './substepText';
+import Inventory from './Inventory';
 
 class Pigeonburgh extends Component {
 	state = {
 		step: 1,
 		substep: 0,
+		viewingInventory: false,
+		inventory: [
+			{
+				id: 'binaryCode',
+				visible: false,
+				name: 'Binary Code',
+				description: 'A paper with mysterious binary code scrawled on one side.',
+			},
+		],
 	};
 
 	changeStep = step => this.setState({ step, substep: 0 });
@@ -31,8 +42,39 @@ class Pigeonburgh extends Component {
 
 	resetSubstep = () => this.setState({ substep: 0 });
 
-	renderSubstep = textDirectory => {
-		return <Substep text={textDirectory} resetSubstep={this.resetSubstep} />;
+	renderSubstep = text => {
+		return <Substep text={text} resetSubstep={this.resetSubstep} />;
+	};
+
+	toggleInventory = () => this.setState({ viewingInventory: !this.state.viewingInventory });
+
+	renderInventoryButton = () => {
+		let showButton = false;
+		this.state.inventory.forEach(item => {
+			if (item.visible) {
+				showButton = true;
+				return;
+			}
+		});
+
+		if (showButton && !this.state.viewingInventory) {
+			return (
+				<button onClick={() => this.toggleInventory()} style={{ marginTop: 25 }}>
+					View Inventory
+				</button>
+			);
+		}
+	};
+
+	addItem = itemId => {
+		let newInventory = cloneDeep(this.state.inventory);
+		const itemIndex = newInventory.findIndex(item => item.id === itemId);
+		newInventory[itemIndex].visible = true;
+		this.setState({ inventory: newInventory });
+	};
+
+	renderInventory = () => {
+		return <Inventory inventory={this.state.inventory} toggleInventory={this.toggleInventory} />;
 	};
 
 	renderGameStep = () => {
@@ -64,7 +106,14 @@ class Pigeonburgh extends Component {
 			if (substep === 2) {
 				return this.renderSubstep(stext.stepSixSubstepTwo);
 			}
-			return <Step6 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
+			return (
+				<Step6
+					changeStep={this.changeStep}
+					changeSubstep={this.changeSubstep}
+					resetSubstep={this.resetSubstep}
+					addItem={this.addItem}
+				/>
+			);
 		} else if (step === 7) {
 			return <Step7 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
 		} else if (step === 8) {
@@ -93,7 +142,7 @@ class Pigeonburgh extends Component {
 			);
 		} else if (step === 15) {
 			return (
-				<Step14 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
+				<Step15 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
 			);
 		} else if (step === 16) {
 			return (
@@ -105,7 +154,8 @@ class Pigeonburgh extends Component {
 	render() {
 		return (
 			<Pigeonwrap>
-				{this.renderGameStep()}
+				{this.state.viewingInventory ? this.renderInventory() : this.renderGameStep()}
+				{this.renderInventoryButton()}
 				<br />
 				<br />
 				<button onClick={() => this.changeStep(1)}>RESET GAME</button>
