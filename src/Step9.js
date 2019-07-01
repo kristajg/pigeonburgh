@@ -18,11 +18,11 @@ class Step9 extends PureComponent {
 				</Pigeongraph>
 				<Pigeongraph>Cross-checking with your memories of actual flight, it is pretty similar.</Pigeongraph>
 				<Pigeongraph>
-					It's a tie down to the milisecond. You're not sure why this crust punk went through all the trouble of setting
-					up professional-level tech for a street match but you feel cool as a participant.
+					It's a tie down to the milisecond. You&#39;re not sure why this crust punk went through all the trouble of
+					setting up professional-level tech for a street match but you feel cool as a participant.
 				</Pigeongraph>
 				<Pigeongraph>
-					He hands you a slip of paper and says "Excellent match, you've earned this. Brink was a really underrated
+					He hands you a slip of paper and says "Excellent match, you&#39;ve earned this. Brink was a really underrated
 					Disney made-for-tv movie." and seems to genuinely mean it. A sensitive soul he is.
 				</Pigeongraph>
 				<Pigeongraph>The paper is covered in a mysterious series of binary code...</Pigeongraph>

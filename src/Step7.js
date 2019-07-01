@@ -14,7 +14,7 @@ class Step7 extends PureComponent {
 			<div>
 				<Pigeongraph>Ah, yes. The traditional skateboard.</Pigeongraph>
 				<Pigeongraph>
-					You could legitimately wear a Thrasher t-shirt, but they don't come in tiny bird sizes.
+					You could legitimately wear a Thrasher t-shirt, but they don&#39;t come in tiny bird sizes.
 				</Pigeongraph>
 				<Pigeongraph>
 					You skate with the valience of ten thousand Greek chariots and so does the crust punk, but ultimately you best
