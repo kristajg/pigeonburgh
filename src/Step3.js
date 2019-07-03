@@ -4,7 +4,7 @@ import { Option, Pigeongraph } from './styles';
 
 const Step3 = ({ changeStep, changeSubstep }) => (
 	<div>
-		<Pigeongraph>Too good for a carb-heavy corn chip breakfast, eh? Just a coffee-and-go kind of bird.</Pigeongraph>
+		<Pigeongraph>Too good for a carb-heavy breakfast, eh? Just a coffee-and-go kind of bird.</Pigeongraph>
 		<Pigeongraph>
 			You fly to the nearest cafe and take a <Option onClick={() => changeSubstep(1)}>BIG SIP</Option> from a half-full
 			mug left on a patio table.

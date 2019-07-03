@@ -11,7 +11,7 @@ const Step2 = ({ changeStep }) => (
 			You&#39;re not sure, but 10 feels like the right number unit. Welp, time to fly around this town like no one&#39;s
 			business.
 		</Pigeongraph>
-		<Option onClick={() => changeStep(4)}>Fly to that bridge</Option>
+		<Option onClick={() => changeStep(4)}>Fly to that bridge over yonder</Option>
 	</div>
 );
 

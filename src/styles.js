@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Pigeonwrap = styled.div`
 	padding-top: 5%;
 	padding-left: 5%;
-	max-width: 40%;
+	max-width: 45%;
 	font-family: 'Raleway';
 	font-size: 18px;
 	line-height: 26px;
