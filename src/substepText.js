@@ -11,3 +11,15 @@ export const stepFourSubstepOne =
 export const stepSixSubstepOne = 'Real classics like "I\'ll be back" and "Chill out, dickwad."';
 
 export const stepSixSubstepTwo = <img src="assets/maverick.gif" alt="Maverick" />;
+
+export const stepTwelveSubstepOne =
+	"Ira was cool for sure. She cracked the best jokes in still life illustration class. During nude drawing sessions, she called it the Art S'nudio. Ha. Classic.";
+
+export const stepFourteenSubstepOne =
+	'A metal butterfly destroying it’s Slayer chrysalis while double-bass drums resound in the background.';
+
+export const stepFifteenSubstepOne =
+	'Flashback to KAREN! DANG IT she doesn’t even know how to use Microsoft Paint don’t MESS WITH ME KAREN I SWEAR.';
+
+export const stepNineteenSubstepOne =
+	"Fluent in binary code, really though? Maybe you'll ask her to hang sometime to see what other stuff is going on in her steel trap of a brain. But she’s probably too cool and connected and maybe you’ll ask later and anyways you’re super busy solving this weird puzzle and and and and and AND";

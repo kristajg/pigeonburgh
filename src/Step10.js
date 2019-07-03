@@ -10,8 +10,8 @@ const Step10 = ({ changeStep, changeSubstep }) => (
 			in your head for no reason.
 		</Pigeongraph>
 		<Pigeongraph>
-			Musical entrapments of John Denver aside, you play through the day's events in your mind... pausing to consider
-			that mysterious binary code.
+			Musical entrapments of John Denver aside, you play through the day&#39;s events in your mind... pausing to
+			consider that mysterious binary code.
 		</Pigeongraph>
 		<Option onClick={() => changeStep(11)}>Sleep comes eventually, Mountain Mama</Option>
 	</div>
@@ -19,7 +19,7 @@ const Step10 = ({ changeStep, changeSubstep }) => (
 
 Step10.propTypes = {
 	changeStep: PropTypes.func.isRequired,
-	addItem: PropTypes.func.isRequired,
+	changeSubstep: PropTypes.func.isRequired,
 };
 
 export default Step10;

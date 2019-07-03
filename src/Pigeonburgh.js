@@ -154,6 +154,9 @@ class Pigeonburgh extends Component {
 				<Step11 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
 			);
 		} else if (step === 12) {
+			if (substep === 1) {
+				return this.renderSubstep(stext.stepTwelveSubstepOne);
+			}
 			return (
 				<Step12 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
 			);
@@ -162,10 +165,16 @@ class Pigeonburgh extends Component {
 				<Step13 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
 			);
 		} else if (step === 14) {
+			if (substep === 1) {
+				return this.renderSubstep(stext.stepFourteenSubstepOne);
+			}
 			return (
 				<Step14 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
 			);
 		} else if (step === 15) {
+			if (substep === 1) {
+				return this.renderSubstep(stext.stepFifteenSubstepOne);
+			}
 			return (
 				<Step15 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
 			);
@@ -182,6 +191,9 @@ class Pigeonburgh extends Component {
 				<Step18 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
 			);
 		} else if (step === 19) {
+			if (substep === 1) {
+				return this.renderSubstep(stext.stepNineteenSubstepOne);
+			}
 			return (
 				<Step19 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
 			);

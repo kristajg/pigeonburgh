@@ -15,7 +15,7 @@ const Step13 = ({ changeStep, changeSubstep }) => (
 			That deli was cool. They put banana peppers on every sandwich. The old deli man there called every girl that came
 			in Dorothy, and every guy Donnie.
 		</Pigeongraph>
-		<Pigeongraph>That’s the kind of world I want to live in, forever. A deli paradise.</Pigeongraph>
+		<Pigeongraph>That&#39;s the kind of world I want to live in, forever. A deli paradise.</Pigeongraph>
 		<Pigeongraph>
 			However the new restaurant looks pretty swanky. A man dressed in an enticing looking hipster attire is harolding
 			people towards the entrance in a most alluring fashion. Is he really waving his beard at people? Is he offering
@@ -30,7 +30,7 @@ const Step13 = ({ changeStep, changeSubstep }) => (
 
 Step13.propTypes = {
 	changeStep: PropTypes.func.isRequired,
-	addItem: PropTypes.func.isRequired,
+	changeSubstep: PropTypes.func.isRequired,
 };
 
 export default Step13;
