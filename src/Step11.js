@@ -26,7 +26,7 @@ const Step11 = ({ changeStep, changeSubstep }) => (
 
 Step11.propTypes = {
 	changeStep: PropTypes.func.isRequired,
-	addItem: PropTypes.func.isRequired,
+	changeSubstep: PropTypes.func.isRequired,
 };
 
 export default Step11;

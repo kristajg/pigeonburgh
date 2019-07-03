@@ -18,7 +18,7 @@ class Step9 extends PureComponent {
 				</Pigeongraph>
 				<Pigeongraph>Cross-checking with your memories of actual flight, it is pretty similar.</Pigeongraph>
 				<Pigeongraph>
-					It's a tie down to the milisecond. You&#39;re not sure why this crust punk went through all the trouble of
+					It&#39;s a tie down to the milisecond. You&#39;re not sure why this crust punk went through all the trouble of
 					setting up professional-level tech for a street match but you feel cool as a participant.
 				</Pigeongraph>
 				<Pigeongraph>
