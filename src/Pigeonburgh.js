@@ -17,6 +17,7 @@ import Step13 from './Step13';
 import Step14 from './Step14';
 import Step15 from './Step15';
 import Step16 from './Step16';
+import Step17 from './Step17';
 import { Pigeonwrap } from './styles';
 import * as stext from './substepText';
 import Inventory from './Inventory';
@@ -168,6 +169,10 @@ class Pigeonburgh extends Component {
 		} else if (step === 16) {
 			return (
 				<Step16 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
+			);
+		} else if (step === 17) {
+			return (
+				<Step17 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
 			);
 		}
 	};
