@@ -15,6 +15,8 @@ export const stepSixSubstepTwo = <img src="assets/maverick.gif" alt="Maverick" /
 export const stepTwelveSubstepOne =
 	"Ira was cool for sure. She cracked the best jokes in still life illustration class. During nude drawing sessions, she called it the Art S'nudio. Ha. Classic.";
 
+export const stepThirteenSubstepOne = "A deli paradise. That's the kind of utopia I want to live in, forever.";
+
 export const stepFourteenSubstepOne =
 	'A metal butterfly destroying it’s Slayer chrysalis while double-bass drums resound in the background.';
 
