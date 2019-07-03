@@ -3,8 +3,8 @@ import { Option, Pigeongraph } from './styles';
 
 const Step16 = ({ changeStep, changeSubstep }) => (
 	<div>
-		<Pigeongraph>Grab traditional sando</Pigeongraph>
-		<Option onClick={() => changeStep(18)}>do something else</Option>
+		<Pigeongraph>Try hipster restaurant</Pigeongraph>
+		<Option onClick={() => changeStep(19)}>do something else</Option>
 	</div>
 );
 
