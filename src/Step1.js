@@ -6,8 +6,8 @@ const Step1 = ({ changeStep, changeSubstep }) => (
 	<div>
 		<Pigeongraph style={{ fontWeight: 600 }}>Hey there. Yeah, you. Wake up ya jaboroni!!</Pigeongraph>
 		<Pigeongraph>
-			You are a <Option onClick={() => changeSubstep(1)}>pigeon</Option> in your prime. How coo is that? You reckon
-			it&#39;s pretty coo.
+			You are a <Option onClick={() => changeSubstep(1)}>pigeon</Option> named <b>Pip</b> in your prime. How coo is
+			that? You reckon it&#39;s pretty coo.
 		</Pigeongraph>
 		<Pigeongraph>
 			Yaaaaaaawn. What a beautiful day in the neighborhood. The rising sun shines through sparse clouds, illuminating

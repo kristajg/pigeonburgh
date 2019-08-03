@@ -1,0 +1,32 @@
+{
+	"version": "1.0.0",
+	"steps": [
+		{
+			"id": 1,
+			"description": "Game entry point. Introduces Pip and indicates city location. Corn chip choices.",
+			"content": [
+				"You are a <span data-substep=\"1\">pigeon</span> named Pip in your prime. How coo is that? You reckon it&#39;s pretty coo.",
+				"Yaaaaaaawn. What a beautiful day in the neighborhood. The rising sun shines through sparse clouds, illuminating the surrounding rivers and city buildings.",
+				"A corn chip rests conveniently by your feetsies..."
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "Yes, a pigeon. Stunning royal blue and gray feathers. Orange feetsies."
+				}
+			],
+			"choices": [
+				{
+					"text": "Crunch that chip",
+					"nextStepId": 2,
+					"logChoice": false
+				},
+				{
+					"text": "Skip the chip",
+					"nextStepId": 3,
+					"logChoice": false
+				}
+			]
+		}
+	]
+}

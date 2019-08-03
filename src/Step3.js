@@ -10,7 +10,7 @@ const Step3 = ({ changeStep, changeSubstep }) => (
 			mug left on a patio table.
 		</Pigeongraph>
 		<Pigeongraph>
-			Full on caffeinated, you fly like a bird out of hell in several circles because you feel ALIVE. Let's put this
+			Full on caffeinated, you fly like a bird out of hell in several circles because you feel ALIVE. Let&#39;s put this
 			perpetual birdmotion machine to work!
 		</Pigeongraph>
 		<Option onClick={() => changeStep(4)}>FLY OVER TO A BRIDGE WITH INTENT</Option>

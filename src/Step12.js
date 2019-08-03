@@ -9,8 +9,10 @@ const Step12 = ({ changeStep, changeSubstep }) => (
 			<Option onClick={() => changeSubstep(1)}>Ira</Option> from art electives back at University.
 		</Pigeongraph>
 		<Pigeongraph>
-			After initial pleasantries you can tell something is up. Ira confesses she&#39;s mega bummed since her agency job
-			isn&#39;t what she imagined & it&#39;s draining her of creativity and energy points.
+			After initial pleasantries you can tell something is up. She sighs after long sentences and you notice dark
+			circles under her eyes that have nothing to do with post-grunge eyeliner. Ira confesses she&#39;s mega bummed
+			since her award-winning design agency job isn&#39;t what she imagined and it&#39;s draining her of creativity and
+			personal-life energy points.
 		</Pigeongraph>
 		<Option onClick={() => changeStep(14)}>Listen sincerely</Option>
 		<br />

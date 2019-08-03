@@ -14,8 +14,7 @@ class Step6 extends PureComponent {
 		return (
 			<div>
 				<Pigeongraph>
-					You make friends with the crust punk. His name is Carl. He seems like a sensitive and insightful soul, and you
-					two hit it off.
+					You befriend the cat and learn his name is Carl. He seems like a sensitive and insightful soul.
 				</Pigeongraph>
 				<Pigeongraph>
 					You learn Carl enjoys painting water colors of 1980s action film scenes. After a pleasant conversation
@@ -23,11 +22,11 @@ class Step6 extends PureComponent {
 					you bid farewell to your new friend.
 				</Pigeongraph>
 				<Pigeongraph>
-					Just before you leave, Carl slips you a piece of paper with a strange series of binary code on it and says,
-					&#34;You&#39;re alright ya know that. Here ya go, Goose&#34;.
+					Just before you leave, Carl slips you a piece of paper with a strange series of binary code on it. He says,
+					&#34;You&#39;re alright Pip, ya know that. A real Maverick. I&#39;m sure we&#39;ll see each other again soon.
 				</Pigeongraph>
 				<Pigeongraph>
-					You say &#34;Thanks, <Option onClick={() => changeSubstep(2)}>Maverick</Option>&#34; and take the paper.
+					You say &#34;Thanks, <Option onClick={() => changeSubstep(2)}>Goose</Option>&#34; and take the slip paper.
 				</Pigeongraph>
 				<Option onClick={() => this.addItemAndProceed()}>Fly home Top Gun style</Option>
 			</div>
