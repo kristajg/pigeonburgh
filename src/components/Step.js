@@ -6,20 +6,37 @@ import PropTypes from 'prop-types';
 import Choices from './Choices';
 
 // Styles
-import { Option, Pigeongraph } from '../styles';
+import { Pigeongraph } from '../styles';
 
 class Step extends Component {
+	componentDidMount() {
+		const substeps = document.querySelectorAll('[data-substep]');
+		for (let i = 0; i < substeps.length; i++) {
+			substeps[i].onclick = () => this.props.changeSubstep(i + 1);
+		}
+	}
+
 	renderParagraphs = () => {
-		console.log('wtf');
 		const { content } = this.props;
-		console.log('hello? ', content);
-		return content.map((paragraph, i) => <Pigeongraph key={`paragraph-${i}`}>{paragraph}</Pigeongraph>);
+		return content.map((paragraph, i) => (
+			<Pigeongraph key={`paragraph-${i}`} dangerouslySetInnerHTML={{ __html: paragraph }} />
+		));
 	};
 
-	// renderChoices = () => {};
+	renderChoices = () => {
+		const { choices, changeStep } = this.props;
+		if (choices && choices.length) {
+			return <Choices choices={choices} changeStep={changeStep} />;
+		}
+	};
 
 	render() {
-		return <div>{this.renderParagraphs()}</div>;
+		return (
+			<div>
+				{this.renderParagraphs()}
+				{this.renderChoices()}
+			</div>
+		);
 	}
 }
 
@@ -29,6 +46,7 @@ Step.propTypes = {
 	substeps: PropTypes.array.isRequired,
 	choices: PropTypes.array.isRequired,
 	changeStep: PropTypes.func.isRequired,
+	changeSubstep: PropTypes.func.isRequired,
 };
 
 export default Step;

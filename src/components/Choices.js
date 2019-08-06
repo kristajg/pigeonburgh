@@ -1,20 +1,19 @@
+// React & third party libaries
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 
-const ChoicesWrapper = styled.div`
-	padding: 8px;
-	border: 1px solid papayawhip;
-	border-radius: 2px;
-`;
+// Styles
+import { ChoicesWrapper, Option } from '../styles';
 
 class Choices extends Component {
 	render() {
-		const { choices } = this.props;
+		const { choices, changeStep } = this.props;
 		return (
 			<ChoicesWrapper>
 				{choices.map((choice, i) => (
-					<div key={`choice-${i}`}>{choice.text}</div>
+					<Option key={`choice-${i}`} className="choice-option" onClick={() => changeStep(choice.nextStepId)}>
+						{choice.text}
+					</Option>
 				))}
 			</ChoicesWrapper>
 		);
@@ -22,7 +21,8 @@ class Choices extends Component {
 }
 
 Choices.propTypes = {
-	choices: PropTypes.func.isRequired,
+	choices: PropTypes.array.isRequired,
+	changeStep: PropTypes.func.isRequired,
 };
 
 export default Choices;

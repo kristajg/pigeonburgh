@@ -5,7 +5,7 @@
 			"id": 1,
 			"description": "Game entry point. Introduces Pip and indicates city location. Corn chip choices.",
 			"content": [
-				"You are a <span data-substep=\"1\">pigeon</span> named Pip in your prime. How coo is that? You reckon it&#39;s pretty coo.",
+				"You are a <span class=\"substep\" data-substep=\"1\">pigeon</span> named Pip in your prime. How coo is that? You reckon it's pretty coo.",
 				"Yaaaaaaawn. What a beautiful day in the neighborhood. The rising sun shines through sparse clouds, illuminating the surrounding rivers and city buildings.",
 				"A corn chip rests conveniently by your feetsies..."
 			],
@@ -27,6 +27,107 @@
 					"logChoice": false
 				}
 			]
+		},
+		{
+			"id": 2,
+			"description": "You ate your first corn chip.",
+			"content": [
+				"Delicious chip carbs fill your feather bod. Your energy goes up by 10. Hmmm... 10 what exactly?",
+				"You're not sure, but 10 feels like the right number unit. Welp, time to fly around this town like no one's business."
+			],
+			"substeps": [],
+			"choices": [
+				{
+					"text": "Fly to that bridge over yonder",
+					"nextStepId": 4,
+					"logChoice": false
+				}
+			]
+		},
+		{
+			"id": 3,
+			"description": "",
+			"content": [
+				"Too good for a carb-heavy breakfast, eh? Just a coffee-and-go kind of bird.",
+				"You fly to the nearest cafe and take a <span class=\"substep\" data-substep=\"1\">BIG SIP</span> from a half-full mug left on a patio table.",
+				"Full on caffeinated, you fly like a bird out of hell in several circles because you feel ALIVE. Let&#39;s put this perpetual birdmotion machine to work!"
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "SIIIIIIIP. The lukewarm bev flows through you. It's the perfect ratio of cream to coffee. Now you are ready for action."
+				}
+			],
+			"choices": [
+				{
+					"text": "FLY OVER TO A BRIDGE WITH INTENT",
+					"nextStepId": 4,
+					"logChoice": false
+				}
+			]
+		},
+		{
+			"id": 4,
+			"description": "",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 5,
+			"description": "",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 6,
+			"description": "",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 7,
+			"description": "",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 8,
+			"description": "",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 9,
+			"description": "",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 10,
+			"description": "",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 11,
+			"description": "",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 12,
+			"description": "",
+			"content": [],
+			"substeps": [],
+			"choices": []
 		}
 	]
 }
