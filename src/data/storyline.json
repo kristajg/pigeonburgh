@@ -46,7 +46,7 @@
 		},
 		{
 			"id": 3,
-			"description": "",
+			"description": "No chips!! Just coffee for breaky!!",
 			"content": [
 				"Too good for a carb-heavy breakfast, eh? Just a coffee-and-go kind of bird.",
 				"You fly to the nearest cafe and take a <span class=\"substep\" data-substep=\"1\">BIG SIP</span> from a half-full mug left on a patio table.",
@@ -68,52 +68,156 @@
 		},
 		{
 			"id": 4,
-			"description": "",
-			"content": [],
-			"substeps": [],
-			"choices": []
+			"description": "You found the skate punk cat teens...",
+			"content": [
+				"You fly by the bridge over the east river. A group of cat <span class=\"substep\" data-substep=\"1\">teenagers</span> are sitting on a big chunk of cement under the bridge, smoking cigarettes.",
+				"They furtively look around. Pretty obvious they aren&#39;t old enough for those 100s.",
+				"A bold teen from the cat gang steps forward. Oh no, he&#39;s both a crust punk AND challenging you to a skate off! A lethal combo. Do you.."
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "Cooler than you. Wearing t-shirts featuring bands you’ve never heard of: Death by Plastic Monstertruck, Puddleslap, Figboy and the Newtons."
+				}
+			],
+			"choices": [
+				{
+					"text": "shred that gnar",
+					"nextStepId": 5,
+					"logChoice": false
+				},
+				{
+					"text": "Ask if he's seen any good movies lately",
+					"nextStepId": 6,
+					"logChoice": false
+				}
+			]
 		},
 		{
 			"id": 5,
-			"description": "",
-			"content": [],
+			"description": "Pick your skate option to race Carl!",
+			"content": [
+				"The cat crust punk sneers as he itches his ear and flicks the end of a cheap cigarette at you, but graciously allows you to pick your method of shreddin'. You think to yourself everything cats do is adorable no matter how much they try to be hardcore.",
+				"Looking into his arsenal reveals three choices of handlebar-less transportation:"
+			],
 			"substeps": [],
-			"choices": []
+			"choices": [
+				{
+					"text": "the ripped denim tradition of a regular skateboard",
+					"nextStepId": 7,
+					"logChoice": false
+				},
+				{
+					"text": "the big sur longboard cruiser",
+					"nextStepId": 8,
+					"logChoice": false
+				},
+				{
+					"text": "the alternative boot-glide of rollerblades",
+					"nextStepId": 9,
+					"logChoice": false
+				}
+			]
 		},
 		{
 			"id": 6,
-			"description": "",
-			"content": [],
-			"substeps": [],
-			"choices": []
+			"description": "No skating, just chat with Carl. He gives you binary code paper",
+			"content": [
+				"You befriend the cat and learn his name is Carl. He seems like a sensitive and insightful soul.",
+				"You learn Carl enjoys painting water colors of 1980s action film scenes. After a pleasant conversation involving comparisons of your best <span class=\"substep\" data-substep=\"1\">Terminator impressions</span>, you bid farewell to your new friend.",
+				"Just before you leave, Carl slips you a piece of paper with a strange series of binary code on it. He says, \"You're alright Pip, ya know that. A real Maverick. I'm sure we'll see each other again soon.\"",
+				"You say \"Thanks, <span class=\"substep\" data-substep=\"2\">Goose</span>\" and take the slip paper."
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "Real classics like \"I'll be back\" and \"Chill out, dickwad.\""
+				},
+				{
+					"id": 2,
+					"text": "<img src=\"assets/maverick.gif\" alt=\"Maverick\" />"
+				}
+			],
+			"choices": [
+				{
+					"text": "Fly home Top Gun style",
+					"nextStepId": 10,
+					"logChoice": true
+				}
+			]
 		},
 		{
 			"id": 7,
-			"description": "",
-			"content": [],
+			"description": "Win the race with a skateboard! Get a binary code paper!",
+			"content": [
+				"Ah, yes. The traditional skateboard.",
+				"You could legitimately wear a Thrasher t-shirt, but they don&#39;t come in tiny bird sizes.",
+				"You skate with the valience of ten thousand Greek chariots and so does the crust punk, but ultimately you best him.",
+				"You do a kickflip to rub victory in his face a little, and he sadly offers you a slip of paper as a reward. Aw, he seems like a sensitive soul.",
+				"The paper has a cryptic series of binary code on it. Cryptic, but not encrypted... huh."
+			],
 			"substeps": [],
-			"choices": []
+			"choices": [
+				{
+					"text": "Fly home with your spoils",
+					"nextStepId": 10,
+					"logChoice": true
+				}
+			]
 		},
 		{
 			"id": 8,
-			"description": "",
-			"content": [],
+			"description": "Lost the race with a longboard. Get a binary code anyways!",
+			"content": [
+				"Like your father before you, you are a true Cali brah in your salty pigeon heart.",
+				"With the grace of a 120 year old sea turtle you carve slow S&#39;s down the hill. In that moment you swear you are infinite - since it certainly takes you long enough to complete the race.",
+				"The crust punk easily beats you speed wise, but is moved to tears by your beautious display. He slips you a non-slippery slip of paper as a reward.",
+				"He seems like a sensitive soul. You notice the paper is covered in strange binary code..."
+			],
 			"substeps": [],
-			"choices": []
+			"choices": [
+				{
+					"text": "Fly home slow & steady, brah",
+					"nextStepId": 10,
+					"logChoice": true
+				}
+			]
 		},
 		{
 			"id": 9,
-			"description": "",
-			"content": [],
+			"description": "Win the race with sweet blades brah!",
+			"content": [
+				"With your tiny foot chariots, you blaze down the hill like hell and think to yourself: this feels like flying!",
+				"Cross-checking with your memories of actual flight, it is pretty similar.",
+				"It&#39;s a tie down to the milisecond. You&#39;re not sure why this crust punk went through all the trouble of setting up professional-level tech for a street match but you feel cool as a participant.",
+				"He hands you a slip of paper and says Excellent match, you&#39;ve earned this. Brink was a really underrated Disney made-for-tv movie. and seems to genuinely mean it. A sensitive soul he is.",
+				"The paper is covered in a mysterious series of binary code..."
+			],
 			"substeps": [],
-			"choices": []
+			"choices": [
+				{
+					"text": "Actually fly and not rollerblade home",
+					"nextStepId": 10,
+					"logChoice": true
+				}
+			]
 		},
 		{
 			"id": 10,
 			"description": "",
-			"content": [],
+			"content": [
+				"You fly home and let out a big sigh.",
+				"You lay down in your feather down bed and try to go to sleep, but that “take me home country roads” song is stuck in your head for no reason.",
+				"Musical stylings of John Denver aside, you play through the day&#39;s events in your mind... pausing to consider that mysterious binary code."
+			],
 			"substeps": [],
-			"choices": []
+			"choices": [
+				{
+					"text": "Sleep comes eventually, Mountain Mama",
+					"nextStepId": 11,
+					"logChoice": false
+				}
+			]
 		},
 		{
 			"id": 11,
