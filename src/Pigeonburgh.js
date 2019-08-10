@@ -1,233 +1,79 @@
+// React & third party libaries
 import React, { Component } from 'react';
-import cloneDeep from 'lodash.clonedeep';
-import Substep from './Substep';
-import Step1 from './Step1';
-import Step2 from './Step2';
-import Step3 from './Step3';
-import Step4 from './Step4';
-import Step5 from './Step5';
-import Step6 from './Step6';
-import Step7 from './Step7';
-import Step8 from './Step8';
-import Step9 from './Step9';
-import Step10 from './Step10';
-import Step11 from './Step11';
-import Step12 from './Step12';
-import Step13 from './Step13';
-import Step14 from './Step14';
-import Step15 from './Step15';
-import Step16 from './Step16';
-import Step17 from './Step17';
-import Step18 from './Step18';
-import Step19 from './Step19';
-import Step20 from './Step20';
-import Step21 from './Step22';
-import Step22 from './Step22';
-import { Pigeonwrap } from './styles';
-import * as stext from './substepText';
-import Inventory from './Inventory';
 
-class Pigeonburgh extends Component {
+// Data
+import storyline from './data/storyline.json';
+
+// Components
+import Step from './components/Step';
+import Substep from './components/Substep';
+import Inventory from './components/Inventory';
+
+// Styling
+import { Pigeonwrap } from './styles';
+
+class Pigeonburgh2 extends Component {
 	state = {
 		step: 1,
-		substep: 0,
+		currentSubstep: 0, // substep 0 is technically "no substep". Ground 0.
 		viewingInventory: false,
-		inventory: [
-			{
-				id: 'binaryCode',
-				visible: false,
-				name: 'Binary Code',
-				description: 'A paper with mysterious binary code scrawled on one side.',
-			},
-		],
+		steps: storyline.steps,
+		inventory: [], // TODO: populate from inventory.json
 	};
 
-	changeStep = step => this.setState({ step, substep: 0 });
+	changeStep = step => this.setState({ step, currentSubstep: 0 });
 
-	changeSubstep = substep => this.setState({ substep });
-
-	resetSubstep = () => this.setState({ substep: 0 });
-
-	renderSubstep = text => {
-		return <Substep text={text} resetSubstep={this.resetSubstep} />;
-	};
+	changeSubstep = currentSubstep => this.setState({ currentSubstep });
 
 	toggleInventory = () => this.setState({ viewingInventory: !this.state.viewingInventory });
 
 	renderInventoryButton = () => {
-		let showButton = false;
-		this.state.inventory.forEach(item => {
-			if (item.visible) {
-				showButton = true;
-				return;
-			}
-		});
+		// TODO: maybe just check for this.state.invetory.length - it should be set on first paint for performance
+		// let showButton = false;
+		// this.state.inventory.forEach(item => {
+		// 	if (item.visible) {
+		// 		showButton = true;
+		// 		return;
+		// 	}
+		// });
+		// if (showButton && !this.state.viewingInventory) {
+		// 	return (
+		// 		<button onClick={() => this.toggleInventory()} style={{ marginTop: 25 }}>
+		// 			View Inventory
+		// 		</button>
+		// 	);
+		// }
+	};
 
-		if (showButton && !this.state.viewingInventory) {
+	renderContent = () => {
+		const { step, currentSubstep, steps, viewingInventory } = this.state;
+		const { content, substeps, choices } = steps.find(data => data.id === step);
+		if (currentSubstep === 0) {
 			return (
-				<button onClick={() => this.toggleInventory()} style={{ marginTop: 25 }}>
-					View Inventory
-				</button>
+				<Step
+					content={content}
+					substeps={substeps}
+					choices={choices}
+					changeStep={this.changeStep}
+					changeSubstep={this.changeSubstep}
+					currentSubstep={currentSubstep}
+				/>
 			);
+		} else if (viewingInventory) {
+			return <Inventory inventory={this.state.inventory} toggleInventory={this.toggleInventory} />;
 		}
-	};
-
-	addItem = itemId => {
-		let newInventory = cloneDeep(this.state.inventory);
-		const itemIndex = newInventory.findIndex(item => item.id === itemId);
-		newInventory[itemIndex].visible = true;
-		this.setState({ inventory: newInventory });
-	};
-
-	renderInventory = () => {
-		return <Inventory inventory={this.state.inventory} toggleInventory={this.toggleInventory} />;
-	};
-
-	renderGameStep = () => {
-		const { step, substep } = this.state;
-
-		if (step === 1) {
-			if (substep === 1) {
-				return this.renderSubstep(stext.stepOneSubstepOne);
-			}
-			return <Step1 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
-		} else if (step === 2) {
-			return <Step2 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
-		} else if (step === 3) {
-			if (substep === 1) {
-				return this.renderSubstep(stext.stepThreeSubstepOne);
-			}
-			return <Step3 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
-		} else if (step === 4) {
-			if (substep === 1) {
-				return this.renderSubstep(stext.stepFourSubstepOne);
-			}
-			return <Step4 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
-		} else if (step === 5) {
-			return <Step5 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
-		} else if (step === 6) {
-			if (substep === 1) {
-				return this.renderSubstep(stext.stepSixSubstepOne);
-			}
-			if (substep === 2) {
-				return this.renderSubstep(stext.stepSixSubstepTwo);
-			}
-			return (
-				<Step6
-					changeStep={this.changeStep}
-					changeSubstep={this.changeSubstep}
-					resetSubstep={this.resetSubstep}
-					addItem={this.addItem}
-				/>
-			);
-		} else if (step === 7) {
-			return (
-				<Step7
-					changeStep={this.changeStep}
-					changeSubstep={this.changeSubstep}
-					resetSubstep={this.resetSubstep}
-					addItem={this.addItem}
-				/>
-			);
-		} else if (step === 8) {
-			return (
-				<Step8
-					changeStep={this.changeStep}
-					changeSubstep={this.changeSubstep}
-					resetSubstep={this.resetSubstep}
-					addItem={this.addItem}
-				/>
-			);
-		} else if (step === 9) {
-			return (
-				<Step9
-					changeStep={this.changeStep}
-					changeSubstep={this.changeSubstep}
-					resetSubstep={this.resetSubstep}
-					addItem={this.addItem}
-				/>
-			);
-		} else if (step === 10) {
-			return (
-				<Step10 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 11) {
-			return (
-				<Step11 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 12) {
-			if (substep === 1) {
-				return this.renderSubstep(stext.stepTwelveSubstepOne);
-			}
-			return (
-				<Step12 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 13) {
-			if (substep === 1) {
-				return this.renderSubstep(stext.stepThirteenSubstepOne);
-			}
-			return (
-				<Step13 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 14) {
-			if (substep === 1) {
-				return this.renderSubstep(stext.stepFourteenSubstepOne);
-			}
-			return (
-				<Step14 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 15) {
-			if (substep === 1) {
-				return this.renderSubstep(stext.stepFifteenSubstepOne);
-			}
-			return (
-				<Step15 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 16) {
-			return (
-				<Step16 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 17) {
-			return (
-				<Step17 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 18) {
-			return (
-				<Step18 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 19) {
-			if (substep === 1) {
-				return this.renderSubstep(stext.stepNineteenSubstepOne);
-			}
-			return (
-				<Step19 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 20) {
-			return (
-				<Step20 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 21) {
-			return (
-				<Step21 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		} else if (step === 22) {
-			return (
-				<Step22 changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />
-			);
-		}
+		return (
+			<Substep text={substeps.find(obj => obj.id === currentSubstep).text} resetSubstep={() => this.changeSubstep(0)} />
+		);
 	};
 
 	render() {
 		return (
-			<Pigeonwrap>
-				{this.state.viewingInventory ? this.renderInventory() : this.renderGameStep()}
-				{this.renderInventoryButton()}
-				<br />
-				<br />
-				<button onClick={() => this.changeStep(1)}>RESET GAME</button>
-			</Pigeonwrap>
+			<div>
+				<Pigeonwrap>{this.renderContent()}</Pigeonwrap>
+			</div>
 		);
 	}
 }
 
-export default Pigeonburgh;
+export default Pigeonburgh2;
