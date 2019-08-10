@@ -10,11 +10,22 @@ import { Pigeongraph } from '../styles';
 
 class Step extends Component {
 	componentDidMount() {
-		const substeps = document.querySelectorAll('[data-substep]');
-		for (let i = 0; i < substeps.length; i++) {
-			substeps[i].onclick = () => this.props.changeSubstep(i + 1);
-		}
+		this.updateSubsteps();
 	}
+
+	componentDidUpdate() {
+		this.updateSubsteps();
+	}
+
+	updateSubsteps = () => {
+		const { substeps } = this.props;
+		if (substeps.length) {
+			const foundSubsteps = document.querySelectorAll('[data-substep]');
+			for (let i = 0; i < foundSubsteps.length; i++) {
+				foundSubsteps[i].onclick = () => this.props.changeSubstep(i + 1);
+			}
+		}
+	};
 
 	renderParagraphs = () => {
 		const { content } = this.props;
