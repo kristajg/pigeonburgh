@@ -15,11 +15,30 @@ export const Pigeonwrap = styled.div`
 
 export const Pigeongraph = styled.p`
 	padding-bottom: 8px;
+
+	.substep {
+		cursor: pointer;
+		color: red;
+		&:hover {
+			color: pink;
+		}
+	}
+`;
+
+export const ChoicesWrapper = styled.div`
+	padding: 8px;
+	border: 2px solid papayawhip;
+	border-radius: 5px;
 `;
 
 export const Option = styled.span`
 	cursor: pointer;
 	color: red;
+
+	&.choice-option {
+		display: block;
+		margin-bottom: 20px;
+	}
 
 	&:hover {
 		color: pink;

@@ -1,5 +1,9 @@
+// React & third party libaries
 import React from 'react';
-import { Option } from './styles';
+import PropTypes from 'prop-types';
+
+// Styles
+import { Option } from '../styles';
 
 const Inventory = ({ inventory, toggleInventory }) => (
 	<div>
@@ -18,5 +22,10 @@ const Inventory = ({ inventory, toggleInventory }) => (
 		<Option onClick={() => toggleInventory()}>Close Inventory</Option>
 	</div>
 );
+
+Inventory.propTypes = {
+	inventory: PropTypes.array.isRequired,
+	toggleInventory: PropTypes.func.isRequired,
+};
 
 export default Inventory;
