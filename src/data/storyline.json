@@ -70,7 +70,7 @@
 			"id": 4,
 			"description": "You found the skate punk cat teens...",
 			"content": [
-				"You fly by the bridge over the east river. A group of cat <span class=\"substep\" data-substep=\"1\">teenagers</span> are sitting on a big chunk of cement under the bridge, smoking cigarettes.",
+				"You fly towards the east river bank. A group of cat <span class=\"substep\" data-substep=\"1\">teenagers</span> sit atop a big chunk of cement under a bridge, smoking cigarettes.",
 				"They furtively look around. Pretty obvious they aren't old enough for those 100s.",
 				"A bold teen from the cat gang steps forward. Oh no, he's both a crust punk AND challenging you to a skate off! A lethal combo. Do you.."
 			],
@@ -87,7 +87,7 @@
 					"logChoice": false
 				},
 				{
-					"text": "Ask if he's seen any good movies lately",
+					"text": "ask if he's seen any good movies lately",
 					"nextStepId": 6,
 					"logChoice": false
 				}
@@ -97,7 +97,7 @@
 			"id": 5,
 			"description": "Pick your skate option to race Carl!",
 			"content": [
-				"The cat crust punk sneers as he itches his ear and flicks the end of a cheap cigarette at you, but graciously allows you to pick your method of shreddin'. You think to yourself everything cats do is adorable no matter how much they try to be hardcore.",
+				"The cat crust punk sneers as he grooms his ear and flicks the end of a cheap cigarette at you, but graciously allows you to pick your method of shreddin'. You think to yourself everything cats do is adorable no matter how much they try to be hardcore.",
 				"Looking into his arsenal reveals three choices of handlebar-less transportation:"
 			],
 			"substeps": [],
@@ -124,14 +124,14 @@
 			"description": "No skating, just chat with Carl. He gives you binary code paper",
 			"content": [
 				"You befriend the cat and learn his name is Carl. He seems like a sensitive and insightful soul.",
-				"You learn Carl enjoys painting water colors of 1980s action film scenes. After a pleasant conversation involving comparisons of your best <span class=\"substep\" data-substep=\"1\">Terminator impressions</span>, you bid farewell to your new friend.",
+				"You learn Carl enjoys painting water colors of 1980's action film scenes. After a pleasant conversation involving comparisons of your best <span class=\"substep\" data-substep=\"1\">Terminator impressions</span>, you bid farewell to your new friend.",
 				"Just before you leave, Carl slips you a piece of paper with a strange series of binary code on it. He says, \"You're alright Pip, ya know that. A real Maverick. I'm sure we'll see each other again soon.\"",
 				"You say \"Thanks, <span class=\"substep\" data-substep=\"2\">Goose</span>\" and take the slip paper."
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "Real classics like \"I'll be back\" and \"Chill out, dickwad.\""
+					"text": "Real classic movie lines like: \"I'll be back\" and \"Chill out, dickwad.\""
 				},
 				{
 					"id": 2,
@@ -244,17 +244,18 @@
 		},
 		{
 			"id": 12,
-			"description": "",
+			"description": "you picked cathedral of learning & run into Ira there.",
 			"content": [
 				"As a bird with a hungry mind, you enjoy living close to the Cathedral of Learning.",
-				"As you approach that tall tower of tutelage, you see a possum friend named <span class=\"substep\" data-substep=\"1\">Ira</span> from art electives back at University.",
+				"As you enter that tall tower of tutelage and head to a floor full of classrooms and books, you see a possum friend named <span class=\"substep\" data-substep=\"1\">Ira</span> from art electives back at University.",
+				"She's sitting in a corner, reading a book titled \"How to Get Your Shit Together\" and you walk over to say hello.",
 				"After initial pleasantries you can tell something is up. She sighs after long sentences and you notice dark circles under her eyes that have nothing to do with post-grunge eyeliner.",
 				"Ira confesses she's mega bummed since her award-winning design agency job isn't what she imagined and it's draining her of creativity and personal-life energy points."
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "Ira was cool for sure. She cracked the best jokes in still life illustration class. During nude drawing sessions, she called it the Art S'nudio. Ha. Classic."
+					"text": "Ira was cool for sure. She cracked the best jokes in still life illustration class. During nude drawing sessions, she called it the Art S'nude-io. Ha. Classic."
 				}
 			],
 			"choices": [
@@ -357,12 +358,12 @@
 			"substeps": [],
 			"choices": [
 				{
-					"text": "eat that sandwich NOW no time like the present!",
+					"text": "eat that sandwich NOW",
 					"nextStepId": 18,
 					"logChoice": false
 				},
 				{
-					"text": "pack that pristine bread n meat stack for secret eating at a later time",
+					"text": "pack that pristine bread & meat stack for secret eating at a later time",
 					"nextStepId": 26,
 					"logChoice": false
 				}
@@ -370,7 +371,7 @@
 		},
 		{
 			"id": 17,
-			"description": "You picked hipster deli & waited for food. Gotta picked from 2 boujee food options",
+			"description": "You picked hipster deli & waited a long time for food. Gotta pick from 2 boujee food options",
 			"content": [
 				"You swoop down and sample an artisan corn chip. It has hints of rosemary, garlic, and nostalgia for a rustic time you were never a part of but it's nice to think so.",
 				"You are told there will be a 30 to 45 minute wait by the chic looking hostess and you comply without thought. This will be worth it.",
@@ -379,12 +380,12 @@
 			"substeps": [],
 			"choices": [
 				{
-					"text": "Bread olive and cheese board",
+					"text": "bread, olive, and cheese board",
 					"nextStepId": 21,
 					"logChoice": false
 				},
 				{
-					"text": "Breakfast for dinner, no one can stop you",
+					"text": "breakfast for dinner",
 					"nextStepId": 22,
 					"logChoice": false
 				}
@@ -392,9 +393,10 @@
 		},
 		{
 			"id": 18,
-			"description": "",
+			"description": "You chose to eat the deli sando right NOW",
 			"content": [
-				"you eat the deli sando NOW"
+				"No time like the present - you consume that sandwich with the ferocity of of Pac Man after a marathon run.",
+				"TODO: finish this step"
 			],
 			"substeps": [],
 			"choices": [
@@ -407,10 +409,10 @@
 		},
 		{
 			"id": 19,
-			"description": "",
+			"description": "Ira cracks the binary code for you, no problem atall. Head to the rum warehouse",
 			"content": [
 				"You recount the crust punk happenings and show Ira the curious piece of paper.",
-				"Ira takes the paper in her prehensile possum tail & studies it. “Hmm. Doesn’t say much other than <i>rum warehouse</i>.”",
+				"Ira takes the paper in her prehensile possum tail & studies it for a hot minute. “Hmm. Doesn’t say much other than <i>rum warehouse</i>,” she says thoughtfully.",
 				"On top of being a badass artist, apparently Ira is fluent in binary code. <span class=\"substep\" data-substep=\"1\">Dang</span>.",
 				"You thank Ira for having such a cool brain and head out."
 			],
@@ -433,9 +435,9 @@
 			"description": "Flying to & finding the rum emporium",
 			"content": [
 				"The Rum Warehouse is a blue cinder block building by a bridge and train tracks.",
-				"You fly in random circles patterns until you spy a match & swoop in, tucking your wings close to your bod while making divebomb sound effects - NEeeeEEERRRRRRR PSHHHHHH!!",
-				"While landing, you sincerely hope no passersby heard your potentially embarassing beak-sounds and ransack your bird brain for relevant info...",
-				"The owner and distiller is a <span class=\"substep\" data-substep=\"1\">no-nonsense type</span> with a steely gaze and quiet disposition. He was once featured in the news and didn't have much to say. Word around town is he doesn't need to, since the product speaks for itself. Hmmm."
+				"You fly in random circles until you see it & swoop in, tucking your wings close to your bod while making divebomb dramatic sound effects - NEeeeEEERRRRRRR PSHHHHHH!!",
+				"You land and sincerely hope no passersby heard your potentially embarassing beak-sounds, then pivot to ransack your bird brain for relevant info...",
+				"The warehouse owner is also the lead distiller. A <span class=\"substep\" data-substep=\"1\">no-nonsense type</span> with a steely gaze and quiet disposition. He was once featured in the news and didn't have much to say. Word around town is he doesn't need to, since the product speaks for itself. Hmmm."
 			],
 			"substeps": [
 				{
@@ -445,7 +447,7 @@
 			],
 			"choices": [
 				{
-					"text": "Cross the nondescript threshold into the rum emporium",
+					"text": "cross the nondescript threshold into the rum emporium",
 					"nextStepId": 23,
 					"logChoice": false
 				}
@@ -455,7 +457,10 @@
 			"id": 21,
 			"description": "",
 			"content": [
-				"You picked Bread olive and cheese board from hipster restaurant"
+				"A variety of food choices presented on a board is the ideal way experience fine dining.",
+				"Soon enough an assortment of breads, olives, and cheeses are within your reach.",
+				"The meal is satisfying, yet not overfilling as you often feel after a typical deli experience. Maybe you should branch out more. Olive branch out.",
+				"TODO: what next"
 			],
 			"substeps": [],
 			"choices": [
@@ -470,7 +475,8 @@
 			"id": 22,
 			"description": "You ordered breakfast for dinner at the boujee hipster joint.",
 			"content": [
-				"Breakfast. A beautiful meal which consists of a venn diagram of both protein-packed options or sweet, sweet carbohydrate cakes.",
+				"As an adult, truly no one can stop you from ordering breakfast for dinner.",
+				"A beautiful meal which consists of a venn diagram of both protein-packed options or sweet, sweet carbohydrate cakes.",
 				"The time of day doesn't confine you to the types of foods you consume! You are your own bird.",
 				"Being a <span class=\"substep\" data-substep=\"1\">boujee hipster bistro</span>, the breakfast options consist of lebda, salmon, and lemon poppyseed.",
 				"The food transports you into a state of bliss that is only interuppted by the nagging feeling you have an unsolved mystery at wing.",
@@ -484,12 +490,12 @@
 			],
 			"choices": [
 				{
-					"text": "Pay the steep tab (oof) & head towards the Cathedral of Learning with fiery research intentions",
+					"text": "Pay the steep tab (oof) & head towards the Supercomputing Center with fiery research intentions",
 					"nextStepId": 24,
 					"logChoice": false
 				},
 				{
-					"text": "Pay the steep tab (yikes) & ask that bearded hipster man on the way out if he knows a thing or two about binary code",
+					"text": "Pay the steep tab (yikes) & ask that bearded man on the way out if he knows anything about secret codes",
 					"nextStepId": 25,
 					"logChoice": false
 				}
@@ -499,35 +505,63 @@
 			"id": 23,
 			"description": "Youve just entered the rum emporium",
 			"content": [
-				"Youve just entered the rum emporium"
+				"As you enter the rum emporium, you take in your surroundings - the length of which features a no-frills bar behind which features the big copper distilleries in plain view.",
+				"A local-art style <span class=\"substep\" data-substep=\"1\">sign</span> on the wall.",
+				"The owner himself, a surly gray dog in a plain white tee and gym shorts scratches behind his ear as he gets a bucket full of soapy water ready to mop.",
+				"You take a seat and pull out the weird piece of paper, wondering what you should possibly ask to get a next clue.",
+				"A lively bartender appears, and asks what he can do for you."
 			],
-			"substeps": [],
-			"choices": []
+			"substeps": [
+				{
+					"id": 1,
+					"text": "The hand-painted sign says, \"Venture Capitalists are lame as hell, yo.\" Word up."
+				}
+			],
+			"choices": [
+				{
+					"text": "at a loss for subtlety, you ask if any crust punks came by recently",
+					"nextStepId": 27,
+					"logChoice": false
+				},
+				{
+					"text": "coyly, you order a spicy water & ask if they need any computer help",
+					"nextStepId": 28,
+					"logChoice": false
+				}
+			]
 		},
 		{
 			"id": 24,
-			"description": "Leave the boujee bistro after breakfast for din && go to the Cathedral of Learning",
-			"content": [
-				""
-			],
+			"description": "Leave the boujee bistro after breakfast for din && go to the Supercomputing Center",
+			"content": ["TODO"],
 			"substeps": [],
 			"choices": []
 		},
 		{
 			"id": 25,
-			"description": "Ask that beardy hipster man about binary code after breakfast for din",
-			"content": [
-				""
-			],
+			"description": "Ask that bearded man about binary code after breakfast for din",
+			"content": ["TODO"],
 			"substeps": [],
 			"choices": []
 		},
 		{
 			"id": 26,
 			"description": "You packed your sando & hit the road to the supercomputing center",
-			"content": [
-				""
-			],
+			"content": ["TODO"],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 27,
+			"description": "you ask the rum bartender if hes seen any crustpunks",
+			"content": ["TODO"],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 28,
+			"description": "you order a spicy water & ask for computer work",
+			"content": [""],
 			"substeps": [],
 			"choices": []
 		}
