@@ -249,7 +249,7 @@
 				"As a bird with a hungry mind, you enjoy living close to the Cathedral of Learning.",
 				"As you approach that tall tower of tutelage, you see a possum friend named <span class=\"substep\" data-substep=\"1\">Ira</span> from art electives back at University.",
 				"After initial pleasantries you can tell something is up. She sighs after long sentences and you notice dark circles under her eyes that have nothing to do with post-grunge eyeliner.",
-				"Ira confesses she&#39;s mega bummed since her award-winning design agency job isn&#39;t what she imagined and it&#39;s draining her of creativity and personal-life energy points."
+				"Ira confesses she's mega bummed since her award-winning design agency job isn't what she imagined and it's draining her of creativity and personal-life energy points."
 			],
 			"substeps": [
 				{
@@ -302,9 +302,9 @@
 			"id": 14,
 			"description": "Listen sincerely to Iras predicament then show her binary code paper",
 			"content": [
-				"You listen sincerely to Ira&#39;s tale of grueling agency churn & burn, spending long hours toiling for peanuts.",
+				"You listen sincerely to Ira's tale of grueling agency churn & burn, spending long hours toiling for peanuts.",
 				"It makes you a bit sad in your core. How come such a creative person should burn themselves out like this? But...she has certainly built quite a portfolio out of it.",
-				"Maybe everyone has to put in those hell-grindy hours and get sad before bustin&#39; out like a caterpillar turning into a <span class=\"substep\" data-substep=\"1\">butterfly</span>.",
+				"Maybe everyone has to put in those hell-grindy hours and get sad before bustin' out like a caterpillar turning into a <span class=\"substep\" data-substep=\"1\">butterfly</span>.",
 				"You say, \"Ira. That sucks major tail! You are a cool person with the drive and know-how to destroy a small-to-medium sized planet. Destroy it with the power of your art!\"",
 				"Ira smiles and says, \"Thanks Pip, means a lot. Why are you flying around these parts anyways?\""
 			],
@@ -340,7 +340,7 @@
 			],
 			"choices": [
 				{
-					"text": "Sheepishly share about the binary code paper",
+					"text": "Sheepishly continue to share, this time about the binary code paper",
 					"nextStepId": 19,
 					"logChoice": false
 				}
@@ -357,8 +357,13 @@
 			"substeps": [],
 			"choices": [
 				{
-					"text": "TODO: update. do something else",
+					"text": "eat that sandwich NOW no time like the present!",
 					"nextStepId": 18,
+					"logChoice": false
+				},
+				{
+					"text": "pack that pristine bread n meat stack for secret eating at a later time",
+					"nextStepId": 26,
 					"logChoice": false
 				}
 			]
@@ -379,7 +384,7 @@
 					"logChoice": false
 				},
 				{
-					"text": "Brunch for dinner, no one can stop you",
+					"text": "Breakfast for dinner, no one can stop you",
 					"nextStepId": 22,
 					"logChoice": false
 				}
@@ -388,7 +393,9 @@
 		{
 			"id": 18,
 			"description": "",
-			"content": ["you got a deli sando, now what?"],
+			"content": [
+				"you eat the deli sando NOW"
+			],
 			"substeps": [],
 			"choices": [
 				{
@@ -423,13 +430,23 @@
 		},
 		{
 			"id": 20,
-			"description": "",
-			"content": ["At the rum warehouse yall!!!!"],
-			"substeps": [],
+			"description": "Flying to & finding the rum emporium",
+			"content": [
+				"The Rum Warehouse is a blue cinder block building by a bridge and train tracks.",
+				"You fly in random circles patterns until you spy a match & swoop in, tucking your wings close to your bod while making divebomb sound effects - NEeeeEEERRRRRRR PSHHHHHH!!",
+				"While landing, you sincerely hope no passersby heard your potentially embarassing beak-sounds and ransack your bird brain for relevant info...",
+				"The owner and distiller is a <span class=\"substep\" data-substep=\"1\">no-nonsense type</span> with a steely gaze and quiet disposition. He was once featured in the news and didn't have much to say. Word around town is he doesn't need to, since the product speaks for itself. Hmmm."
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "The kind you would suspect can't stand social media & wants to stick it to The Man. Do people still say that? Eh, rather, he doesn't prefer authority figures."
+				}
+			],
 			"choices": [
 				{
-					"text": "TODO: what now",
-					"nextStepId": 20,
+					"text": "Cross the nondescript threshold into the rum emporium",
+					"nextStepId": 23,
 					"logChoice": false
 				}
 			]
@@ -437,7 +454,9 @@
 		{
 			"id": 21,
 			"description": "",
-			"content": ["You picked Bread olive and cheese board from hipster restaurant"],
+			"content": [
+				"You picked Bread olive and cheese board from hipster restaurant"
+			],
 			"substeps": [],
 			"choices": [
 				{
@@ -449,16 +468,68 @@
 		},
 		{
 			"id": 22,
-			"description": "",
-			"content": ["You picked BRUNCH FOR DINNER from hipster restaurant"],
-			"substeps": [],
+			"description": "You ordered breakfast for dinner at the boujee hipster joint.",
+			"content": [
+				"Breakfast. A beautiful meal which consists of a venn diagram of both protein-packed options or sweet, sweet carbohydrate cakes.",
+				"The time of day doesn't confine you to the types of foods you consume! You are your own bird.",
+				"Being a <span class=\"substep\" data-substep=\"1\">boujee hipster bistro</span>, the breakfast options consist of lebda, salmon, and lemon poppyseed.",
+				"The food transports you into a state of bliss that is only interuppted by the nagging feeling you have an unsolved mystery at wing.",
+				"The binary code is face-up on the table as you finish your meal, and notice a pool of syrup has coated a corner of the paper."
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "The food IS delicious as it is expensive. Is this the natural progression of modern eating or is this a construct of gentrification AKA a more sinister manifestation of how the haves and have nots spend their time and money? Is a bistro just a bistro anymore?"
+				}
+			],
 			"choices": [
 				{
-					"text": "TODO: what now",
-					"nextStepId": 22,
+					"text": "Pay the steep tab (oof) & head towards the Cathedral of Learning with fiery research intentions",
+					"nextStepId": 24,
+					"logChoice": false
+				},
+				{
+					"text": "Pay the steep tab (yikes) & ask that bearded hipster man on the way out if he knows a thing or two about binary code",
+					"nextStepId": 25,
 					"logChoice": false
 				}
 			]
+		},
+		{
+			"id": 23,
+			"description": "Youve just entered the rum emporium",
+			"content": [
+				"Youve just entered the rum emporium"
+			],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 24,
+			"description": "Leave the boujee bistro after breakfast for din && go to the Cathedral of Learning",
+			"content": [
+				""
+			],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 25,
+			"description": "Ask that beardy hipster man about binary code after breakfast for din",
+			"content": [
+				""
+			],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 26,
+			"description": "You packed your sando & hit the road to the supercomputing center",
+			"content": [
+				""
+			],
+			"substeps": [],
+			"choices": []
 		}
 	]
 }
