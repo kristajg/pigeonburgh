@@ -1,1 +1,25 @@
-{}
+{
+	"version": "1.0.0",
+	"items": [
+		{
+			"id": 1,
+			"name": "Skateboard Victory Badge",
+			"description": "A badge made for you by a crust punk to commemorate your skateboard victory. Made with bitter tears."
+		},
+		{
+			"id": 2,
+			"name": "Longboard Style Badge",
+			"description": "A badge made by a crust punk to commemorate your beautious longboard style. Made with tears of admiration."
+		},
+		{
+			"id": 3,
+			"name": "Rollblade Movie-Straight-to-TV Badge",
+			"description": "A badge made by a crust punk to commemorate your tie against him via rollerblades. Made with tears of movie nostalgia."
+		},
+		{
+			"id": 4,
+			"name": "Binary Code on Slip of Paper",
+			"description": "A mysterious set of binary code hastily scrawled on some lined paper."
+		}
+	]
+}

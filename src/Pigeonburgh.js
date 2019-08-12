@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 // Data
 import storyline from './data/storyline.json';
+import inventory from './data/inventory.json';
 
 // Components
 import Step from './components/Step';
@@ -18,7 +19,8 @@ class Pigeonburgh2 extends Component {
 		currentSubstep: 0, // substep 0 is technically "no substep". Ground 0.
 		viewingInventory: false,
 		steps: storyline.steps,
-		inventory: [], // TODO: populate from inventory.json
+		allInvetory: inventory.items,
+		inventory: [], // user's current inventory - gets populated as story progresses via info from step choice
 	};
 
 	changeStep = step => this.setState({ step, currentSubstep: 0 });
@@ -28,21 +30,14 @@ class Pigeonburgh2 extends Component {
 	toggleInventory = () => this.setState({ viewingInventory: !this.state.viewingInventory });
 
 	renderInventoryButton = () => {
-		// TODO: maybe just check for this.state.invetory.length - it should be set on first paint for performance
-		// let showButton = false;
-		// this.state.inventory.forEach(item => {
-		// 	if (item.visible) {
-		// 		showButton = true;
-		// 		return;
-		// 	}
-		// });
-		// if (showButton && !this.state.viewingInventory) {
-		// 	return (
-		// 		<button onClick={() => this.toggleInventory()} style={{ marginTop: 25 }}>
-		// 			View Inventory
-		// 		</button>
-		// 	);
-		// }
+		const { inventory, viewingInventory } = this.state;
+		if (inventory.length && !viewingInventory) {
+			return (
+				<button onClick={() => this.toggleInventory()} style={{ marginTop: 25 }}>
+					View Inventory
+				</button>
+			);
+		}
 	};
 
 	renderContent = () => {
@@ -70,7 +65,10 @@ class Pigeonburgh2 extends Component {
 	render() {
 		return (
 			<div>
-				<Pigeonwrap>{this.renderContent()}</Pigeonwrap>
+				<Pigeonwrap>
+					{this.renderContent()}
+					{this.renderInventoryButton()}
+				</Pigeonwrap>
 			</div>
 		);
 	}

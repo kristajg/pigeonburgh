@@ -19,12 +19,12 @@
 				{
 					"text": "Crunch that chip",
 					"nextStepId": 2,
-					"logChoice": false
+					"addInventoryItems": []
 				},
 				{
 					"text": "Skip the chip",
 					"nextStepId": 3,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -40,7 +40,7 @@
 				{
 					"text": "Fly to that bridge over yonder",
 					"nextStepId": 4,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -62,7 +62,7 @@
 				{
 					"text": "FLY OVER TO A BRIDGE WITH INTENT",
 					"nextStepId": 4,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -84,12 +84,12 @@
 				{
 					"text": "shred that gnar",
 					"nextStepId": 5,
-					"logChoice": false
+					"addInventoryItems": []
 				},
 				{
 					"text": "ask if he's seen any good movies lately",
 					"nextStepId": 6,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -97,7 +97,8 @@
 			"id": 5,
 			"description": "Pick your skate option to race Carl!",
 			"content": [
-				"The cat crust punk sneers as he grooms his ear and flicks the end of a cheap cigarette at you, but graciously allows you to pick your method of shreddin'. You think to yourself everything cats do is adorable no matter how much they try to be hardcore.",
+				"The cat crust punk sneers as he grooms his ear and flicks the end of a cheap cigarette at you, but graciously allows you to pick your method of shreddin'.",
+				"You think to yourself everything cats do is adorable no matter how much they try to be hardcore.",
 				"Looking into his arsenal reveals three choices of handlebar-less transportation:"
 			],
 			"substeps": [],
@@ -105,17 +106,17 @@
 				{
 					"text": "the ripped denim tradition of a regular skateboard",
 					"nextStepId": 7,
-					"logChoice": false
+					"addInventoryItems": []
 				},
 				{
 					"text": "the big sur longboard cruiser",
 					"nextStepId": 8,
-					"logChoice": false
+					"addInventoryItems": []
 				},
 				{
 					"text": "the alternative boot-glide of rollerblades",
 					"nextStepId": 9,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -142,7 +143,7 @@
 				{
 					"text": "Fly home Top Gun style",
 					"nextStepId": 10,
-					"logChoice": true
+					"addInventoryItems": [4]
 				}
 			]
 		},
@@ -161,7 +162,7 @@
 				{
 					"text": "Fly home with your spoils",
 					"nextStepId": 10,
-					"logChoice": true
+					"addInventoryItems": [1, 4]
 				}
 			]
 		},
@@ -179,7 +180,7 @@
 				{
 					"text": "Fly home slow & steady, brah",
 					"nextStepId": 10,
-					"logChoice": true
+					"addInventoryItems": [2, 4]
 				}
 			]
 		},
@@ -198,7 +199,7 @@
 				{
 					"text": "Actually fly and not rollerblade home",
 					"nextStepId": 10,
-					"logChoice": true
+					"addInventoryItems": [3, 4]
 				}
 			]
 		},
@@ -215,7 +216,7 @@
 				{
 					"text": "Sleep comes eventually, Mountain Mama",
 					"nextStepId": 11,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -233,12 +234,12 @@
 				{
 					"text": "Go to the Cathedral of Learning",
 					"nextStepId": 12,
-					"logChoice": false
+					"addInventoryItems": []
 				},
 				{
 					"text": "Go to the Supercomputing Center",
 					"nextStepId": 13,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -250,24 +251,28 @@
 				"As you enter that tall tower of tutelage and head to a floor full of classrooms and books, you see a possum friend named <span class=\"substep\" data-substep=\"1\">Ira</span> from art electives back at University.",
 				"She's sitting in a corner, reading a book titled \"How to Get Your Shit Together\" and you walk over to say hello.",
 				"After initial pleasantries you can tell something is up. She sighs after long sentences and you notice dark circles under her eyes that have nothing to do with post-grunge eyeliner.",
-				"Ira confesses she's mega bummed since her award-winning design agency job isn't what she imagined and it's draining her of creativity and personal-life energy points."
+				"Ira confesses she's mega bummed since her <span class=\"substep\" data-substep=\"2\">agency job</span> isn't what she imagined and it's draining her of creativity and personal-life energy points."
 			],
 			"substeps": [
 				{
 					"id": 1,
 					"text": "Ira was cool for sure. She cracked the best jokes in still life illustration class. During nude drawing sessions, she called it the Art S'nude-io. Ha. Classic."
+				},
+				{
+					"id": 2,
+					"text": "Its an award-winning firm. Do a lot of designs for local restaurants and colleges. Upscale as hell, a lot of the other designers are cheese mongers on the side. Prestigious? Make cheese seems hard."
 				}
 			],
 			"choices": [
 				{
 					"text": "Listen sincerely",
 					"nextStepId": 14,
-					"logChoice": false
+					"addInventoryItems": []
 				},
 				{
 					"text": "Share a relatable story",
 					"nextStepId": 15,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -275,27 +280,27 @@
 			"id": 13,
 			"description": "You picked supercomputing center, but are distracted by restaurant choices - deli or hipster bistro?",
 			"content": [
-				"Ah the Supercomputing Center. The center for all things super and computing. As this binary code probably definitely relates to these things, you head on over.",
-				"On the way, you notice a new restaurant opening up on the Northside next to the old deli.",
-				"That deli rules. They put banana peppers on every sandwich. The old Deli Man there called that came in either Dorothy or Donnie. A dreamy old <span class=\"substep\" data-substep=\"1\">sandwich emporium</span>, indeed.",
-				"However the new restaurant looks pretty swanky. A man dressed in suave hipster attire heralds people towards the entrance. Is he really waving his Premiumley Waxed beard at people? Is he offering free kombucha? Is that...a bowl of artisan corn chips???"
+				"Ah the Supercomputing Center. A center for all things super and computing. This binary code probably relates to these things, so you head on over.",
+				"On the way, you're distracted by the fanfare of a new restaurant opening up on the Northside next to the <span class=\"substep\" data-substep=\"1\">old deli</span.",
+				"However the new restaurant looks pretty swanky. A man dressed in suave hipster attire heralds people towards the entrance. Is he really waving his Premiumley Waxed beard at people? Is he offering free kombucha? Is that...a bowl of artisan corn chips???",
+				"Even though you ate a chip just fifteen minites ago, you are tempted by more substantial sustinance..."
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "A deli paradise. That's the kind of utopia I want to live in, forever."
+					"text": "That old deli rules. They put banana peppers on every sandwich. The old Deli Man there called customers either Dorothy or Donnie - no other options it seemed."
 				}
 			],
 			"choices": [
 				{
-					"text": "Grab a traditional deli sando for the road",
+					"text": "Grab a traditional deli sando",
 					"nextStepId": 16,
-					"logChoice": true
+					"addInventoryItems": []
 				},
 				{
 					"text": "Embrace change & try out the new restaurant",
 					"nextStepId": 17,
-					"logChoice": true
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -319,7 +324,7 @@
 				{
 					"text": "Tell her about the binary code paper",
 					"nextStepId": 19,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -343,7 +348,7 @@
 				{
 					"text": "Sheepishly continue to share, this time about the binary code paper",
 					"nextStepId": 19,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -351,21 +356,21 @@
 			"id": 16,
 			"description": "You picked classic deli & recieve a delicious sando",
 			"content": [
-				"The deli door rings mellifluously. It triggers a sort of Pavlov response deep inside your bird body, and all you can think of is an italian sandwich on Mancini's bread. Extra banana peppers.",
+				"The deli door rings mellifluously. It triggers a Pavlov reaction, and all you can think of is an italian sandwich on Mancini's bread. Extra banana peppers.",
 				"The Deli Man says, \"Hey there Donnie, what'll it be?\" and you inform him of your Pavlovian desires.",
-				"You acquire the best looking italian sando this world has yet known. And it is all yours."
+				"You acquire the best looking sandwich this world has yet known. And it is all yours."
 			],
 			"substeps": [],
 			"choices": [
 				{
-					"text": "eat that sandwich NOW",
+					"text": "eat that sandwich. right. NOW",
 					"nextStepId": 18,
-					"logChoice": false
+					"addInventoryItems": []
 				},
 				{
 					"text": "pack that pristine bread & meat stack for secret eating at a later time",
 					"nextStepId": 26,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -382,12 +387,12 @@
 				{
 					"text": "bread, olive, and cheese board",
 					"nextStepId": 21,
-					"logChoice": false
+					"addInventoryItems": []
 				},
 				{
 					"text": "breakfast for dinner",
 					"nextStepId": 22,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -395,7 +400,8 @@
 			"id": 18,
 			"description": "You chose to eat the deli sando right NOW",
 			"content": [
-				"No time like the present - you consume that sandwich with the ferocity of of Pac Man after a marathon run.",
+				"No time like the present! You're so hungry you could eat a cliche. Instead, you consume the sandwich with the ferocity of a shark showing off for the shark week camera crew.",
+				"",
 				"TODO: finish this step"
 			],
 			"substeps": [],
@@ -403,7 +409,7 @@
 				{
 					"text": "TODO: choice time",
 					"nextStepId": 19,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -426,7 +432,7 @@
 				{
 					"text": "Ware is that warehouse again?",
 					"nextStepId": 20,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -435,21 +441,21 @@
 			"description": "Flying to & finding the rum emporium",
 			"content": [
 				"The Rum Warehouse is a blue cinder block building by a bridge and train tracks.",
-				"You fly in random circles until you see it & swoop in, tucking your wings close to your bod while making divebomb dramatic sound effects - NEeeeEEERRRRRRR PSHHHHHH!!",
+				"You fly in random circles until you see it & swoop in, tucking your wings close to your bod while making dramatic divebomb sound effects - NEeeeEEERRRRRRR PSHHHHHH!!",
 				"You land and sincerely hope no passersby heard your potentially embarassing beak-sounds, then pivot to ransack your bird brain for relevant info...",
 				"The warehouse owner is also the lead distiller. A <span class=\"substep\" data-substep=\"1\">no-nonsense type</span> with a steely gaze and quiet disposition. He was once featured in the news and didn't have much to say. Word around town is he doesn't need to, since the product speaks for itself. Hmmm."
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "The kind you would suspect can't stand social media & wants to stick it to The Man. Do people still say that? Eh, rather, he doesn't prefer authority figures."
+					"text": "The kind that thinks social media is a suck-up suckfest. Unsurprisngly, he doesn't prefer authority figures."
 				}
 			],
 			"choices": [
 				{
-					"text": "cross the nondescript threshold into the rum emporium",
+					"text": "enter the rum emporium",
 					"nextStepId": 23,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -467,7 +473,7 @@
 				{
 					"text": "TODO: what now",
 					"nextStepId": 21,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -492,12 +498,12 @@
 				{
 					"text": "Pay the steep tab (oof) & head towards the Supercomputing Center with fiery research intentions",
 					"nextStepId": 24,
-					"logChoice": false
+					"addInventoryItems": []
 				},
 				{
 					"text": "Pay the steep tab (yikes) & ask that bearded man on the way out if he knows anything about secret codes",
 					"nextStepId": 25,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
@@ -505,11 +511,11 @@
 			"id": 23,
 			"description": "Youve just entered the rum emporium",
 			"content": [
-				"As you enter the rum emporium, you take in your surroundings - the length of which features a no-frills bar behind which features the big copper distilleries in plain view.",
+				"As you enter the rum emporium, you take in your surroundings - the length of which features a no-frills bar, behind which sits two big copper distilleries.",
 				"A local-art style <span class=\"substep\" data-substep=\"1\">sign</span> on the wall.",
-				"The owner himself, a surly gray dog in a plain white tee and gym shorts scratches behind his ear as he gets a bucket full of soapy water ready to mop.",
-				"You take a seat and pull out the weird piece of paper, wondering what you should possibly ask to get a next clue.",
-				"A lively bartender appears, and asks what he can do for you."
+				"The owner himself, a surly gray dog in a plain white tee and gym shorts scratches behind his ear as he gets a bucket full of soapy water ready for mopping.",
+				"You take a seat and wonder what you could possibly ask in a casual way regarding binary codes on slips of paper.",
+				"A lively bartender appears..."
 			],
 			"substeps": [
 				{
@@ -519,14 +525,14 @@
 			],
 			"choices": [
 				{
-					"text": "at a loss for subtlety, you ask if any crust punks came by recently",
+					"text": "subtlety begone, ask if she's seen any feline crust punks lately",
 					"nextStepId": 27,
-					"logChoice": false
+					"addInventoryItems": []
 				},
 				{
-					"text": "coyly, you order a spicy water & ask if they need any computer help",
+					"text": "order a spicy water & ask if they need computer help",
 					"nextStepId": 28,
-					"logChoice": false
+					"addInventoryItems": []
 				}
 			]
 		},
