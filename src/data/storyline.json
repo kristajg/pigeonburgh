@@ -72,7 +72,7 @@
 			"content": [
 				"You fly towards the east river bank. A group of cat <span class=\"substep\" data-substep=\"1\">teenagers</span> sit atop a big chunk of cement under a bridge, smoking cigarettes.",
 				"They furtively look around. Pretty obvious they aren't old enough for those 100s.",
-				"A bold teen from the cat gang steps forward. Oh no, he's both a crust punk AND challenging you to a skate off! A lethal combo. Do you.."
+				"One the cat gang members steps forward. Oh no, he's both a crust punk AND challenging you to a skate off! A lethal combo. Do you.."
 			],
 			"substeps": [
 				{
@@ -283,7 +283,7 @@
 				"Ah the Supercomputing Center. A center for all things super and computing. This binary code probably relates to these things, so you head on over.",
 				"On the way, you're distracted by the fanfare of a new restaurant opening up on the Northside next to the <span class=\"substep\" data-substep=\"1\">old deli</span.",
 				"However the new restaurant looks pretty swanky. A man dressed in suave hipster attire heralds people towards the entrance. Is he really waving his Premiumley Waxed beard at people? Is he offering free kombucha? Is that...a bowl of artisan corn chips???",
-				"Even though you ate a chip just fifteen minites ago, you are tempted by more substantial sustinance..."
+				"Even though you ate a chip just fifteen minutes ago, you are tempted by more substantial sustinance..."
 			],
 			"substeps": [
 				{
@@ -356,8 +356,8 @@
 			"id": 16,
 			"description": "You picked classic deli & recieve a delicious sando",
 			"content": [
-				"The deli door rings mellifluously. It triggers a Pavlov reaction, and all you can think of is an italian sandwich on Mancini's bread. Extra banana peppers.",
-				"The Deli Man says, \"Hey there Donnie, what'll it be?\" and you inform him of your Pavlovian desires.",
+				"The deli door rings mellifluously. It triggers a Pavlovian reaction, and all you can think of is an italian sandwich on Mancini's bread. Extra banana peppers.",
+				"The Deli Man says, \"Hey there Donnie, what'll it be?\" and you inform him of your sandwich desires.",
 				"You acquire the best looking sandwich this world has yet known. And it is all yours."
 			],
 			"substeps": [],
@@ -390,7 +390,7 @@
 					"addInventoryItems": []
 				},
 				{
-					"text": "breakfast for dinner",
+					"text": "fancy breakfast for dinner",
 					"nextStepId": 22,
 					"addInventoryItems": []
 				}
@@ -443,7 +443,8 @@
 				"The Rum Warehouse is a blue cinder block building by a bridge and train tracks.",
 				"You fly in random circles until you see it & swoop in, tucking your wings close to your bod while making dramatic divebomb sound effects - NEeeeEEERRRRRRR PSHHHHHH!!",
 				"You land and sincerely hope no passersby heard your potentially embarassing beak-sounds, then pivot to ransack your bird brain for relevant info...",
-				"The warehouse owner is also the lead distiller. A <span class=\"substep\" data-substep=\"1\">no-nonsense type</span> with a steely gaze and quiet disposition. He was once featured in the news and didn't have much to say. Word around town is he doesn't need to, since the product speaks for itself. Hmmm."
+				"The warehouse owner is also the lead distiller. A <span class=\"substep\" data-substep=\"1\">no-nonsense type</span> with a steely gaze and quiet disposition.",
+				"Word around town is he walked out on a cushy corporate job after a particularly boring meeting, and never looked back."
 			],
 			"substeps": [
 				{
@@ -461,18 +462,23 @@
 		},
 		{
 			"id": 21,
-			"description": "",
+			"description": "You picked olive and cheese board",
 			"content": [
 				"A variety of food choices presented on a board is the ideal way experience fine dining.",
-				"Soon enough an assortment of breads, olives, and cheeses are within your reach.",
-				"The meal is satisfying, yet not overfilling as you often feel after a typical deli experience. Maybe you should branch out more. Olive branch out.",
-				"TODO: what next"
+				"Soon enough an assortment of breads, olives, and cheeses are within your wingspan.",
+				"The meal is satisfying, yet not overfilling as you often feel after a typical deli experience.",
+				"Maybe you should branch out more. Olive branch out."
 			],
 			"substeps": [],
 			"choices": [
 				{
-					"text": "TODO: what now",
-					"nextStepId": 21,
+					"text": "Pay the steep tab (oof) & head towards the Supercomputing Center with fiery independant research intentions",
+					"nextStepId": 24,
+					"addInventoryItems": []
+				},
+				{
+					"text": "Pay the steep tab (yikes) & ask that spicy scented bearded man on the way out if he knows anything about secret codes",
+					"nextStepId": 25,
 					"addInventoryItems": []
 				}
 			]
@@ -485,8 +491,7 @@
 				"A beautiful meal which consists of a venn diagram of both protein-packed options or sweet, sweet carbohydrate cakes.",
 				"The time of day doesn't confine you to the types of foods you consume! You are your own bird.",
 				"Being a <span class=\"substep\" data-substep=\"1\">boujee hipster bistro</span>, the breakfast options consist of lebda, salmon, and lemon poppyseed.",
-				"The food transports you into a state of bliss that is only interuppted by the nagging feeling you have an unsolved mystery at wing.",
-				"The binary code is face-up on the table as you finish your meal, and notice a pool of syrup has coated a corner of the paper."
+				"The food transports you into a state of bliss that is only interuppted by the nagging feeling you have an unsolved mystery at wing."
 			],
 			"substeps": [
 				{
@@ -496,12 +501,12 @@
 			],
 			"choices": [
 				{
-					"text": "Pay the steep tab (oof) & head towards the Supercomputing Center with fiery research intentions",
+					"text": "Pay the steep tab (oof) & head towards the Supercomputing Center with fiery independant research intentions",
 					"nextStepId": 24,
 					"addInventoryItems": []
 				},
 				{
-					"text": "Pay the steep tab (yikes) & ask that bearded man on the way out if he knows anything about secret codes",
+					"text": "Pay the steep tab (yikes) & ask that spicy scented bearded man on the way out if he knows anything about secret codes",
 					"nextStepId": 25,
 					"addInventoryItems": []
 				}
@@ -520,12 +525,12 @@
 			"substeps": [
 				{
 					"id": 1,
-					"text": "The hand-painted sign says, \"Venture Capitalists are lame as hell, yo.\" Word up."
+					"text": "The hand-painted sign says, \"Venture Capitalists? More like Denture Crapitalists\" ...Word up. Word. Up."
 				}
 			],
 			"choices": [
 				{
-					"text": "subtlety begone, ask if she's seen any feline crust punks lately",
+					"text": "oh-so-casually ask the bartender if the distillery owner used to code",
 					"nextStepId": 27,
 					"addInventoryItems": []
 				},
@@ -539,27 +544,43 @@
 		{
 			"id": 24,
 			"description": "Leave the boujee bistro after breakfast for din && go to the Supercomputing Center",
-			"content": ["TODO"],
+			"content": [
+				"Your coin purse is considerably lighter, but your brain is fueled by nutrients aplenty.",
+				"The supercomputing center comes into view as you fly into the vicinity.",
+				"It's quittin time and some nerdy types slouch out of the building towards their Honda Civics.",
+				"You need to sneak into this bastion somehow to get ANSWERS."
+			],
 			"substeps": [],
-			"choices": []
+			"choices": [
+				{
+					"text": "look for a rooftop vulnerability",
+					"nextStepId": 24,
+					"addInventoryItems": []
+				},
+				{
+					"text": "slouch with the best of them & pretend to be an employee who forgot a laptop charger",
+					"nextStepId": 24,
+					"addInventoryItems": []
+				}
+			]
 		},
 		{
 			"id": 25,
 			"description": "Ask that bearded man about binary code after breakfast for din",
-			"content": ["TODO"],
+			"content": ["Hey there beardy-man", "TODO"],
 			"substeps": [],
 			"choices": []
 		},
 		{
 			"id": 26,
 			"description": "You packed your sando & hit the road to the supercomputing center",
-			"content": ["TODO"],
+			"content": ["You packed your sando & hit the road to the supercomputing center", "TODO"],
 			"substeps": [],
 			"choices": []
 		},
 		{
 			"id": 27,
-			"description": "you ask the rum bartender if hes seen any crustpunks",
+			"description": "you ask the rum bartender if they distillery owner used to code",
 			"content": ["TODO"],
 			"substeps": [],
 			"choices": []
