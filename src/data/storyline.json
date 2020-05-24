@@ -6,7 +6,9 @@
 			"description": "Game entry point. Introduces Pip and indicates city location. Corn chip choices.",
 			"content": [
 				"You are a <span class=\"substep\" data-substep=\"1\">pigeon</span> named Pip in your prime. How coo is that? You reckon it's pretty coo.",
-				"Yaaaaaaawn. What a beautiful day in the neighborhood. The rising sun shines through sparse clouds, illuminating the surrounding rivers and city buildings.",
+				"Yaaaaaaawn. What a beautiful day in the neighborhood.",
+				"The rising sun tries to shine through thick clouds, bringing the surrounding rivers and city buildings into focus.",
+				"Everything is steel gray and blue in the early morning light.",
 				"A corn chip rests conveniently by your feetsies..."
 			],
 			"substeps": [
@@ -50,7 +52,8 @@
 			"content": [
 				"Too good for a carb-heavy breakfast, eh? Just a coffee-and-go kind of bird.",
 				"You fly to the nearest cafe and take a <span class=\"substep\" data-substep=\"1\">BIG SIP</span> from a half-full mug left on a patio table.",
-				"Full on caffeinated, you fly like a bird out of hell in several circles because you feel ALIVE. Let's put this perpetual birdmotion machine to work!"
+				"Full on caffeinated, you fly like a bird out of hell in several circles because you feel ALIVE",
+				"Let's put this perpetual birdmotion machine to work!"
 			],
 			"substeps": [
 				{
@@ -68,11 +71,11 @@
 		},
 		{
 			"id": 4,
-			"description": "You found the skate punk cat teens...",
+			"description": "You found the skate punk cats...",
 			"content": [
-				"You fly towards the east river bank. A group of cat <span class=\"substep\" data-substep=\"1\">teenagers</span> sit atop a big chunk of cement under a bridge, smoking cigarettes.",
-				"They furtively look around. Pretty obvious they aren't old enough for those 100s.",
-				"One the cat gang members steps forward. Oh no, he's both a crust punk AND challenging you to a skate off! A lethal combo. Do you.."
+				"You fly towards the east river bank. A group of cat <span class=\"substep\" data-substep=\"1\">crust punks</span> sit atop a big chunk of cement under a bridge, smoking cigarettes.",
+				"They smoke 100s, blowing surly plumes and wax poetic on grindcore and anarchy.",
+				"One the cats steps forward. He's both a crust punk AND challenging you to a skate off! A lethal combo. Do you.."
 			],
 			"substeps": [
 				{
@@ -97,8 +100,8 @@
 			"id": 5,
 			"description": "Pick your skate option to race Carl!",
 			"content": [
-				"The cat crust punk sneers as he grooms his ear and flicks the end of a cheap cigarette at you, but graciously allows you to pick your method of shreddin'.",
-				"You think to yourself everything cats do is adorable no matter how much they try to be hardcore.",
+				"The cat sneers as he grooms his ear and flicks the end of a cheap cigarette at you, but graciously allows you to pick your method of shreddin'.",
+				"You think to yourself everything cats do is adorable no matter how hardcore they try to be.",
 				"Looking into his arsenal reveals three choices of handlebar-less transportation:"
 			],
 			"substeps": [],
@@ -126,7 +129,8 @@
 			"content": [
 				"You befriend the cat and learn his name is Carl. He seems like a sensitive and insightful soul.",
 				"You learn Carl enjoys painting water colors of 1980's action film scenes. After a pleasant conversation involving comparisons of your best <span class=\"substep\" data-substep=\"1\">Terminator impressions</span>, you bid farewell to your new friend.",
-				"Just before you leave, Carl slips you a piece of paper with a strange series of binary code on it. He says, \"You're alright Pip, ya know that. A real Maverick. I'm sure we'll see each other again soon.\"",
+				"Just before you leave, Carl slips you a piece of paper with a strange series of binary code on it, featuring a weird ink stamp at the bottom.",
+				"He says, \"You're alright Pip, ya know that. A real Maverick. I'm sure we'll see each other again soon.\"",
 				"You say \"Thanks, <span class=\"substep\" data-substep=\"2\">Goose</span>\" and take the slip paper."
 			],
 			"substeps": [
@@ -155,7 +159,7 @@
 				"You could legitimately wear a Thrasher t-shirt, but they don't come in tiny bird sizes.",
 				"You skate with the valience of ten thousand Greek chariots and so does the crust punk, but ultimately you best him.",
 				"You do a kickflip to rub victory in his face a little, and he sadly offers you a slip of paper as a reward. Aw, he seems like a sensitive soul.",
-				"The paper has a cryptic series of binary code on it. Cryptic, but not encrypted... huh."
+				"The paper has a cryptic series of binary code on it, with a strange ink stamp. Cryptic, but not encrypted... huh."
 			],
 			"substeps": [],
 			"choices": [
@@ -173,7 +177,7 @@
 				"Like your father before you, you are a true Cali brah in your salty pigeon heart.",
 				"With the grace of a 120 year old sea turtle you carve slow S's down the hill. In that moment you swear you are infinite - since it certainly takes you long enough to complete the race.",
 				"The crust punk easily beats you speed wise, but is moved to tears by your beautious display. He slips you a non-slippery slip of paper as a reward.",
-				"He seems like a sensitive soul. You notice the paper is covered in strange binary code..."
+				"He seems like a sensitive soul. You notice the paper is covered in strange binary code with a uniquely designed ink stamp..."
 			],
 			"substeps": [],
 			"choices": [
@@ -209,7 +213,8 @@
 			"content": [
 				"You fly home and let out a big sigh.",
 				"You lay down in your feather down bed and try to go to sleep, but that “take me home country roads” song is stuck in your head for no reason.",
-				"Musical stylings of John Denver aside, you play through the day's events in your mind... pausing to consider that mysterious binary code."
+				"Musical stylings of John Denver aside, you play through the day's events in your mind... pausing to consider that mysterious binary code.",
+				"And have you seen that stamp design somewhere before...?"
 			],
 			"substeps": [],
 			"choices": [
@@ -226,7 +231,7 @@
 			"content": [
 				"Another day, another corn chip. You eat the corn chip and it is so delicious you want to start a relationchip with it.",
 				"Or rather, you want someone to share in this chip fortune with you in a real relationship kind of way. You could made chip puns together.",
-				"Hmm. That would be nice.",
+				"Yeah. That would be nice.",
 				"Your reverie is usurped by thoughts of the mysterious binary code acquired yesterday. You figure there's a few places that may provide a bit more insight.."
 			],
 			"substeps": [],
@@ -260,7 +265,7 @@
 				},
 				{
 					"id": 2,
-					"text": "Its an award-winning firm. Do a lot of designs for local restaurants and colleges. Upscale as hell, a lot of the other designers are cheese mongers on the side. Prestigious? Make cheese seems hard."
+					"text": "An award-winning firm that does projects for local upscale restaurants. The other designers at the firm are cheese mongers on the side. A prestigious hobby?"
 				}
 			],
 			"choices": [
@@ -308,16 +313,16 @@
 			"id": 14,
 			"description": "Listen sincerely to Iras predicament then show her binary code paper",
 			"content": [
-				"You listen sincerely to Ira's tale of grueling agency churn & burn, spending long hours toiling for peanuts.",
-				"It makes you a bit sad in your core. How come such a creative person should burn themselves out like this? But...she has certainly built quite a portfolio out of it.",
+				"You listen sincerely to Ira's tale of agency churn & burn, spending long hours toiling for peanuts.",
+				"It makes you a bit sad in your core. Such a creative person, burnt out and flattened emotionally.",
 				"Maybe everyone has to put in those hell-grindy hours and get sad before bustin' out like a caterpillar turning into a <span class=\"substep\" data-substep=\"1\">butterfly</span>.",
-				"You say, \"Ira. That sucks major tail! You are a cool person with the drive and know-how to destroy a small-to-medium sized planet. Destroy it with the power of your art!\"",
+				"You say, \"Ira. That sucks major! You are a cool person with the righteousness and know-how to destroy a small-to-medium sized planet. Destroy it with the power of your art!\"",
 				"Ira smiles and says, \"Thanks Pip, means a lot. Why are you flying around these parts anyways?\""
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "A metal butterfly destroying it’s Slayer chrysalis while double-bass drums resound in the background."
+					"text": "A metal butterfly destroying it’s Slayer chrysalis with double-bass drums resounding in the background."
 				}
 			],
 			"choices": [
@@ -430,7 +435,7 @@
 			],
 			"choices": [
 				{
-					"text": "Ware is that warehouse again?",
+					"text": "Now, ware is that warehouse?",
 					"nextStepId": 20,
 					"addInventoryItems": []
 				}
@@ -449,7 +454,7 @@
 			"substeps": [
 				{
 					"id": 1,
-					"text": "The kind that thinks social media is a suck-up suckfest. Unsurprisngly, he doesn't prefer authority figures."
+					"text": "He thinks social media is a suck-up suckfest. Unsurprisngly, he doesn't prefer authority figures."
 				}
 			],
 			"choices": [
@@ -516,7 +521,7 @@
 			"id": 23,
 			"description": "Youve just entered the rum emporium",
 			"content": [
-				"As you enter the rum emporium, you take in your surroundings - the length of which features a no-frills bar, behind which sits two big copper distilleries.",
+				"As you enter the rum emporium, you take in your surroundings - the length of which features a no-frills bar, behind which sits two pot-bellied copper distilleries.",
 				"A local-art style <span class=\"substep\" data-substep=\"1\">sign</span> on the wall.",
 				"The owner himself, a surly gray dog in a plain white tee and gym shorts scratches behind his ear as he gets a bucket full of soapy water ready for mopping.",
 				"You take a seat and wonder what you could possibly ask in a casual way regarding binary codes on slips of paper.",
@@ -525,17 +530,17 @@
 			"substeps": [
 				{
 					"id": 1,
-					"text": "The hand-painted sign says, \"Venture Capitalists? More like Denture Crapitalists\" ...Word up. Word. Up."
+					"text": "The hand-painted sign says, \"Venture Capitalists? More like Denture Crapitalists.\" Heh."
 				}
 			],
 			"choices": [
 				{
-					"text": "oh-so-casually ask the bartender if the distillery owner used to code",
+					"text": "oh-so-casually ask if the owner used to code",
 					"nextStepId": 27,
 					"addInventoryItems": []
 				},
 				{
-					"text": "order a spicy water & ask if they need computer help",
+					"text": "order a spicy bevvy & ask if they need someone to make them a website",
 					"nextStepId": 28,
 					"addInventoryItems": []
 				}
@@ -567,7 +572,7 @@
 		{
 			"id": 25,
 			"description": "Ask that bearded man about binary code after breakfast for din",
-			"content": ["Hey there beardy-man", "TODO"],
+			"content": ["\"Hey there beardy-man..\" you trawl while stepping out the bistro.", "TODO"],
 			"substeps": [],
 			"choices": []
 		},
@@ -580,14 +585,64 @@
 		},
 		{
 			"id": 27,
-			"description": "you ask the rum bartender if they distillery owner used to code",
-			"content": ["TODO"],
+			"description": "you ask the rum bartender if the distillery owner used to code",
+			"content": [
+				"\"So uhh.. did the owner used to plink around on the computer keys for a living?\" you ask with the subterfuge of a penguin in the rainforest.",
+				"The bartender side-eyes you.",
+				"\"Yeah he did. Who's askin'?\"",
+				"As you avoid his scary side-eye, you notice the same stamp image that's on the paper carved into the wood of the bartop, with an anarchy symbol carved on TOP of it.",
+				"\"...I guess a fellow anarchist is asking, that's who.\" You nod towards the carving.",
+				"The bartender guffaws. \"Right, that bartop is rather anti-authority. I'm more libertarian myself, but Charlie the owner hates his old company so much he did that when we opened this place.\"",
+				"So this image is a company logo? You're certain you've seen it somewhere before the binary code paper...a commercial?",
+				"While polishing a glass pensivly, the barkeep remarks, \"Yeah, Charlie quit around the time of peak mech output. The MBOT-3000 had just been released. He was their top engineer and couldn't take anymore corporate bullshit. You know how it goes.\"",
+				"That's right. All those broken down police mechs rusting out under bridges and covered in leaves, garbage, and crappy graffiti on the side of the highways. Company logo slapped on the sides, still just visible under all the grime.",
+				"It's a lead alright, but to what end?"
+			],
+			"substeps": [],
+			"choices": [
+				{
+					"text": "tip that bartender way more than 20% and head out",
+					"nextStepId": 29,
+					"addInventoryItems": []
+				}
+			]
+		},
+		{
+			"id": 28,
+			"description": "you order a spicy bevvy & ask for computer work",
+			"content": [""],
 			"substeps": [],
 			"choices": []
 		},
 		{
-			"id": 28,
-			"description": "you order a spicy water & ask for computer work",
+			"id": 29,
+			"description": "tip that bartender well and head out",
+			"content": [
+				"You fly home, and all the while do what you do best: overanalyze the situation.",
+				"What the heck are these clues? Why do you even care? Do you have anything better to do? Why don't you have anything better to do???",
+				"You remember how popular those mechs were: a unit on every block keeping the peace. Weird how they kept it for themselves only.",
+				"Everyone was so mad about the \"robots takin over!\" for a while. Then they became an annoying fixture that dolled out tickets and broke up lame street fights. And sometimes raided a home or two.",
+				"Until that one day. That one day... a kid you went to grade school with decided to try and hotwire one.",
+				"You still remember sitting next to her in stats class. Everyone called her by her web handle, Fl4ppyh4x, or just Fl4p for short.",
+				"You still remember when she got knocked down in gym class while playing sharks & minnows, and her mom picking her up to go get stitches. The whole class climbed the junglegym to wave goodbye as her mom's minivan pulled away.",
+				"She didn't deserve the end. She was too young. Too curious. And had too much success hacking into rent-a-scooters and reselling them online.",
+				"You shudder unexpectedly.",
+				"Maybe this is why you care. Maybe you should stop before it gets too dangerous.",
+				"And look at that, you're home. Time flies when you are flying.",
+				"Maybe you should sleep and dream of a nest of cotton candy. What a delicious house upgrade that would be..."
+			],
+			"substeps": [],
+			"choices": [
+				{
+					"text": "fall into a deep sugary sleep",
+					"nextStepId": 30,
+					"addInventoryItems": []
+				}
+			]
+		},
+		{
+			"id": 30,
+			"description": "fall into a deep sugary sleep",
 			"content": [""],
 			"substeps": [],
 			"choices": []
