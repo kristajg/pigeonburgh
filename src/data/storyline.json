@@ -587,21 +587,19 @@
 			"id": 27,
 			"description": "you ask the rum bartender if the distillery owner used to code",
 			"content": [
-				"\"So uhh.. did the owner used to plink around on the computer keys for a living?\" you ask with the subterfuge of a penguin in the rainforest.",
-				"The bartender side-eyes you.",
+				"\"So uhh.. did the owner used to plink around on the computer keys for a living?\" you ask with the subterfuge of a penguin in the rainforest. The bartender side-eyes you.",
 				"\"Yeah he did. Who's askin'?\"",
-				"As you avoid his scary side-eye, you notice the same stamp image that's on the paper carved into the wood of the bartop, with an anarchy symbol carved on TOP of it.",
-				"\"...I guess a fellow anarchist is asking, that's who.\" You nod towards the carving.",
-				"The bartender guffaws. \"Right, that bartop is rather anti-authority. I'm more libertarian myself, but Charlie the owner hates his old company so much he did that when we opened this place.\"",
-				"So this image is a company logo? You're certain you've seen it somewhere before the binary code paper...a commercial?",
-				"While polishing a glass pensivly, the barkeep remarks, \"Yeah, Charlie quit around the time of peak mech output. The MBOT-3000 had just been released. He was their top engineer and couldn't take anymore corporate bullshit. You know how it goes.\"",
-				"That's right. All those broken down police mechs rusting out under bridges and covered in leaves, garbage, and crappy graffiti on the side of the highways. Company logo slapped on the sides, still just visible under all the grime.",
-				"It's a lead alright, but to what end?"
+				"You avoid his scary side-eye and notice the same image from the paper carved into the wood of the bartop, with an anarchy symbol carved over top.",
+				"\"...A fellow anarchist, that's who.\" You nod towards the carving.",
+				"The bartender guffaws. \"Right, the owner Charlie is rather anti-authority. I'm more libertarian myself, but Charlie hates his old company so much he did that when we opened this place.\"",
+				"A company logo, then? You're certain you've seen it somewhere before the binary code paper...but where exactly.",
+				"The barkeep polishes a glass pensively. He remarks, \"Yeah, he quit around the time of peak mech output. The MBOT-3000 had just been released. He was their top engineer and couldn't take anymore corporate bullshit. You know how it goes.\"",
+				"Aha! All those broken down police mechs rusting out under bridges and covered in leaves, garbage, and crappy graffiti. Company logo slapped on the sides, still visible under all the grime."
 			],
 			"substeps": [],
 			"choices": [
 				{
-					"text": "tip that bartender way more than 20% and head out",
+					"text": "tip that bartender way over 20% and head out",
 					"nextStepId": 29,
 					"addInventoryItems": []
 				}
@@ -610,31 +608,56 @@
 		{
 			"id": 28,
 			"description": "you order a spicy bevvy & ask for computer work",
-			"content": [""],
+			"content": [
+				"\"Hey there bar man. Shake me up one of those spicy tiki beverages. Extra spice, please,\" you order with machismo.",
+				"The barkeep grunts and slides down one glass of tiki torch.",
+				"You sip and hiccup a little flame. \"So, does this fine establishment need an online presence? I know a guy that can code - it's me. I'm the guy.\"",
+				"You puff out your chest to show how qualified you are.",
+				"The barkeep gives you a stern side-eye which makes a little smoke escape your beak in nervousness.",
+				"\"Eh, we're good on the website front. Charlie, the owner used to code back in the day and whipped us up a Screeact Site no problem.\"",
+				"He polishes a glass and ponders aloud, \"Hey Charlie, I never get any days off. Need an extra barkeep?\"",
+				"Charlie the owner grunts in approval as he mops the floor in back. \"Well, you gotta job slinging spicy drinks if you want it,\" the barkeep says to you without missing a beat.",
+				"As you consider, you notice the same symbol from the sheet of paper carved into the bartop with an anarchy symbol overtop. Edgy, ineed."
+			],
 			"substeps": [],
-			"choices": []
+			"choices": [
+				{
+					"text": "skeptically accept the job",
+					"nextStepId": 31,
+					"addInventoryItems": []
+				},
+				{
+					"text": "tip & dip out. you'll hold out for that rando high-paying freelance work",
+					"nextStepId": 29,
+					"addInventoryItems": []
+				}
+			]
 		},
 		{
 			"id": 29,
 			"description": "tip that bartender well and head out",
 			"content": [
-				"You fly home, and all the while do what you do best: overanalyze the situation.",
-				"What the heck are these clues? Why do you even care? Do you have anything better to do? Why don't you have anything better to do???",
-				"You remember how popular those mechs were: a unit on every block keeping the peace. Weird how they kept it for themselves only.",
-				"Everyone was so mad about the \"robots takin over!\" for a while. Then they became an annoying fixture that dolled out tickets and broke up lame street fights. And sometimes raided a home or two.",
+				"You fly home, and do what you do best: overanalyze the situation.",
+				"What the heck are these clues? Why do you even care? Do you have anything better to do? No? Why not???",
+				"You remember how popular those mechs were: a unit on every block keeping the peace.",
+				"Peaceful for whom was the question.",
+				"Everyone was cursing about the \"robots takin over!\" for a while. Initially they were simply an annoying fixture that doled out tickets and broke up lame street fights.",
+				"Then sometimes raided a home or two. Or more. Used a little more force than necessary.",
 				"Until that one day. That one day... a kid you went to grade school with decided to try and hotwire one.",
-				"You still remember sitting next to her in stats class. Everyone called her by her web handle, Fl4ppyh4x, or just Fl4p for short.",
+				"You still remember sitting next to her in AI for Ethics class. Everyone called her by her web handle, Fl4ppyh4x, or just Fl4ppy for short.",
 				"You still remember when she got knocked down in gym class while playing sharks & minnows, and her mom picking her up to go get stitches. The whole class climbed the junglegym to wave goodbye as her mom's minivan pulled away.",
-				"She didn't deserve the end. She was too young. Too curious. And had too much success hacking into rent-a-scooters and reselling them online.",
+				"She didn't deserve the end. She was too young. Too curious. Had too much success hacking into rent-a-scooters and reselling them online.",
 				"You shudder unexpectedly.",
 				"Maybe this is why you care. Maybe you should stop before it gets too dangerous.",
-				"And look at that, you're home. Time flies when you are flying.",
-				"Maybe you should sleep and dream of a nest of cotton candy. What a delicious house upgrade that would be..."
+				"You should stop before you remember too much...",
+				"Oof, no no no. No sir. You promised yourself convenient truths after it was already too much.",
+				"You try to memory dump scary brain thoughts and achieve sleep.",
+				"You hope to dream of a cotton candy nest."
 			],
 			"substeps": [],
 			"choices": [
 				{
-					"text": "fall into a deep sugary sleep",
+					"text": "What a delicious house upgrade",
 					"nextStepId": 30,
 					"addInventoryItems": []
 				}
@@ -642,7 +665,64 @@
 		},
 		{
 			"id": 30,
-			"description": "fall into a deep sugary sleep",
+			"description": "What a delicious house upgrade",
+			"content": [
+				"You wake the following morning with too much on the brain, despite the memory dump.",
+				"You supposed brains aren't identical to computer RAM, so what else can get rid of these pesky memories...",
+				"A distraction of social sorts is in order! You have the day off, after all.",
+				"Well, every day is off these days. Freedom! But at what cost?",
+				"Lack of income aside, you ponder who to ping for hanging out purposes."
+			],
+			"substeps": [],
+			"choices": [
+				{
+					"text": "Ira, that sassy she-devil",
+					"nextStepId": 32,
+					"addInventoryItems": []
+				},
+				{
+					"text": "Carl, the warm-hearted crust punk",
+					"nextStepId": 33,
+					"addInventoryItems": []
+				}
+			]
+		},
+		{
+			"id": 31,
+			"description": "skeptically accept the job",
+			"content": ["TODO: do you dream of your former life here?"],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 32,
+			"description": "Ira, that sassy she-devil",
+			"content": [
+				"You ping Ira on your contact-friend-machine and she pongs back.",
+				"She asks you if you'd like to come with her to a local art show in which she's featuring a few new paintings.",
+				"You ask her the theme or inspiration and she says , \"lul u will c soon!\"",
+				"You jazz yourself up for the event, happy for a memory-free distraction.",
+				"Arriving fashionably 7 minutes late to the gallery location, you meet up with Ira outside the venue, an old factory building by the river."
+			],
+			"substeps": [],
+			"choices": [
+				{
+					"text": "sashay inside for an art experience",
+					"nextStepId": 34,
+					"addInventoryItems": []
+				}
+			]
+		},
+		{
+			"id": 33,
+			"description": "Carl, the warm-hearted crust punk",
+			"content": ["You ping Carl on your contact-friend-machine and he pongs back."],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 34,
+			"description": "sashay inside for an art experience",
 			"content": [""],
 			"substeps": [],
 			"choices": []
