@@ -1,10 +1,28 @@
-import styled from 'styled-components';
+// Third party libs
+import styled, { createGlobalStyle } from 'styled-components';
+
+// Fonts
+import VT323 from './assets/fonts/VT323.ttf';
+
+// Images
+import buttonImage from './assets/images/buttonImage.png';
+
+export const GlobalStyle = createGlobalStyle`
+  body {
+		background-color: #fdfcfa;
+	}
+	@font-face {
+		font-family: 'VT323';
+		font-style: normal;
+		font-weight: 400;
+		src: url(${VT323});
+	}
+`;
 
 export const Pigeonwrap = styled.div`
-	padding-top: 5%;
-	padding-left: 5%;
+	padding: 5%;
 	max-width: 45%;
-	font-family: 'Raleway';
+	font-family: 'VT323';
 	font-size: 18px;
 	line-height: 26px;
 
@@ -18,29 +36,40 @@ export const Pigeongraph = styled.p`
 
 	.substep {
 		cursor: pointer;
-		color: red;
+		color: #00b5b8;
+		text-decoration: underline;
 		&:hover {
 			color: pink;
 		}
 	}
 `;
 
-export const ChoicesWrapper = styled.div`
-	padding: 8px;
-	border: 2px solid papayawhip;
-	border-radius: 5px;
+export const ChoiceButton = styled.div`
+	cursor: pointer;
+	background-image: url(${buttonImage});
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+`;
+
+export const ButtonText = styled.p`
+	padding: 5%;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	color: #fdfcfa;
+	font-size: ${props => (props.textLength > 40 ? '18px' : '22px')};
 `;
 
 export const Option = styled.span`
 	cursor: pointer;
-	color: red;
-
-	&.choice-option {
-		display: block;
-		margin-bottom: 20px;
-	}
+	color: #00b5b8;
 
 	&:hover {
-		color: pink;
+		color: #b80059;
 	}
 `;
