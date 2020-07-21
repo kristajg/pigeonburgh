@@ -242,6 +242,7 @@
 					"addInventoryItems": []
 				},
 				{
+					"hide": true,
 					"text": "Go to the Supercomputing Center",
 					"nextStepId": 13,
 					"addInventoryItems": []
@@ -482,7 +483,7 @@
 					"addInventoryItems": []
 				},
 				{
-					"text": "Pay the steep tab (yikes) & ask that spicy scented bearded man on the way out if he knows anything about secret codes",
+					"text": "Pay the steep tab (yikes) & ask that spicy scented bearded man if he knows anything about secret codes",
 					"nextStepId": 25,
 					"addInventoryItems": []
 				}

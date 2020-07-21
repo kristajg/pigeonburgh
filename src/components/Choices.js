@@ -11,7 +11,7 @@ class Choices extends Component {
 		return (
 			<div>
 				{choices.map((choice, i) => (
-					<ChoiceButton key={`choice-${i}`} onClick={() => changeStep(choice.nextStepId)}>
+					<ChoiceButton key={`choice-${i}`} onClick={() => changeStep(choice.nextStepId)} hide={choice.hide}>
 						<ButtonText textLength={choice.text.length}>{choice.text}</ButtonText>
 					</ChoiceButton>
 				))}

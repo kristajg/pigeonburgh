@@ -23,7 +23,7 @@ export const Pigeonwrap = styled.div`
 	padding: 5%;
 	max-width: 45%;
 	font-family: 'VT323';
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 26px;
 
 	@media (max-width: 800px) {
@@ -45,6 +45,7 @@ export const Pigeongraph = styled.p`
 `;
 
 export const ChoiceButton = styled.div`
+	display: ${props => (props.hide ? 'none' : '')};
 	cursor: pointer;
 	background-image: url(${buttonImage});
 	background-repeat: no-repeat;
@@ -62,7 +63,7 @@ export const ButtonText = styled.p`
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	color: #fdfcfa;
-	font-size: ${props => (props.textLength > 40 ? '18px' : '22px')};
+	font-size: ${props => (props.textLength > 40 ? '20px' : '22px')};
 `;
 
 export const Option = styled.span`
