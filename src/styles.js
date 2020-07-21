@@ -74,3 +74,21 @@ export const Option = styled.span`
 		color: #b80059;
 	}
 `;
+
+export const modalStyles = {
+	content: {
+		top: '38%',
+		left: '50%',
+		right: 'auto',
+		bottom: 'auto',
+		marginRight: '-50%',
+		transform: 'translate(-50%, -50%)',
+		minHeight: '30%',
+		maxWidth: '75%',
+		fontFamily: 'VT323',
+		fontSize: 24,
+		background: '#fdfcfa',
+		borderRadius: 0,
+		border: '2px solid #8d8b8b',
+	},
+};
