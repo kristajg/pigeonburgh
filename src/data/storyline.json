@@ -259,7 +259,7 @@
 				"As a bird with a hungry mind (and body), you enjoy living close to the Cathedral of Learning.",
 				"You enter the tall tower of tutelage and head to a floor full of empty classrooms and books.",
 				"You spot a possum friend named <span class=\"substep\" data-substep=\"1\">Ira</span> from art electives back at University, reading in a corner.",
-				"Her book is titled \"How to Get Your Shit Together.\"",
+				"Her book is titled \"How to Get Your Life Together.\"",
 				"You walk over to say hello.",
 				"After initial pleasantries you can tell something is up. She sighs often and you notice dark circles under her eyes that have nothing to do with post-grunge eyeliner.",
 				"Ira confesses she's mega bummed since her <span class=\"substep\" data-substep=\"2\">agency job</span> isn't what she imagined and it's draining her of creativity and personal-life energy points."
@@ -346,14 +346,14 @@
 			"content": [
 				"You tell Ira a relatable story hoping to put her at ease to know the pain is shareable.",
 				"You can’t stop sharing tales of your own cubicle woes. Oh no, what are you doing?",
-				"The walls of your own sharing enclose around you like the walls of your old cubicle. A beige trap made of felt and some crappy metal. You picture <span class=\"substep\" data-substep=\"1\">Karen</span> your old coworker peeping over the wall at you.",
+				"The walls of your own sharing enclose around you like the walls of your old cubicle. A beige trap made of felt and some crappy metal. You picture <span class=\"substep\" data-substep=\"1\">Tracey</span> your old coworker peeping over the wall at you.",
 				"Finally, you look up and yell “Ira! Work is dumb but you aren’t. I have major respect for your art and your drive, girl. You can do this.”",
-				"Ira looks at you for a solid 4 seconds before laughing and says “You’re a weird bird Pip, but I can dig it. Sounds like we had the same cubicle. And same Karen. What are you doing around the Cathedral anyways?”"
+				"Ira looks at you for a solid 4 seconds before laughing and says “You’re a weird bird Pip, but I can dig it. Sounds like we had the same cubicle. And same Tracey. What are you doing around the Cathedral anyways?”"
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "Flashback to KAREN! DANG IT she doesn’t even know how to use Microsoft Paint don’t MESS WITH ME KAREN I SWEAR."
+					"text": "Flashback to Tracey! DANG IT she doesn’t even know how to use spreadsheets don’t MESS WITH ME TRACEY I SWEAR."
 				}
 			],
 			"choices": [
@@ -454,7 +454,7 @@
 			"content": [
 				"The Rum Warehouse is a blue cinder block building by a bridge and train tracks.",
 				"You fly in random circles until you see it & swoop in, tucking your wings close to your bod while making dramatic divebomb sound effects - NEeeeEEERRRRRRR PSHHHHHH!!",
-				"You land and sincerely hope no passersby heard your potentially embarassing beak-sounds, then pivot to ransack your bird brain for relevant info...",
+				"You land dramatically and sincerely hope no passersby heard your potentially embarassing beak-sounds, then do a dainty pirouette to face the building and ransack your bird brain for relevant info...",
 				"You remember reading a local news article about this place.",
 				"Apparently, the warehouse owner is also the lead distiller. A <span class=\"substep\" data-substep=\"1\">no-nonsense type</span> with a steely gaze and quiet disposition.",
 				"Word around town is he walked out on a cushy corporate job after a particularly soul-sucking meeting, and never looked back."
@@ -602,14 +602,14 @@
 				"\"...A fellow anarchist, that's who,\" you nod towards the carving. \"And can I have one of those fun fruity coconut-pineapple drinks?\"",
 				"\"You mean a Painkiller?\" The bartender guffaws. \"Right, the owner Charlie is rather anti-authority. I'm libertarian myself. But he hates his old company so much he did that when we opened this place.\"",
 				"Ehh? Just a company logo? Is this all some elaborate commercial?",
-				"The barkeep polishes a glass pensively and remarks, \"Yeah, he quit around the time of peak mech output. The MBOT-3000 had just been released. He was their top engineer and couldn't take anymore corporate bullshit. You know how it goes.\"",
+				"The barkeep polishes a glass pensively and remarks, \"Yeah, he quit around the time of peak mech output. The MBOT-3000 had just been released. He was their top engineer and couldn't take anymore corporate crap. You know how it goes.\"",
 				"Ah! All those broken down police mechs rusting out under bridges and covered in leaves, garbage, and talentless graffiti. Company logo slapped on the sides, still visible under all the grime.",
 				"Something unlocks deep in the recesses of your birdy mind. You do know this logo. All too well."
 			],
 			"substeps": [],
 			"choices": [
 				{
-					"text": "Tip the helpful bartender 20%+ and peace out",
+					"text": "Tip 20%+ and peace out",
 					"nextStepId": 29,
 					"addInventoryItems": []
 				}
@@ -649,14 +649,22 @@
 			"content": [
 				"You fly home to overanalyze the situation.",
 				"\"What the heck are these clues? Why do I even care? Do I have anything better to do? No? Why not???\"",
-				"Panic mounting, some foggy memories start congealing.",
+				"Panic mounting, some foggy memories start materializing like the first eager trick-or-treaters on Halloween eve.",
+				"You really wish you could have a candy corn or something a little stronger right about now.",
 				"That company logo. Plastered everywhere in town.",
 				"Their mechs weren't always rusted out highway trash.",
 				"You remember how popular the mechs were: a unit on every block 'keeping the peace.'",
 				"...peaceful for whom was the question.",
-				"Everyone cursed about the \"robots takin over!\" for a while. Initially they were simply an annoying fixture that doled out tickets and broke up lame street fights.",
-				"Then sometimes raided a home or two. Kept the peace a bit too harshly.",
-				"Your mind is a deluge of memories. You don't really want to remember.",
+				"Everyone cursed about the \"robots takin over!\" for a while. Initially they were an annoying bucket of cogs that doled out tickets and broke up lame street fights.",
+				"But on the other hand, they were helpful too: routinely delivering groceries and various online purchases.",
+				"There was a HUGE discount on delivery sign ups on Saint Patricks Day - everyone kept running out of shamrock themed beverages all too quickly in their merriment.",
+				"Mech account sign ups soared. Jobs as mechanics, programmers, and maintenance workers came to town. Mechs became a fixture.",
+				"Life was good, although it felt conflicting at times...a policing delivery bot.",
+				"If a mech was at the door, were they bringing your pepperoni-jalepeno pizza or a ticket for a traffic infraction capture earlier that day on camera?",
+				"People still talked. But much quieter. Was the peace kept too efficiently?",
+				"Is that the cost of convenience?",
+				"Your trepidation rises as your mind races forward.",
+				"Well that cost was certainly too high for more than one person. On that day in late fall.",
 				"It's getting late..."
 			],
 			"substeps": [],
@@ -751,8 +759,9 @@
 				"A series of oil paintings, depicting all sorts of beings squeezed into computer monitors, mainframes, and input devices.",
 				"They all seem to be struggling to break free, into the sharp contrast of otherwise unmarred nature the paintings are set in.",
 				"Ira pats your wing excitedly, \"These are mine. I really hope people like them... because I'm not sure I like them! Maybe that's normal for an arist though?\"",
-				"One particular painting catches your eye, a depiction of a raccoon working head-down behind a wall with a setup wired through the wall.",
-				"On the other side of the wall, a mech hooked into the wires appears to be sparked to life to the unwitting worker.",
+				"One particular painting catches your eye, a depiction of a raccoon reaching it's adorable little paw through a hole in a brick wall.",
+				"On the other side of the wall, he appears to be picking a beautiful flower.",
+				"The flower looks far too large for him to pull it back through the hole. At least without all the petals and leaves and such getting scraped off in the process.",
 				"Ira catches you staring and says, \"Oh yeah. I thought you'd be into this one, with what you've been through. Hopefully it's kinda therapeutic. What do you feel?\""
 			],
 			"substeps": [
@@ -763,12 +772,12 @@
 			],
 			"choices": [
 				{
-					"text": "Feels sad",
+					"text": "Feels pointless",
 					"nextStepId": 36,
 					"addInventoryItems": []
 				},
 				{
-					"text": "Feels powerful",
+					"text": "At least he's trying",
 					"nextStepId": 37,
 					"addInventoryItems": []
 				}
@@ -783,7 +792,7 @@
 				"The day a kid you went to grade school with decided to try and hotwire one of those mechs.",
 				"You still remember sitting next to her in 'Ethical AI' class. Everyone called her by her web handle, Fl4ppyh4x, or just Fl4ppy for short.",
 				"You still remember that time in elementary she got knocked down in gym class while playing sharks & minnows. Her mom picked her up to go get stitches. The whole class climbed the junglegym to wave a supportive goodbye as her mom's minivan pulled away.",
-				"She was young and curious. Had too much success hacking into rent-a-scooters and reselling them online. It must have gotten boring after a while, she need a new challenge.",
+				"She was young and curious for curiosity's sake. Had too much success hacking into rent-a-scooters and reselling them online. It must have gotten boring after a while, she need a new challenge.",
 				"What she didn't need was another trip to the hospital. This time for more than just stitches.",
 				"You shudder unexpectedly.",
 				"Maybe you should stop this information chase before it gets too dangerous.",
@@ -804,15 +813,21 @@
 		},
 		{
 			"id": 36,
-			"description": "The painting feels oppresive",
-			"content": ["TODO: the painting feels oppresive"],
+			"description": "Feels pointless",
+			"content": [
+				"TODO: ",
+				"you mention how it feels pointless and you are sad he can never see the flower for what it is",
+				"ira mentions maybe there's another way. some allegorical stuff here, but about what?",
+				"she asks if you wanna dance",
+				"choice to dance or not dance"
+			],
 			"substeps": [],
 			"choices": []
 		},
 		{
 			"id": 37,
-			"description": "The painting feels powerful",
-			"content": ["TODO: the painting feels powerful"],
+			"description": "At least he's trying",
+			"content": ["TODO: at least he's trying"],
 			"substeps": [],
 			"choices": []
 		}
