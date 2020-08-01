@@ -7,8 +7,9 @@
 			"content": [
 				"You are a <span class=\"substep\" data-substep=\"1\">pigeon</span> named Pip in your prime. How coo is that? You reckon it's pretty coo.",
 				"Yaaaaaaawn. What a beautiful day in the neighborhood.",
-				"The rising sun manages to shine a few lucky rays through thick clouds, bringing the surrounding rivers and city buildings into focus.",
-				"Everything is steel gray and blue in the early morning light.",
+				"The rising sun shines a few lucky rays through the thick clouds that cover the valley like the top of a sports dome.",
+				"The surrounding murky rivers and steely gray-blue city buildings shift into focus.",
+				"The morning light invigorates you enough to notice a treasure on the ground.",
 				"A corn chip rests conveniently by your feetsies..."
 			],
 			"substeps": [
@@ -19,7 +20,7 @@
 			],
 			"choices": [
 				{
-					"text": "Crunch that chip",
+					"text": "Crunch the chip",
 					"nextStepId": 2,
 					"addInventoryItems": []
 				},
@@ -59,12 +60,12 @@
 			"substeps": [
 				{
 					"id": 1,
-					"text": "SIIIIIIIP. The lukewarm bev flows through you. It's the perfect ratio of cream to coffee. Now you are ready for action."
+					"text": "SIIIIIIIP. The lukewarm bev flows through you. It's your perfect ratio of coffee to cream . Now you are ready for action."
 				}
 			],
 			"choices": [
 				{
-					"text": "FLY OVER TO A BRIDGE WITH INTENT",
+					"text": "FLY EAST WITH INTENT",
 					"nextStepId": 4,
 					"addInventoryItems": []
 				}
@@ -132,20 +133,20 @@
 			"content": [
 				"You befriend the cat and learn his name is Carl.",
 				"You learn Carl enjoys painting water colors of 1980's action film scenes. After a pleasant conversation involving comparisons of your best <span class=\"substep\" data-substep=\"1\">Terminator impressions</span>, you bid farewell to your new friend.",
-				"Just before you leave, Carl slips you a piece of paper with a strange series of binary code on it, featuring a weird ink stamp at the bottom.",
-				"He says, \"You're alright Pip, ya know that. A real Maverick. I'm sure we'll see each other again soon.\"",
+				"Before you leave, Carl slips you a piece of paper with some faded binary code on it, featuring a weird ink stamp at the bottom.",
+				"He says, \"You're alright Pip, ya know that? A true Maverick. I'm sure we'll see each other again soon.\"",
 				"He seems like a sensitive soul.",
-				"You say \"Thanks... Goose,\" and take the slip paper."
+				"You say \"Thanks... Goose,\" and accept the slip paper since it would be rude not to."
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "Real classic movie lines like: \"I'll be back\" and \"Chill out, dickwad.\""
+					"text": "Classic movie lines like: \"I'll be back\" and \"Chill out, dickwad.\""
 				}
 			],
 			"choices": [
 				{
-					"text": "Fly home Top Gun style",
+					"text": "Fly home, Top Gun style",
 					"nextStepId": 10,
 					"addInventoryItems": [4]
 				}
@@ -322,8 +323,8 @@
 				"(Wait, does she actually get paid in peanuts...?? Mmmm.)",
 				"It makes you a bit sad in your core. Such a creative person, burnt out and flattened emotionally.",
 				"Maybe everyone has to put in those hell-grindy hours before bustin' out like a caterpillar turning into a <span class=\"substep\" data-substep=\"1\">butterfly</span>.",
-				"You say, \"Ira. That sucks major! You are a cool person with the righteousness and know-how to destroy a small-to-medium sized planet. Destroy it with the power of your art!\"",
-				"Ira smiles and says, \"Thanks Pip, that means a lot. Why are you in this musty book tower anyways?\""
+				"You say, \"Ira, that super sucks. You are a cool person with the righteousness and know-how to destroy a small-to-medium sized planet. Destroy it with the power of your art!\"",
+				"She smiles and says, \"Thanks Pip, that means a lot. Why are you in this musty book tower anyways?\""
 			],
 			"substeps": [
 				{
@@ -333,7 +334,7 @@
 			],
 			"choices": [
 				{
-					"text": "Tell her about the binary code paper",
+					"text": "Tell her about the binary code",
 					"nextStepId": 19,
 					"addInventoryItems": []
 				}
@@ -538,7 +539,7 @@
 			"substeps": [
 				{
 					"id": 1,
-					"text": "The hand-painted sign says, \"Venture Capitalists? More like Denture Crapitalists.\""
+					"text": "It says in passionate strokes of paint: \"Venture Capitalists? More like Denture Crapitalists.\""
 				}
 			],
 			"choices": [
@@ -608,7 +609,7 @@
 			"substeps": [],
 			"choices": [
 				{
-					"text": "Tip the informative bartender way over 20% and head out",
+					"text": "Tip the helpful bartender 20%+ and peace out",
 					"nextStepId": 29,
 					"addInventoryItems": []
 				}
@@ -654,9 +655,9 @@
 				"You remember how popular the mechs were: a unit on every block 'keeping the peace.'",
 				"...peaceful for whom was the question.",
 				"Everyone cursed about the \"robots takin over!\" for a while. Initially they were simply an annoying fixture that doled out tickets and broke up lame street fights.",
-				"Then sometimes raided a home or two. Used a little more force than necessary.",
-				"Your mind is in full memory deluge now. You don't want to remember. Please. No more.",
-				"But you know you must be brave. You know why you are tied to this mystery."
+				"Then sometimes raided a home or two. Kept the peace a bit too harshly.",
+				"Your mind is a deluge of memories. You don't really want to remember.",
+				"It's getting late..."
 			],
 			"substeps": [],
 			"choices": [
@@ -672,8 +673,9 @@
 			"description": "What a delicious house upgrade",
 			"content": [
 				"You wake the following morning with a start.",
-				"This mystery is consuming you. Knowing that things are best solved while the mind is idling, a break is in order.",
-				"Time to rustle up a distraction! You have the day off, after all.",
+				"A dream...? You were holding cotton candy but then it turned to dirt and a flower grew out of it. It rains 0s and 1s, washing the flower into a drain.",
+				"Yeesh!! This mystery is consuming you. Knowing that things are best solved while the mind is idling, a break is in order.",
+				"Time to rustle up a distraction. You have the day off, after all.",
 				"Well, every day is off these days. Freedom! But at what cost?",
 				"Lack of income aside, you ponder who to ping for hanging out purposes."
 			],
@@ -714,7 +716,7 @@
 			"substeps": [
 				{
 					"id": 1,
-					"text": "In a sea of social media, Friendspace reigns supreme. They only sell your data to organic data farms."
+					"text": "In a sea of social media, Friendspace reigns supreme. They only sell your data to <i>organic</i> data farms."
 				}
 			],
 			"choices": [
@@ -751,7 +753,7 @@
 				"Ira pats your wing excitedly, \"These are mine. I really hope people like them... because I'm not sure I like them! Maybe that's normal for an arist though?\"",
 				"One particular painting catches your eye, a depiction of a raccoon working head-down behind a wall with a setup wired through the wall.",
 				"On the other side of the wall, a mech hooked into the wires appears to be sparked to life to the unwitting worker.",
-				"Ira catches you staring and says, \"Oh yeah. I thought you'd be into this one, with what you've been through. What do you feel?\""
+				"Ira catches you staring and says, \"Oh yeah. I thought you'd be into this one, with what you've been through. Hopefully it's kinda therapeutic. What do you feel?\""
 			],
 			"substeps": [
 				{
@@ -761,7 +763,7 @@
 			],
 			"choices": [
 				{
-					"text": "Feels oppresive",
+					"text": "Feels sad",
 					"nextStepId": 36,
 					"addInventoryItems": []
 				},
@@ -774,17 +776,20 @@
 		},
 		{
 			"id": 35,
-			"description": "the memories dont stop",
+			"description": "more memories",
 			"content": [
-				"You make yourself a strong cup of tea and blankly gaze out of your nest, over the gray horizon.",
-				"Until that one day.",
-				"The day... a kid you went to grade school with decided to try and hotwire one of those mechs.",
+				"You make yourself a cup of sleepy time tea and gaze out of your nest at an indeterminate point on the gray horizon.",
+				"Yes. Until that one day.",
+				"The day a kid you went to grade school with decided to try and hotwire one of those mechs.",
 				"You still remember sitting next to her in 'Ethical AI' class. Everyone called her by her web handle, Fl4ppyh4x, or just Fl4ppy for short.",
-				"You still remember when she got knocked down in gym class while playing sharks & minnows, and her mom picking her up to go get stitches. The whole class climbed the junglegym to wave a supportive goodbye as her mom's minivan pulled away.",
-				"She was too young. Too curious. Had too much success hacking into rent-a-scooters and reselling them online.",
+				"You still remember that time in elementary she got knocked down in gym class while playing sharks & minnows. Her mom picked her up to go get stitches. The whole class climbed the junglegym to wave a supportive goodbye as her mom's minivan pulled away.",
+				"She was young and curious. Had too much success hacking into rent-a-scooters and reselling them online. It must have gotten boring after a while, she need a new challenge.",
+				"What she didn't need was another trip to the hospital. This time for more than just stitches.",
 				"You shudder unexpectedly.",
 				"Maybe you should stop this information chase before it gets too dangerous.",
-				"No no no. No sir. You promised yourself only convenient truths after it was already too much.",
+				"No no no. No sir. You promised yourself convenient truths after it was already too much.",
+				"After you had realized too late what you contributed to the Grand Scheme of Things.",
+				"Oy vey. The tea is gone and the sleepy time is now.",
 				"The rest of these memories will come in time. You have to solve this for her. And for you.",
 				"You hunker down and hope to dream of a cotton candy nest."
 			],
