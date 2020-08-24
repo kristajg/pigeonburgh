@@ -5,7 +5,7 @@ import styled, { createGlobalStyle } from 'styled-components';
 import VT323 from './assets/fonts/VT323.ttf';
 
 // Images
-import buttonImage from './assets/images/buttonImage.png';
+import buttonImage from './assets/images/buttonv2.png';
 
 export const GlobalStyle = createGlobalStyle`
   body {
@@ -45,11 +45,11 @@ export const Pigeongraph = styled.p`
 `;
 
 export const ChoiceButton = styled.div`
-	display: ${props => (props.hide ? 'none' : '')};
+	display: ${(props) => (props.hide ? 'none' : '')};
 	cursor: pointer;
 	background-image: url(${buttonImage});
 	background-repeat: no-repeat;
-	width: 100%;
+	width: 340px;
 	height: 100px;
 	margin-bottom: 20px;
 `;
@@ -63,7 +63,7 @@ export const ButtonText = styled.p`
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	color: #fdfcfa;
-	font-size: ${props => (props.textLength > 40 ? '20px' : '22px')};
+	font-size: ${(props) => (props.textLength > 40 ? '20px' : '22px')};
 `;
 
 export const Option = styled.span`
