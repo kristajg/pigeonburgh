@@ -6,9 +6,16 @@ import PropTypes from 'prop-types';
 import Choices from './Choices';
 
 // Styles
-import { Pigeongraph } from '../styles';
+import { Pigeongraph, ParagraphContainer, Chevron } from '../styles';
+
+// Images
+import chevron from '../assets/images/chevron.png';
 
 class Step extends Component {
+	state = {
+		currentParagraph: 0,
+	};
+
 	componentDidMount() {
 		this.updateSubsteps();
 	}
@@ -27,11 +34,19 @@ class Step extends Component {
 		}
 	};
 
-	renderParagraphs = () => {
+	renderParagraph = (chevronClicked = false) => {
+		const { currentParagraph } = this.state;
+		if (chevronClicked) {
+			this.setState((prevState) => {
+				return { currentParagraph: prevState.currentParagraph + 1 };
+			});
+		}
 		const { content } = this.props;
-		return content.map((paragraph, i) => (
-			<Pigeongraph key={`paragraph-${i}`} dangerouslySetInnerHTML={{ __html: paragraph }} />
-		));
+		let totalParagraphs = [];
+		for (let i = 0; i <= currentParagraph; i++) {
+			totalParagraphs.push(<Pigeongraph key={`paragraph-${i}`} dangerouslySetInnerHTML={{ __html: content[i] }} />);
+		}
+		return totalParagraphs;
 	};
 
 	renderChoices = () => {
@@ -41,10 +56,21 @@ class Step extends Component {
 		}
 	};
 
+	renderChevron = () => {
+		const { currentParagraph } = this.state;
+		const { content } = this.props;
+		if (content.length - 1 > currentParagraph) {
+			return <Chevron src={chevron} alt="Chevron" onClick={() => this.renderParagraph(true)} />;
+		}
+	};
+
 	render() {
 		return (
 			<div>
-				{this.renderParagraphs()}
+				<ParagraphContainer>
+					{this.renderParagraph()}
+					{this.renderChevron()}
+				</ParagraphContainer>
 				{this.renderChoices()}
 			</div>
 		);

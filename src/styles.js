@@ -1,11 +1,21 @@
 // Third party libs
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle, keyframes } from 'styled-components';
 
 // Fonts
 import VT323 from './assets/fonts/VT323.ttf';
 
 // Images
 import buttonImage from './assets/images/buttonv2.png';
+
+export const bounce = keyframes`
+	0%, 50%, 70%, 90% {transform: translateY(0);} 
+	60% {
+		transform: translateY(5px);
+	}
+	80% {
+		transform: translateY(-5);
+	}
+`;
 
 export const GlobalStyle = createGlobalStyle`
   body {
@@ -44,6 +54,11 @@ export const Pigeongraph = styled.p`
 	}
 `;
 
+export const ParagraphContainer = styled.div`
+	height: 450px;
+	overflow-x: hidden;
+`;
+
 export const ChoiceButton = styled.div`
 	display: ${(props) => (props.hide ? 'none' : '')};
 	cursor: pointer;
@@ -73,6 +88,16 @@ export const Option = styled.span`
 	&:hover {
 		color: #b80059;
 	}
+`;
+
+export const Chevron = styled.img`
+	position: relative;
+	bottom: 0;
+	left: 90%;
+	height: 20px;
+	width: auto;
+	animation: ${bounce} 3.5s ease infinite;
+	animation-delay: 4s;
 `;
 
 export const modalStyles = {

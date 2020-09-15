@@ -27,9 +27,9 @@ class Pigeonburgh2 extends Component {
 		inventory: [], // user's current inventory - gets populated as story progresses via info from step choice
 	};
 
-	changeStep = step => this.setState({ step, currentSubstep: 0 });
+	changeStep = (step) => this.setState({ step, currentSubstep: 0 });
 
-	changeSubstep = currentSubstep => {
+	changeSubstep = (currentSubstep) => {
 		this.setState({ currentSubstep, substepModalOpen: true });
 	};
 
@@ -53,7 +53,7 @@ class Pigeonburgh2 extends Component {
 
 	renderContent = () => {
 		const { step, currentSubstep, steps, viewingInventory } = this.state;
-		const { content, substeps, choices } = steps.find(data => data.id === step);
+		const { content, substeps, choices } = steps.find((data) => data.id === step);
 		if (viewingInventory) {
 			return <Inventory inventory={this.state.inventory} toggleInventory={this.toggleInventory} />;
 		}
@@ -71,8 +71,8 @@ class Pigeonburgh2 extends Component {
 
 	render() {
 		const { step, steps, currentSubstep, substepModalOpen } = this.state;
-		const { substeps } = steps.find(data => data.id === step);
-		const foundSubstep = substeps.find(obj => obj.id === currentSubstep);
+		const { substeps } = steps.find((data) => data.id === step);
+		const foundSubstep = substeps.find((obj) => obj.id === currentSubstep);
 		const substepText = foundSubstep ? foundSubstep.text : '';
 		return (
 			<div>
