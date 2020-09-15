@@ -27,7 +27,6 @@
 		"husky": "^4.2.5",
 		"prettier": "^2.0.5",
 		"pretty-quick": "^2.0.1",
-		"react-scroll": "^1.8.1",
 		"styled-components": "^5.1.1"
 	},
 	"scripts": {

@@ -1,7 +1,6 @@
 // React & third party libaries
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-// import { animateScroll as scroll } from 'react-scroll';
 
 // Components
 import Choices from './Choices';
