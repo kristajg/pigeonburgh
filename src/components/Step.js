@@ -14,9 +14,6 @@ import chevron from '../assets/images/chevron.png';
 class Step extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			currentParagraph: 0,
-		};
 		this.messagesEndRef = React.createRef();
 	}
 
@@ -44,11 +41,9 @@ class Step extends Component {
 	};
 
 	renderParagraph = (chevronClicked = false) => {
-		const { currentParagraph } = this.state;
+		const { currentParagraph, updateCurrentParagraph } = this.props;
 		if (chevronClicked) {
-			this.setState((prevState) => {
-				return { currentParagraph: prevState.currentParagraph + 1 };
-			});
+			updateCurrentParagraph();
 		}
 		const { content } = this.props;
 		let totalParagraphs = [];
@@ -66,8 +61,7 @@ class Step extends Component {
 	};
 
 	renderChevron = () => {
-		const { currentParagraph } = this.state;
-		const { content } = this.props;
+		const { content, currentParagraph } = this.props;
 		if (content.length - 1 > currentParagraph) {
 			return <Chevron src={chevron} alt="Chevron" onClick={() => this.renderParagraph(true)} />;
 		}
@@ -93,11 +87,13 @@ class Step extends Component {
 
 Step.propTypes = {
 	content: PropTypes.array.isRequired,
+	currentParagraph: PropTypes.number.isRequired,
 	currentSubstep: PropTypes.number.isRequired,
 	substeps: PropTypes.array.isRequired,
 	choices: PropTypes.array.isRequired,
 	changeStep: PropTypes.func.isRequired,
 	changeSubstep: PropTypes.func.isRequired,
+	updateCurrentParagraph: PropTypes.func.isRequired,
 };
 
 export default Step;

@@ -19,6 +19,7 @@ Modal.setAppElement('#root');
 class Pigeonburgh2 extends Component {
 	state = {
 		step: 1,
+		currentParagraph: 0,
 		currentSubstep: 0, // substep 0 is technically "no substep". Ground 0.
 		substepModalOpen: false,
 		viewingInventory: false,
@@ -27,10 +28,16 @@ class Pigeonburgh2 extends Component {
 		inventory: [], // user's current inventory - gets populated as story progresses via info from step choice
 	};
 
-	changeStep = (step) => this.setState({ step, currentSubstep: 0 });
+	changeStep = (step) => this.setState({ step, currentSubstep: 0, currentParagraph: 0 });
 
 	changeSubstep = (currentSubstep) => {
 		this.setState({ currentSubstep, substepModalOpen: true });
+	};
+
+	updateCurrentParagraph = () => {
+		this.setState((prevState) => {
+			return { currentParagraph: prevState.currentParagraph + 1 };
+		});
 	};
 
 	closeSubstepModal = () => {
@@ -52,7 +59,7 @@ class Pigeonburgh2 extends Component {
 	};
 
 	renderContent = () => {
-		const { step, currentSubstep, steps, viewingInventory } = this.state;
+		const { step, currentParagraph, currentSubstep, steps, viewingInventory } = this.state;
 		const { content, substeps, choices } = steps.find((data) => data.id === step);
 		if (viewingInventory) {
 			return <Inventory inventory={this.state.inventory} toggleInventory={this.toggleInventory} />;
@@ -64,7 +71,9 @@ class Pigeonburgh2 extends Component {
 				choices={choices}
 				changeStep={this.changeStep}
 				changeSubstep={this.changeSubstep}
+				currentParagraph={currentParagraph}
 				currentSubstep={currentSubstep}
+				updateCurrentParagraph={this.updateCurrentParagraph}
 			/>
 		);
 	};
