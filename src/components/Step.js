@@ -1,6 +1,7 @@
 // React & third party libaries
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+// import { animateScroll as scroll } from 'react-scroll';
 
 // Components
 import Choices from './Choices';
@@ -12,9 +13,13 @@ import { Pigeongraph, ParagraphContainer, Chevron } from '../styles';
 import chevron from '../assets/images/chevron.png';
 
 class Step extends Component {
-	state = {
-		currentParagraph: 0,
-	};
+	constructor(props) {
+		super(props);
+		this.state = {
+			currentParagraph: 0,
+		};
+		this.messagesEndRef = React.createRef();
+	}
 
 	componentDidMount() {
 		this.updateSubsteps();
@@ -22,7 +27,12 @@ class Step extends Component {
 
 	componentDidUpdate() {
 		this.updateSubsteps();
+		this.scrollToBottom();
 	}
+
+	scrollToBottom = () => {
+		this.messagesEndRef.scrollIntoView({ behavior: 'smooth' });
+	};
 
 	updateSubsteps = () => {
 		const { substeps } = this.props;
@@ -67,9 +77,14 @@ class Step extends Component {
 	render() {
 		return (
 			<div>
-				<ParagraphContainer>
+				<ParagraphContainer id="paragraph-container">
 					{this.renderParagraph()}
 					{this.renderChevron()}
+					<div
+						style={{ float: 'left', clear: 'both' }}
+						ref={(el) => {
+							this.messagesEndRef = el;
+						}}></div>
 				</ParagraphContainer>
 				{this.renderChoices()}
 			</div>
