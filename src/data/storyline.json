@@ -935,14 +935,41 @@
 		{
 			"id": 40,
 			"description": "It's your fault",
-			"content": ["TODO"],
+			"content": [
+				"You decide it's all your fault after all.",
+				"You built the security program intended for citizen abuse. Fl4ppyH4x would still be happily hacking away, debilitating injury free, if you didn't build that code so securely, so efficiently.",
+				"So much for ethical AI.",
+				"It's a good thing Fl4ppyH4x was brave enough to take down every robot deathtrap, Mechaglory, and ServerFarm.",
+				"Should you thank her somehow? Is it too shameful to reach out?"
+			],
 			"substeps": [],
-			"choices": []
+			"choices": [
+				{
+					"text": "",
+					"nextStepId": 42,
+					"addInventoryItems": []
+				}
+			]
 		},
 		{
-			"id": 40,
+			"id": 41,
 			"description": "It's NOT your fault",
-			"content": ["TODO"],
+			"content": [
+				"No. It's not your fault, at least not completely.",
+				"The project's intentions were purposefully obfuscated. You didn't know it could go as far as citizen injury...you thought just detainment.",
+				"And how could you test that in production?",
+				"You played a role in Fl4ppyH4x getting seriously injured, yes. But if you didn't build it, some other developer would have gotten the tasks and been just as blindsided.",
+				"She would have found a way into those mechs somehow.",
+				"She still would've brought every single machine (and Mechaglory) to it's knees.",
+				"That code should have never been unleashed onto citizens. The people in charge are not just orchestrators of injury, but monsters.",
+				"What good is beating yourself up for this over and over?",
+				"Maybe you can make it better.",
+				"Take responsibility.",
+				"Somehow, even though all the mechs are down.",
+				"Even if it's small.",
+				"Maybe you can reach out for help.",
+				"And be more than an adorable raccoon with grabby hands trying to get a flower all by himeself."
+			],
 			"substeps": [],
 			"choices": []
 		}
