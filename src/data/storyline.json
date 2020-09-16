@@ -9,7 +9,7 @@
 				"Yaaaaaaawn. What a beautiful day in the neighborhood.",
 				"The rising sun shines a few lucky rays through the thick clouds that cover the valley like the top of a sports dome.",
 				"The surrounding murky rivers and steely gray-blue city buildings shift into focus.",
-				"The morning light reveals a treasure on the ground.",
+				"The morning light reveals a crispy treasure on the ground.",
 				"A corn chip rests conveniently by your feetsies..."
 			],
 			"substeps": [
@@ -60,7 +60,7 @@
 			"substeps": [
 				{
 					"id": 1,
-					"text": "SIIIIIIIP. The lukewarm bev flows through you. It's your perfect ratio of coffee to cream . Now you are ready for action."
+					"text": "SIIIIIIIP. The lukewarm bev flows through you. It's your perfect ratio of coffee to cream. Now you are ready for action."
 				}
 			],
 			"choices": [
@@ -271,7 +271,7 @@
 				},
 				{
 					"id": 2,
-					"text": "An award-winning firm that designs for local upscale restaurants. Her coworkers are cheese mongers on the side, and love to pair the fartiest cheeses with the craftiest of craft brews."
+					"text": "An award-winning firm that designs for upscale restaurants. Her coworkers are cheese mongers on the side, and love to pair the fartiest cheeses with the craftiest of craft brews. Ugh."
 				}
 			],
 			"choices": [
@@ -454,7 +454,7 @@
 			"content": [
 				"The Rum Warehouse is a blue cinder block building by a bridge and train tracks.",
 				"You fly in random circles until you see it and swoop in, tucking your wings close to your bod while making dramatic divebomb sound effects.",
-				"You land dramatically and hope no passersby heard your embarassing beak-sounds, then do a dainty pirouette to face the building.",
+				"You land theatrically and hope no passersby heard your embarassing beak-sounds, then do a dainty pirouette to face the building.",
 				"You remember reading a local news article about this place.",
 				"Apparently, the warehouse owner is also the lead distiller. A <span class=\"substep\" data-substep=\"1\">no-nonsense type</span> with a steely gaze and quiet disposition.",
 				"Word around town is he walked out on a cushy corporate job after a particularly soul-sucking meeting, and never looked back."
@@ -599,7 +599,7 @@
 				"\"So uhh.. did the owner used to plink around on computer keys for a living?\" you ask with the subterfuge of a penguin in the rainforest.",
 				"The bartender side-eyes you. \"Sure did. Who's askin'?\"",
 				"You avoid his scary gaze and notice the same image from the paper carved into the wooden bartop. It has an anarchy symbol scratched over top.",
-				"\"...A fellow anarchist, that's who,\" you nod towards the carving. \"And can I have one of those fruity coconut-pineapple drinks?\"",
+				"\"...A fellow hardcore anarchist, that's who,\" you nod towards the carving. \"And can I have one of those fruity coconut-pineapple drinks? Yes with the fun umbrella.\"",
 				"\"You mean a Painkiller?\" The bartender guffaws. \"Right, the owner Charlie is rather anti-authority. I'm libertarian myself. But he hates his old company so much he did that when we opened this place.\"",
 				"Ehh? Just a company logo? Is this all some elaborate commercial?",
 				"The barkeep polishes a glass pensively and remarks, \"Yeah, he quit around the time of peak mech output. The MBOT-3000 had just been released. He was their top engineer and couldn't take anymore corporate crap. You know how it goes.\"",
@@ -653,18 +653,18 @@
 				"You really wish you could have a candy corn or something a little stronger right about now.",
 				"That company logo. Plastered everywhere in town.",
 				"Their mechs weren't always rusted out highway trash.",
-				"You remember how popular the mechs were: a unit on every block 'keeping the peace.'",
+				"You remember how popular they were: a unit on every block 'keeping the peace.'",
 				"...peace for whom was the question.",
 				"Everyone cursed about the \"robots takin over!\" for a while. Initially they were an annoying bucket of cogs that doled out tickets and broke up drunken street fights.",
 				"On the other hand, they were helpful: routinely delivering groceries and online purchases.",
 				"There was a HUGE discount on delivery sign up on Saint Patricks Day. Everyone kept running out of shamrock themed beverages all too quickly in their merriment.",
-				"Mech account sign ups soared. Jobs as mechanics, programmers, and maintenance workers came to town. Robots became a fixture.",
-				"Life was good, although it felt conflicting at times...a policing delivery bot.",
+				"Mech customer accounts soared. Jobs as mechanics, programmers, and maintenance workers came to town. Robots became a fixture.",
+				"Life was good, although it felt conflicting at times...a policing delivery bot. What COULDN'T it do?",
 				"If a mech was at the door, were they bringing your pepperoni-jalepeno pizza or a ticket for a traffic infraction captured earlier that day on camera?",
 				"People still talked. But much quieter.",
 				"\"Is this the cost of convenience?\" they whispered.",
-				"Your trepidation rises as your mind races.",
-				"Well that cost was certainly too high for one person. On that day in late fall.",
+				"Your trepidation rises.",
+				"Well that cost was certainly too high for one person. On that day in November.",
 				"It's getting late..."
 			],
 			"substeps": [],
@@ -690,13 +690,8 @@
 			"substeps": [],
 			"choices": [
 				{
-					"text": "Ira, that sassy she-devil",
+					"text": "Hop on Friendspace.com",
 					"nextStepId": 32,
-					"addInventoryItems": []
-				},
-				{
-					"text": "Carl, the warm-hearted crust punk",
-					"nextStepId": 33,
 					"addInventoryItems": []
 				}
 			]
@@ -710,7 +705,7 @@
 		},
 		{
 			"id": 32,
-			"description": "Ira, that sassy she-devil",
+			"description": "Hop on Friendspace.com",
 			"content": [
 				"You ping Ira on <span class=\"substep\" data-substep=\"1\">Friendspace</span> and she pongs back.",
 				"She asks you if you'd like to come with her to a local art show featuring her paintings.",
@@ -729,7 +724,7 @@
 			],
 			"choices": [
 				{
-					"text": "Sashay inside for a schmoozey art experience",
+					"text": "Sashay inside to schmooze",
 					"nextStepId": 34,
 					"addInventoryItems": []
 				}
@@ -755,19 +750,20 @@
 				"The attendees are dressed in their best <span class=\"substep\" data-substep=\"1\">blasé-chic</span>, and a table full of cheeses and crackerses is laid bountifully.",
 				"You relax into the rolling crowd sounds of opinions galore.",
 				"Ira takes your wing and leads you (away from the snacks) towards a specific wall of art.",
-				"You vow to return to the snacks, as you turn your head towards the display.",
+				"You vow to return to the hors d'oeuvres, as you turn your head towards the display.",
 				"A series of oil paintings, depicting all sorts of beings in computer monitors, mainframes, and input devices.",
 				"They all seem to be struggling, into the sharp contrast of otherwise unmarred nature background the paintings are set in.",
 				"Ira pats you excitedly, \"These are mine. I really hope people like them... because I'm not sure I like them! Maybe that's normal for an arist?\"",
 				"One catches your eye, a depiction of a raccoon reaching it's adorable little paw through a hole in a brick wall.",
 				"On the other side of the wall, he picks a beautiful flower.",
 				"The flower looks far too large for him to pull it back through the hole. At least without all the petals and leaves getting scraped off in the process.",
+				"Flowers, huh. Just like your dream.",
 				"Ira catches you staring and says, \"Oh yeah. I thought you'd be into this one, with what you've been through. Hopefully it's kinda therapeutic. What do you feel?\""
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "Felt hats, linen overalls, skinny denim, and deep-V-neck tees that reveal tattoos of bees and zodiac signs. You feel quaint in your flannel n cuffed pantlegs."
+					"text": "Felt hats with signature feathers, linen overalls, skinny denim, and deep-V-neck tees that reveal tattoos of bees and zodiac signs. You feel like a quaint lumberjack in your flannel n cuffed pantlegs."
 				}
 			],
 			"choices": [
@@ -792,7 +788,7 @@
 				"The day a kid you went to grade school with decided to try and hotwire one of those mechs.",
 				"You still remember sitting next to her in 'Ethical AI' class. Everyone called her by her web handle, Fl4ppyh4x, or just Fl4ppy for short.",
 				"You still remember that time in elementary she got knocked down in gym class while playing tag. Her mom picked her up to get stitches. The whole class climbed the junglegym to wave as her mom's minivan pulled away.",
-				"She was young and curious. Had too much success hacking into rent-a-scooters and reselling them online. It must have gotten boring, as she needed a new challenge.",
+				"She was young and curious. Had too much success hacking into rent-a-scooters and reselling them online. It must have gotten boring. She needed a new challenge.",
 				"What she didn't need was another trip to the hospital. This time for more than just stitches.",
 				"You shudder.",
 				"Maybe you should stop this information chase before it gets too dangerous.",
@@ -815,10 +811,11 @@
 			"id": 36,
 			"description": "Feels pointless",
 			"content": [
-				"You say \"It feels pointless. He can never see the flower, at least without ruining it.",
+				"You say \"It feels pointless. He can never see the flower, at least without ruining it.\"",
 				"Ira considers this for a moment.",
-				"She says, \"Maybe. But it also doesn't look like he's asking anyone for help. I bet someone would pass the flower to him if he asked. It would certainly fit through sideways.\"",
-				"You're taken aback. Then you notice there are other <span class=\"substep\" data-substep=\"1\">creatures</span> hidden in the frame outside the wall. Nearly hidden by the environment."
+				"She says, \"Maybe. But it also doesn't look like he's asking anyone for help. I bet someone would pass it to him if he asked. It would certainly fit through sideways.\"",
+				"You're taken aback. Clever girl.",
+				"Then you notice there are other <span class=\"substep\" data-substep=\"1\">creatures</span> hidden in the frame outside the wall. Nearly hidden by the environment."
 			],
 			"substeps": [
 				{
@@ -837,14 +834,115 @@
 		{
 			"id": 37,
 			"description": "At least he's trying",
-			"content": ["TODO: at least he's trying"],
-			"substeps": [],
-			"choices": []
+			"content": [
+				"As a bird who occasionally looks on the bright side of things, you say, \"He can't get the flower intact.. but at least he's trying?\"",
+				"Ira gives you a sideways glance.",
+				"\"Yes. He certainly is. But will he succeed alone?\"",
+				"Hmm ok. So obviously the answer is: no.",
+				"Don't you live <span class=\"substep\" data-substep=\"1\">alone</span>? Haven't you worked on everything in a vacuum space?",
+				"And where has that gotten you.",
+				"Upon closer inspection there are creatures on the other side of the wall. Blending into the background. Blissfully unaware of the raccoon struggle to obtain some beautious organic matter.",
+				"Ira smiles. \"Maybe they'd pass the flower through sideways to him. If he asked. Instead of just trying by himself.\""
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "Sure, it's nice to have a crib to yourself. You get to pick the shows and watch weird anime without anyone judging you. But without the tv on... it gets too quiet."
+				}
+			],
+			"choices": [
+				{
+					"text": "What else aren't you noticing?",
+					"nextStepId": 38,
+					"addInventoryItems": []
+				}
+			]
 		},
 		{
 			"id": 38,
 			"description": "What else aren't you noticing?",
-			"content": ["TODO: What else aren't you noticing?"],
+			"content": [
+				"Here you are, FEELING something while looking at art.",
+				"It's a bit overwhelming. Maybe you should eat some crackers to calm down.",
+				"Ira is engaged with other connoisseurs so you slip away to the refreshment table.",
+				"While pecking at some high-end triscuits, you spot a familiar face.",
+				"\"Carl!\" you exclaim, <span class=\"substep\" data-substep=\"1\">crumbs flying everywhere</span>.",
+				"Carl plays it cool and pretends not to notice your crumb explosion, but comes over. \"Sup, man? Whatchu been up to.\"",
+				"You share idle small talk then remember you ought to ask him about that paper.",
+				"\"So remember when we bombed down that hill big wheelie style... where did you find that paper you gave me anyways? What a weirdo prize.\"",
+				"Carl laughs. \"I don't know! It was the only thing in my pocket besides a matchbook and lovely portrait of my <span class=\"substep\" data-substep=\"2\">mother</span>.\"",
+				"He thinks for a minute. \"I was hanging around some abandoned office. There was a sign that said some lame company platitude like \"Hack til you're wack.\"",
+				"Shyly, he goes on, \"Gotta tag as much as I can and buildings are easier than climbing bridges to spray paint.\"",
+				"Awww. A cat who's afraid of heights? Darling sensitive Carl.",
+				"You internally and externally gulp. You know that sign. Looked at every day for years."
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "Smooth move, Ex-Lax. Way to spray triscuits everywhere. How many brand names are coming up lately??"
+				},
+				{
+					"id": 2,
+					"text": "Yeah, it would be much weirder to get a picture of his mom. Her names probably Deborah. She probably bakes a mean apple cobbler."
+				}
+			],
+			"choices": [
+				{
+					"text": "High five Carl, say goodbye to Ira, grab some road crackers, and split",
+					"nextStepId": 39,
+					"addInventoryItems": []
+				}
+			]
+		},
+		{
+			"id": 39,
+			"description": "High five Carl, say goodbye to Ira, grab some road crackers, and split",
+			"content": [
+				"Home again. You feel a bit anxious and pace around your nest.",
+				"That \"Hack til you're wack\" sign was a <span class=\"substep\" data-substep=\"1\">value-projection</span> centerpiece of your old tech agency, ServerFarm.",
+				"Yeah, you used to be a regular old <span class=\"substep\" data-substep=\"2\">working bird</span>.",
+				"So this paper had to come from there. The ink stamp on the bottom is from the Mech company.",
+				"Mechaglory.",
+				"You start to remember the outsourced project you did for Mechaglory. You didn't think much of it, just another series of widgets to code.",
+				"The execs of ServerFarm were so happy. Finally! A huge contract with Mechaglory! It didn't matter much to you though, your pay stayed the same.",
+				"How were you supposed to know it was a blueprint for upgraded Mech security? A much...heavier hitting upgrade.",
+				"How were you supposed to know this installation would knock Fl4ppyH4x into the next dimension?",
+				"You sit down, defeated."
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "Other company values included: Code like there's no tomorrow! Work fast and live dangerously! Don't hold hands with your coworkers!"
+				},
+				{
+					"id": 2,
+					"text": "Now you're sticking it to THE MAN. Who is the man? Why can't it be a woman?"
+				}
+			],
+			"choices": [
+				{
+					"text": "It's your fault",
+					"nextStepId": 40,
+					"addInventoryItems": []
+				},
+				{
+					"text": "It's NOT your fault",
+					"nextStepId": 41,
+					"addInventoryItems": []
+				}
+			]
+		},
+		{
+			"id": 40,
+			"description": "It's your fault",
+			"content": ["TODO"],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 40,
+			"description": "It's NOT your fault",
+			"content": ["TODO"],
 			"substeps": [],
 			"choices": []
 		}
