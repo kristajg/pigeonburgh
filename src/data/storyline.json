@@ -7,7 +7,7 @@
 			"content": [
 				"You are a <span class=\"substep\" data-substep=\"1\">pigeon</span> named Pip in your prime. How coo is that? You reckon it's pretty coo.",
 				"Yaaaaaaawn. What a beautiful day in the neighborhood.",
-				"The rising sun shines a few lucky rays through the thick clouds that cover the valley like the top of a sports dome.",
+				"The rising sun shines a few lucky rays through the thick clouds that cover the valley like the top of an indoor sports dome.",
 				"The surrounding murky rivers and steely gray-blue city buildings shift into focus.",
 				"The morning light reveals a crispy treasure on the ground.",
 				"A corn chip rests conveniently by your feetsies..."
@@ -42,7 +42,7 @@
 			"substeps": [],
 			"choices": [
 				{
-					"text": "Fly east",
+					"text": "Fly east with 10x energy",
 					"nextStepId": 4,
 					"addInventoryItems": []
 				}
@@ -52,7 +52,7 @@
 			"id": 3,
 			"description": "No chips!! Just coffee for breaky!!",
 			"content": [
-				"Too good for a carb-heavy breakfast, eh? Just a coffee-and-go kind of bird.",
+				"Too good for a carb heavy breakfast, eh? Just a coffee-and-go kind of bird.",
 				"You fly to the nearest cafe and take a <span class=\"substep\" data-substep=\"1\">BIG SIP</span> from a half-full mug left on a patio table.",
 				"Full on caffeinated, you fly like a bird out of hell in several circles because you feel ALIVE",
 				"Let's put this perpetual birdmotion machine to work!"
@@ -77,9 +77,9 @@
 			"content": [
 				"You fly in an eastern fashion towards the river bank.",
 				"A group of cat <span class=\"substep\" data-substep=\"1\">crust punks</span> sit atop a big chunk of cement under a bridge, smoking cigarettes.",
-				"They're smoking 100s, and waxing poetic on grindcore and anarchy.",
+				"You overhear them waxing poetic on grindcore and anarchy. You don't know much about heavy metal subgenres or anti-authority and inch closer.",
 				"One cat steps forward. He noticed you casting a blank un-hip stare at his local band tee and CHALLENGES you to a skate off!",
-				"To skate or not to skate...that is literally the question."
+				"To skate or not to skate...that is literally the question he asks you."
 			],
 			"substeps": [
 				{
@@ -106,7 +106,7 @@
 			"content": [
 				"The cat sneers as he grooms his ear and flicks the end of a cigarette at you, but graciously allows you to pick your method of shreddin'.",
 				"...everything cats do is adorable no matter how hardcore they try to be.",
-				"Looking into his arsenal reveals three choices of handlebar-less transportation:"
+				"His sk8ter boy arsenal reveals three choices of handlebar-less transportation:"
 			],
 			"substeps": [],
 			"choices": [
@@ -133,7 +133,7 @@
 			"content": [
 				"You befriend the cat and learn his name is Carl.",
 				"You learn Carl enjoys painting water colors of 1980's action film scenes. After a pleasant conversation involving comparisons of your best <span class=\"substep\" data-substep=\"1\">Terminator impressions</span>, you bid farewell to your new friend.",
-				"Before you leave, Carl slips you a piece of paper with some faded binary code on it, featuring a weird ink stamp at the bottom.",
+				"Before you leave, Carl slips you a piece of paper with some faded binary code on it, featuring a weird ink stamp at the bottom. with a strange ink stamp at the bottom. The stamp looks like a company logo with the stylized letters: MG.",
 				"He says, \"Pip, you're a true Maverick. I'm sure we'll see each other again soon.\"",
 				"He seems like a sensitive soul.",
 				"You say \"Thanks... Goose,\" and accept the slip paper since it would be rude not to."
@@ -158,11 +158,18 @@
 			"content": [
 				"Ah, yes. The traditional skateboard.",
 				"You'd wear a Thrasher t-shirt, but they don't come in tiny bird sizes.",
-				"You skate with the valience of ten thousand Greek chariots and so does the crust punk, but ultimately you best him.",
+				"You skate with the valience of ten thousand Greek <span class=\"substep\" data-substep=\"1\">war chariots</span> and so does the crust punk, but ultimately you best him.",
 				"You do a kickflip to rub victory in his face, and he sadly offers you a slip of paper as a reward.",
-				"The paper has a cryptic series of binary code on it, with a strange ink stamp. Cryptic, but not encrypted... huh."
+				"The cat says, \"Hey man, you won. My name is Carl and I respect your victory. Hope to see you around town.\"",
+				"That kickflip was sick, but unnecessary. Carl seems like a sensitive soul.",
+				"The paper has a cryptic series of binary code on it, with a strange ink stamp at the bottom. Looks like a company logo with the stylized letters: MG. Cryptic, but not encrypted... huh."
 			],
-			"substeps": [],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "Are Greek chariots used for anything other than vehicles of war or half-gods driving into the sun to set the earth on fire? General transportation perhaps?"
+				}
+			],
 			"choices": [
 				{
 					"text": "Fly home with your spoils",
@@ -178,7 +185,8 @@
 				"Like your father before you, you are a true Cali brah in your salty pigeon heart.",
 				"With the grace of a 120 year old sea turtle you carve slow S's down the hill. In that moment you swear you are infinite - since it certainly takes you long enough to complete the race.",
 				"The crust punk easily beats you speed wise, but is moved to tears by your beautious display. He slips you a non-slippery slip of paper as a reward.",
-				"He seems like a sensitive soul. You notice the paper is covered in strange binary code with a uniquely designed ink stamp..."
+				"He says, \"Hey man, you won. My name is Carl and I respect your victory. Hope to see you around town.\"",
+				"He seems like a sensitive soul. You notice the paper is covered in strange binary code with a uniquely designed ink stamp at the bottom with a strange ink stamp at the bottom. Looks like a company logo with the stylized letters: MG."
 			],
 			"substeps": [],
 			"choices": [
@@ -196,8 +204,8 @@
 				"With your tiny foot chariots, you blaze down the hill like hell and think to yourself: this feels like flying!",
 				"Cross-checking with your memories of actual flight, it is pretty similar.",
 				"It's a tie down to the milisecond. You're not sure why this crust punk went through all the trouble of setting up professional-level tech for a street match but you feel cool as a participant.",
-				"He hands you a slip of paper and says Excellent match, you've earned this. Brink was a really underrated Disney made-for-tv movie. and seems to genuinely mean it. A sensitive soul he is.",
-				"The paper is covered in a mysterious series of binary code..."
+				"He hands you a slip of paper and says \"Excellent match, you've earned this. My name's Carl and I respect your carve. Brink was a really underrated Disney made-for-tv movie.\" and seems to genuinely mean it. A sensitive soul he is.",
+				"The paper is covered in a mysterious series of binary code with a strange ink stamp at the bottom. Looks like a company logo with the stylized letters: MG."
 			],
 			"substeps": [],
 			"choices": [
@@ -215,7 +223,9 @@
 				"You arrive home and sigh deeply.",
 				"You hop in your feather down bed and try to sleep, but that “take me home country roads” song is stuck in your head for no reason.",
 				"Musical stylings of John Denver aside, you play through the day's events in your mind and pause to consider that mysterious binary code.",
-				"...have you seen that stamp design somewhere before...?"
+				"A weird piece of paper is a weird prize.",
+				"And have you seen that stamp design somewhere before...?",
+				"That logo looks familiar and stirs up something in the recesses of your brain bank. The stylized logo featuring 'MG' get mixed around in your memory, like alphabet soup with only two letters."
 			],
 			"substeps": [],
 			"choices": [
@@ -235,7 +245,7 @@
 				"Or rather, you want someone to share in this chip fortune with you in a real relationship kind of way. You could made chip puns together.",
 				"Yeah.",
 				"That would be nice.",
-				"Your reverie is interrupted by thoughts of the mysterious binary code acquired yesterday. You figure there's a few places that may provide a bit more insight.."
+				"Your reverie is interrupted by thoughts of the mysterious paper acquired yesterday. You figure there's a few places that may provide a bit more insight.."
 			],
 			"substeps": [],
 			"choices": [
@@ -257,7 +267,7 @@
 			"description": "you picked cathedral of books & run into Ira there.",
 			"content": [
 				"As a bird with a hungry mind (and body), you live close to the Cathedral of Books.",
-				"You enter the tall tower of tutelage and head to a floor full of empty classrooms and books.",
+				"You enter the tall tower of tutelage and head to a floor full of empty classrooms.",
 				"You spot a possum friend named <span class=\"substep\" data-substep=\"1\">Ira</span> from art electives back at University, reading in a corner.",
 				"Her book is titled \"How to Get Your Life Together.\"",
 				"You walk over to say hello.",
@@ -271,7 +281,7 @@
 				},
 				{
 					"id": 2,
-					"text": "An award-winning firm that designs for upscale restaurants. Her coworkers are cheese mongers on the side, and love to pair the fartiest cheeses with the craftiest of craft brews. Ugh."
+					"text": "An award-winning firm that designs for upscale restaurants. Her hipster coworkers are cheese mongers on the side, and love to pair the fartiest cheeses with the craftiest of craft brews. Ugh."
 				}
 			],
 			"choices": [
@@ -456,13 +466,13 @@
 				"You fly in random circles until you see it and swoop in, tucking your wings close to your bod while making dramatic divebomb sound effects.",
 				"You land theatrically and hope no passersby heard your embarassing beak-sounds, then do a dainty pirouette to face the building.",
 				"You remember reading a local news article about this place.",
-				"Apparently, the warehouse owner is also the lead distiller. A <span class=\"substep\" data-substep=\"1\">no-nonsense type</span> with a steely gaze and quiet disposition.",
+				"Apparently, the warehouse owner is also the lead distiller. A <span class=\"substep\" data-substep=\"1\">private type</span> with a steely gaze and quiet disposition.",
 				"Word around town is he walked out on a cushy corporate job after a particularly soul-sucking meeting, and never looked back."
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "He thinks social media is a suck-up suckfest. Unsurprisngly, he doesn't prefer authority figures."
+					"text": "He thinks social media is a suck-up suckfest and keeps to himself. Unsurprisngly, he doesn't prefer authority figures."
 				}
 			],
 			"choices": [
@@ -530,9 +540,9 @@
 			"description": "Youve just entered the rum emporium",
 			"content": [
 				"As you enter the rum emporium, you take in your surroundings.",
-				"A no-frills bar, behind which sits two pot-bellied copper distilleries.",
-				"A local-art style <span class=\"substep\" data-substep=\"1\">sign</span> on the wall.",
-				"The owner himself, a surly gray dog in a plain white tee and gym shorts scratches behind his ear as he prepares a bucket full of soapy mop water.",
+				"A no-frills bar, behind which sits two rotund copper distilleries.",
+				"A local art style <span class=\"substep\" data-substep=\"1\">sign</span> on the wall.",
+				"The owner himself, a surly gray dog in a plain white tee and gym shorts scratches behind his ear as he prepares a bucket full of soapy mop water in the back.",
 				"You take a seat and wonder how you could possibly ask in a casual way about binary codes on slips of paper.",
 				"A lively bartender appears..."
 			],
@@ -599,6 +609,7 @@
 				"\"So uhh.. did the owner used to plink around on computer keys for a living?\" you ask with the subterfuge of a penguin in the rainforest.",
 				"The bartender side-eyes you. \"Sure did. Who's askin'?\"",
 				"You avoid his scary gaze and notice the same image from the paper carved into the wooden bartop. It has an anarchy symbol scratched over top.",
+				"After listening to the anti-authority crust punks you feel like you know a thing or two.",
 				"\"...A fellow hardcore anarchist, that's who,\" you nod towards the carving. \"And can I have one of those fruity coconut-pineapple drinks? Yes with the fun umbrella.\"",
 				"\"You mean a Painkiller?\" The bartender guffaws. \"Right, the owner Charlie is rather anti-authority. I'm libertarian myself. But he hates his old company so much he did that when we opened this place.\"",
 				"Ehh? Just a company logo? Is this all some elaborate commercial?",
@@ -684,7 +695,7 @@
 				"A dream...? You were holding cotton candy but then it turned to dirt and a flower grew out of it. It rains 0s and 1s, washing the flower into a drain.",
 				"Yeesh!! This mystery is consuming you. Knowing that things are best solved while the mind is idling, a break is in order.",
 				"Time to rustle up a distraction. You have the day off, after all.",
-				"Well, every day is off these days. Freedom! But at what cost?",
+				"Well, every day is off these days. Freedom!",
 				"Lack of income aside, you ponder who to ping for hanging out purposes."
 			],
 			"substeps": [],
@@ -792,7 +803,7 @@
 				"What she didn't need was another trip to the hospital. This time for more than just stitches.",
 				"You shudder.",
 				"Maybe you should stop this information chase before it gets too dangerous.",
-				"No no no. No sir. You promised yourself convenient truths after it was already too late.",
+				"No no no. No sir. You promised yourself convenient lies after it was already too late.",
 				"After you had realized too late what you contributed to the Grand Scheme of Things.",
 				"Oy vey. The tea is gone and the sleepy time is now.",
 				"You need to solve this for her. And for you.",
@@ -903,10 +914,11 @@
 				"Yeah, you used to be a regular old <span class=\"substep\" data-substep=\"2\">working bird</span>.",
 				"So this paper had to come from there. The ink stamp on the bottom is from the Mech company.",
 				"Mechaglory.",
-				"You start to remember the outsourced project you did for Mechaglory. You didn't think much of it, just another series of widgets to code.",
-				"The execs of ServerFarm were so happy. Finally! A huge contract with Mechaglory! It didn't matter much to you though, your pay stayed the same.",
-				"How were you supposed to know it was a blueprint for upgraded Mech security? A much...heavier hitting upgrade.",
-				"How were you supposed to know this installation would knock Fl4ppyH4x into the next dimension?",
+				"Yes. You remember the outsourced project you did for Mechaglory. Didn't think much of it, just another series of widgets to code.",
+				"The execs of ServerFarm were so happy. Finally! A huge contract with Mechaglory!",
+				"How were you supposed to know it was a blueprint for upgraded Mech security?",
+				"A heavier hitting upgrade.",
+				"How were you supposed to know the upgrade would knock Fl4ppyH4x into the next dimension?",
 				"You sit down, defeated."
 			],
 			"substeps": [
@@ -937,15 +949,28 @@
 			"description": "It's your fault",
 			"content": [
 				"You decide it's all your fault after all.",
-				"You built the security program intended for citizen abuse. Fl4ppyH4x would still be happily hacking away, debilitating injury free, if you didn't build that code so securely, so efficiently.",
+				"You built the security program without a second thought. Fl4ppyH4x would be just fine, if you didn't build that code so securely, so efficiently.",
 				"So much for ethical AI.",
-				"It's a good thing Fl4ppyH4x was brave enough to take down every robot deathtrap, Mechaglory, and ServerFarm.",
-				"Should you thank her somehow? Is it too shameful to reach out?"
+				"It's a good thing she was brave enough to take down every robot deathtrap, Mechaglory, and ServerFarm.",
+				"She reprogrammed every Mech to self-destruct then everything collapsed.",
+				"Investors in Mechaglory withdrew.",
+				"Jobs disappeared.",
+				"Pizzas weren't delivered.",
+				"But everyone sighed a unexpected breath of relief.",
+				"You could have brought the whole thing down with your own code, but too bad you were a corporate drone.",
+				"And Fl4ppyH4x would still be hawking rent-a-scooters online instead of on life support. But you? Sitting comfortably in your nest?",
+				"Avoiding the truth in exchange for convenient lies.",
+				"You're exhausted. The memories bear down on you like 100 <span class=\"substep\" data-substep=\"1\">bears</span>."
 			],
-			"substeps": [],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "Hibernation-ready bears all fattened up for their long winter snooze. They ALWAYS get extended work time off for this and miss the company holiday parties!"
+				}
+			],
 			"choices": [
 				{
-					"text": "",
+					"text": "comfy nest, uncomfy sleep",
 					"nextStepId": 42,
 					"addInventoryItems": []
 				}
@@ -955,21 +980,135 @@
 			"id": 41,
 			"description": "It's NOT your fault",
 			"content": [
-				"No. It's not your fault, at least not completely.",
-				"The project's intentions were purposefully obfuscated. You didn't know it could go as far as citizen injury...you thought just detainment.",
+				"No. It's not your fault - at least not completely.",
+				"The project's intentions were purposefully obfuscated by management (as usual). You didn't know the security measures would injure a citizen.",
 				"And how could you test that in production?",
-				"You played a role in Fl4ppyH4x getting seriously injured, yes. But if you didn't build it, some other developer would have gotten the tasks and been just as blindsided.",
-				"She would have found a way into those mechs somehow.",
+				"You played a role in Fl4ppyH4x getting hurt, yes. But if you didn't build it, some other developer would have gotten the tasks and been blindsided.",
+				"Fl4ppyH4x would have found a way into those mechs somehow to reprogram them to self destruct.",
 				"She still would've brought every single machine (and Mechaglory) to it's knees.",
-				"That code should have never been unleashed onto citizens. The people in charge are not just orchestrators of injury, but monsters.",
+				"It's a good thing she was brave enough to take down every robot deathtrap, Mechaglory, and ServerFarm.",
+				"She reprogrammed every Mech to self-destruct then everything collapsed.",
+				"But that code - YOUR code - should've never been unleashed onto citizens. The people in charge are not just orchestrators of smoke and mirrors, but monsters profiteering at the cost of citizens wellbeing.",
 				"What good is beating yourself up for this over and over?",
 				"Maybe you can make it better.",
-				"Take responsibility.",
 				"Somehow, even though all the mechs are down.",
 				"Even if it's small.",
 				"Maybe you can reach out for help.",
-				"And be more than an adorable raccoon with grabby hands trying to get a flower all by himeself."
+				"And be more than an adorable raccoon with grabby hands, trying to get a flower all by himself."
 			],
+			"substeps": [],
+			"choices": [
+				{
+					"text": "sleep with the intent to fix things",
+					"nextStepId": 43,
+					"addInventoryItems": []
+				}
+			]
+		},
+		{
+			"id": 42,
+			"description": "comfy nest, uncomfy sleep",
+			"content": [
+				"You wake up with a start. Your birdy stomach is in knots.",
+				"Is this hunger?? No. Is this opposite day?? No...",
+				"Corn chips don't look appealing and you feel a little shaky.",
+				"You remember the revelations of the previous night and the <span class=\"substep\" data-substep=\"1\">anti-hunger</span> intensifies.",
+				"What can you do to make it right? Maybe it's too late but you have to find out.",
+				"You don't know F4ppyH4x's whereabouts but it's time to face your old stomping grounds, ServerFarm.",
+				"You haven't been there since the day you walked out after hearing about the Mech hack and all the <span class=\"substep\" data-substep=\"2\">media fallout</span> placing the blame on Mechaglory.",
+				"Then ServerFarm became a GhostFarm due to the legal fees causing the company to go bankrupt.",
+				"Everyone vacated the premises and the building was abandoned faster than the <span class=\"substep\" data-substep=\"3\">worst fashion choices from the 90s</span>.",
+				"Maybe there are some archived data to snag a few clues from.",
+				"Maybe some archived office snacks once you get your appetite back. Expiration dates on food are more like suggestions anyways."
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "Some appetite stealing thief has stolen the joy of eating. O cruel fateful monster, please giveth back mine fervent desire to consume chips and dip."
+				},
+				{
+					"id": 2,
+					"text": "Who immediately deferred (some) of the blame to ServerFarm. Once the popular news outlet TechMunch.com got ahold of the story it exploded. The bomb blast of Big tech blame was large enough that the blame-shrapnel pierced your old company as well."
+				},
+				{
+					"id": 3,
+					"text": "Puka shell necklaces. Sweatsuits and Uuughs boots. Short sleeves over long sleeves. Your choice of bell bottom low rise or parachute jeans."
+				}
+			],
+			"choices": [
+				{
+					"text": "swoop on over to the SeverFarm graveyard",
+					"nextStepId": 44,
+					"addInventoryItems": []
+				}
+			]
+		},
+		{
+			"id": 43,
+			"description": "sleep with the intent to fix things",
+			"content": [
+				"You wake up and feel ready to <span class=\"substep\" data-substep=\"1\">take on the day</span>.",
+				"Reaching out for help to figure out how to make amends for your fateful mech code for security protocol seems like a good start.",
+				"You don't know F4ppyH4x's whereabouts but it's time to face your old stomping grounds.",
+				"Since ServerFarm employees vacated the premises and the building was abandoned faster than the <span class=\"substep\" data-substep=\"2\">worst fashion choices from the 90s</span>.",
+				"You know you should go to ServerFarm to find some clue in the archives, but bringing someone along might make the visit less eerie and intimidating.",
+				"Who should you ask?"
+			],
+			"substeps": [
+				{
+					"id": 1,
+					"text": "That 80s song Take on Me by a-ha gets stuck in your head as a result. You'd love to tell Ira about it. Talking to her seems to calm you down. You don't know what to say, but you'll say it anyways."
+				},
+				{
+					"id": 2,
+					"text": "Puka shell necklaces. Sweatsuits and Uuughs boots. Short sleeves over long sleeves. Your choice of bell bottom low rise or parachute jeans."
+				}
+			],
+			"choices": [
+				{
+					"text": "ask Carl, he seems to be familiar with the place",
+					"nextStepId": 45,
+					"addInventoryItems": []
+				},
+				{
+					"text": "Ira can read binary code, a useful asset for this mission",
+					"nextStepId": 46,
+					"addInventoryItems": []
+				}
+			]
+		},
+		{
+			"id": 44,
+			"description": "swoop on over to the SeverFarm graveyard",
+			"content": ["TODO"],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 45,
+			"description": "ask Carl, he seems to be familiar with the place",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 46,
+			"description": "Ira can read binary code, a useful asset for this mission",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 47,
+			"description": "",
+			"content": [],
+			"substeps": [],
+			"choices": []
+		},
+		{
+			"id": 48,
+			"description": "",
+			"content": [],
 			"substeps": [],
 			"choices": []
 		}
