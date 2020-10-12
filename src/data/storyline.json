@@ -20,12 +20,12 @@
 			],
 			"choices": [
 				{
-					"text": "Crunch the chip",
+					"text": "Classic corn chip for breakfast",
 					"nextStepId": 2,
 					"addInventoryItems": []
 				},
 				{
-					"text": "Skip the chip",
+					"text": "Coffee over corn chips",
 					"nextStepId": 3,
 					"addInventoryItems": []
 				}
@@ -33,7 +33,7 @@
 		},
 		{
 			"id": 2,
-			"description": "You ate your first corn chip.",
+			"description": "Classic corn chip for breakfast",
 			"content": [
 				"Delicious chip carbs fill your feather bod. Your energy goes up by 10. Hmmm... 10 what exactly?",
 				"You're not sure, but 10 feels like the right number unit.",
@@ -50,7 +50,7 @@
 		},
 		{
 			"id": 3,
-			"description": "No chips!! Just coffee for breaky!!",
+			"description": "Coffee over corn chips",
 			"content": [
 				"Too good for a carb heavy breakfast, eh? Just a coffee-and-go kind of bird.",
 				"You fly to the nearest cafe and take a <span class=\"substep\" data-substep=\"1\">BIG SIP</span> from a half-full mug left on a patio table.",
@@ -559,6 +559,7 @@
 					"addInventoryItems": []
 				},
 				{
+					"hide": true,
 					"text": "order a spicy bevvy & ask if they need someone to make them a website",
 					"nextStepId": 28,
 					"addInventoryItems": []
@@ -611,7 +612,7 @@
 				"You avoid his scary gaze and notice the same image from the paper carved into the wooden bartop. It has an anarchy symbol scratched over top.",
 				"After listening to the anti-authority crust punks you feel like you know a thing or two.",
 				"\"...A fellow hardcore anarchist, that's who,\" you nod towards the carving. \"And can I have one of those fruity coconut-pineapple drinks? Yes with the fun umbrella.\"",
-				"\"You mean a Painkiller?\" The bartender guffaws. \"Right, the owner Charlie is rather anti-authority. I'm libertarian myself. But he hates his old company so much he did that when we opened this place.\"",
+				"\"You mean a Painkiller?\" The bartender guffaws. \"Right, the owner Max is rather anti-authority. I'm libertarian myself. But he hates his old company so much he did that when we opened this place.\"",
 				"Ehh? Just a company logo? Is this all some elaborate commercial?",
 				"The barkeep polishes a glass pensively and remarks, \"Yeah, he quit around the time of peak mech output. The MBOT-3000 had just been released. He was their top engineer and couldn't take anymore corporate crap. You know how it goes.\"",
 				"Ah! All those broken down police mechs rusting out under bridges: covered in leaves, garbage, and talentless graffiti. Company logo slapped on the sides, still visible under all the grime.",
@@ -635,9 +636,9 @@
 				"You sip and hiccup a little flame. \"So, does this fine establishment need an online presence? I know a guy that can code - it's me. I'm the guy.\"",
 				"You puff out your chest to show how qualified you are.",
 				"The barkeep gives you a stern side-eye which makes a little smoke escape your beak in nervousness.",
-				"\"Eh, we're good on the website front. Charlie, the owner used to code back in the day and whipped us up a Screeact Site no problem.\"",
-				"He polishes a glass and ponders aloud, \"Hey Charlie, I never get any days off. Need an extra barkeep?\"",
-				"Charlie the owner grunts in approval as he mops the floor in back. \"Well, you gotta job slinging spicy drinks if you want it,\" the barkeep says to you without missing a beat.",
+				"\"Eh, we're good on the website front. Max, the owner used to code back in the day and whipped us up a Screeact Site no problem.\"",
+				"He polishes a glass and ponders aloud, \"Hey Max, I never get any days off. Need an extra barkeep?\"",
+				"Max the owner grunts in approval as he mops the floor in back. \"Well, you gotta job slinging spicy drinks if you want it,\" the barkeep says to you without missing a beat.",
 				"As you consider, you notice the same symbol from the sheet of paper carved into the bartop with an anarchy symbol overtop. Edgy, ineed."
 			],
 			"substeps": [],
@@ -796,7 +797,10 @@
 			"content": [
 				"You make yourself a cup of sleepy time tea and gaze at an indeterminate point on the gray horizon.",
 				"Yes. Until that one day.",
-				"The day a kid you went to grade school with decided to try and hotwire one of those mechs.",
+				"Middle of November. The air was getting cold enough to make your face hurt.",
+				"That awkward time when lazy people still had Halloween decorations up.",
+				"And eager people displayed holiday lights and inflatable Santas.",
+				"That cold and gray day, a kid you went to grade school with decided to try and hotwire one of those mechs.",
 				"You still remember sitting next to her in 'Ethical AI' class. Everyone called her by her web handle, Fl4ppyh4x, or just Fl4ppy for short.",
 				"You still remember that time in elementary she got knocked down in gym class while playing tag. Her mom picked her up to get stitches. The whole class climbed the junglegym to wave as her mom's minivan pulled away.",
 				"She was young and curious. Had too much success hacking into rent-a-scooters and reselling them online. It must have gotten boring. She needed a new challenge.",
@@ -858,7 +862,7 @@
 			"substeps": [
 				{
 					"id": 1,
-					"text": "Sure, it's nice to have a crib to yourself. You get to pick the shows and watch weird anime without anyone judging you. But without the tv on... it gets too quiet."
+					"text": "Sure, it's nice to have a crib to yourself. You get to pick the shows and watch weird anime without anyone judging you. But without the tv on... it does get quiet."
 				}
 			],
 			"choices": [
@@ -986,15 +990,15 @@
 				"You played a role in Fl4ppyH4x getting hurt, yes. But if you didn't build it, some other developer would have gotten the tasks and been blindsided.",
 				"Fl4ppyH4x would have found a way into those mechs somehow to reprogram them to self destruct.",
 				"She still would've brought every single machine (and Mechaglory) to it's knees.",
+				"She redirected every Mech's protocol to self-destruct. Then everything collapsed.",
 				"It's a good thing she was brave enough to take down every robot deathtrap, Mechaglory, and ServerFarm.",
-				"She reprogrammed every Mech to self-destruct then everything collapsed.",
-				"But that code - YOUR code - should've never been unleashed onto citizens. The people in charge are not just orchestrators of smoke and mirrors, but monsters profiteering at the cost of citizens wellbeing.",
+				"Because that code - YOUR code - should've never been unleashed onto citizens. The people in charge are not just orchestrators of smoke and mirrors, but monsters profiteering at the cost of citizens wellbeing.",
 				"What good is beating yourself up for this over and over?",
 				"Maybe you can make it better.",
 				"Somehow, even though all the mechs are down.",
 				"Even if it's small.",
 				"Maybe you can reach out for help.",
-				"And be more than an adorable raccoon with grabby hands, trying to get a flower all by himself."
+				"And be more than an adorable painting of a raccoon with grabby hands, trying to get a flower all by himself."
 			],
 			"substeps": [],
 			"choices": [
@@ -1032,7 +1036,7 @@
 				},
 				{
 					"id": 3,
-					"text": "Puka shell necklaces. Sweatsuits and Uuughs boots. Short sleeves over long sleeves. Your choice of bell bottom low rise or parachute jeans."
+					"text": "Puka shell necklaces. Sweatsuits and Uuughs boots. Short sleeves over long sleeves. Your choice of bell bottom low rise or parachute denim."
 				}
 			],
 			"choices": [
@@ -1049,8 +1053,8 @@
 			"content": [
 				"You wake up and feel ready to <span class=\"substep\" data-substep=\"1\">take on the day</span>.",
 				"Reaching out for help to figure out how to make amends for your fateful mech code for security protocol seems like a good start.",
-				"You don't know F4ppyH4x's whereabouts but it's time to face your old stomping grounds.",
-				"Since ServerFarm employees vacated the premises and the building was abandoned faster than the <span class=\"substep\" data-substep=\"2\">worst fashion choices from the 90s</span>.",
+				"You don't know F4ppyH4x's whereabouts but it's time to face your old <span class=\"substep\" data-substep=\"2\">stomping grounds</span>.",
+				"Since ServerFarm employees vacated the premises and the building was abandoned faster than the <span class=\"substep\" data-substep=\"3\">worst fashion choices from the 90s</span>.",
 				"You know you should go to ServerFarm to find some clue in the archives, but bringing someone along might make the visit less eerie and intimidating.",
 				"Who should you ask?"
 			],
@@ -1061,6 +1065,10 @@
 				},
 				{
 					"id": 2,
+					"text": "Looks like ServerFarm is Carl's new stomping grounds. He may know a way into the building since you'd bet your best feathers everything is locked up tight."
+				},
+				{
+					"id": 3,
 					"text": "Puka shell necklaces. Sweatsuits and Uuughs boots. Short sleeves over long sleeves. Your choice of bell bottom low rise or parachute jeans."
 				}
 			],
@@ -1094,7 +1102,12 @@
 		{
 			"id": 46,
 			"description": "Ira can read binary code, a useful asset for this mission",
-			"content": [],
+			"content": [
+				"You hop back on Friendspace.com and ignore 250 ads for birdseed and cotton candy while pulling up your friend messages.",
+				"Looks like you have a missed message from Ira already.",
+				"xXIraBeanXx: \"hey dude. \"",
+				"PipVanWinkle46290: \"\","
+			],
 			"substeps": [],
 			"choices": []
 		},
