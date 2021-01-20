@@ -6,21 +6,51 @@ import PropTypes from 'prop-types';
 import Choices from './Choices';
 
 // Styles
-import { Pigeongraph } from '../styles';
+import { Pigeongraph, ParagraphContainer, Chevron } from '../styles';
+
+// Images
+import chevron from '../assets/images/chevron.png';
 
 class Step extends Component {
-	componentDidMount() {
-		const substeps = document.querySelectorAll('[data-substep]');
-		for (let i = 0; i < substeps.length; i++) {
-			substeps[i].onclick = () => this.props.changeSubstep(i + 1);
-		}
+	constructor(props) {
+		super(props);
+		this.messagesEndRef = React.createRef();
 	}
 
-	renderParagraphs = () => {
+	componentDidMount() {
+		this.updateSubsteps();
+	}
+
+	componentDidUpdate() {
+		this.updateSubsteps();
+		this.scrollToBottom();
+	}
+
+	scrollToBottom = () => {
+		this.messagesEndRef.scrollIntoView({ behavior: 'smooth' });
+	};
+
+	updateSubsteps = () => {
+		const { substeps } = this.props;
+		if (substeps.length) {
+			const foundSubsteps = document.querySelectorAll('[data-substep]');
+			for (let i = 0; i < foundSubsteps.length; i++) {
+				foundSubsteps[i].onclick = () => this.props.changeSubstep(i + 1);
+			}
+		}
+	};
+
+	renderParagraph = (chevronClicked = false) => {
+		const { currentParagraph, updateCurrentParagraph } = this.props;
+		if (chevronClicked) {
+			updateCurrentParagraph();
+		}
 		const { content } = this.props;
-		return content.map((paragraph, i) => (
-			<Pigeongraph key={`paragraph-${i}`} dangerouslySetInnerHTML={{ __html: paragraph }} />
-		));
+		let totalParagraphs = [];
+		for (let i = 0; i <= currentParagraph; i++) {
+			totalParagraphs.push(<Pigeongraph key={`paragraph-${i}`} dangerouslySetInnerHTML={{ __html: content[i] }} />);
+		}
+		return totalParagraphs;
 	};
 
 	renderChoices = () => {
@@ -30,10 +60,25 @@ class Step extends Component {
 		}
 	};
 
+	renderChevron = () => {
+		const { content, currentParagraph } = this.props;
+		if (content.length - 1 > currentParagraph) {
+			return <Chevron src={chevron} alt="Chevron" onClick={() => this.renderParagraph(true)} />;
+		}
+	};
+
 	render() {
 		return (
 			<div>
-				{this.renderParagraphs()}
+				<ParagraphContainer id="paragraph-container">
+					{this.renderParagraph()}
+					{this.renderChevron()}
+					<div
+						style={{ float: 'left', clear: 'both' }}
+						ref={(el) => {
+							this.messagesEndRef = el;
+						}}></div>
+				</ParagraphContainer>
 				{this.renderChoices()}
 			</div>
 		);
@@ -42,11 +87,13 @@ class Step extends Component {
 
 Step.propTypes = {
 	content: PropTypes.array.isRequired,
+	currentParagraph: PropTypes.number.isRequired,
 	currentSubstep: PropTypes.number.isRequired,
 	substeps: PropTypes.array.isRequired,
 	choices: PropTypes.array.isRequired,
 	changeStep: PropTypes.func.isRequired,
 	changeSubstep: PropTypes.func.isRequired,
+	updateCurrentParagraph: PropTypes.func.isRequired,
 };
 
 export default Step;
