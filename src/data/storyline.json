@@ -270,23 +270,24 @@
 				"You enter the tall tower of tutelage and head to a floor full of empty classrooms.",
 				"You spot a possum friend named <span class=\"substep\" data-substep=\"1\">Ira</span> from art electives back at University, reading in a corner.",
 				"Her book is titled \"How to Get Your Life Together.\"",
+				"Whoa. Is she like, ok?",
 				"You walk over to say hello.",
-				"After initial pleasantries you can tell something is up. She sighs often and you notice dark circles under her eyes that have nothing to do with post-grunge eyeliner.",
+				"After initial pleasantries you gently inquire about the self-help book. She sighs often and you notice dark circles under her eyes that have nothing to do with post-grunge eyeliner.",
 				"Ira confesses she's mega bummed since her <span class=\"substep\" data-substep=\"2\">agency job</span> isn't what she imagined and it's draining her of creativity and personal-life energy points."
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "Ira is cool for sure. She had the best jokes in illustration studio. During nude drawing sessions, she called it the Art S'nude-io. Ha. Classic."
+					"text": "Ira is cool for sure. She had the best jokes in illustration studio. During nude drawing sessions, she called it the Art Nude-io."
 				},
 				{
 					"id": 2,
-					"text": "An award-winning firm that designs for upscale restaurants. Her hipster coworkers are cheese mongers on the side, and love to pair the fartiest cheeses with the craftiest of craft brews. Ugh."
+					"text": "An award-winning firm that designs for upscale restaurants. Her hipster coworkers are cheese mongers on the side, and love to pair the fartiest cheeses with the craftiest of craft brews."
 				}
 			],
 			"choices": [
 				{
-					"text": "Listen sincerely",
+					"text": "Listen quietly",
 					"nextStepId": 14,
 					"addInventoryItems": []
 				},
@@ -330,7 +331,7 @@
 			"description": "Listen sincerely to Iras predicament then show her binary code paper",
 			"content": [
 				"You listen sincerely to Ira's tale of agency churn & burn, spending long hours toiling for peanuts.",
-				"(Wait, does she actually get paid in peanuts...?? Nice.)",
+				"(Wait, does she actually get paid in peanuts...?? Delicious.)",
 				"It makes you a bit sad in your core.",
 				"Maybe everyone has to put in those hell-grindy hours before bustin' out like a caterpillar turning into a <span class=\"substep\" data-substep=\"1\">butterfly</span>.",
 				"You say, \"Ira, that super sucks. You are a cool person with the righteousness and know-how to destroy a small-to-medium sized planet. Destroy it with the power of your art!\"",
@@ -549,7 +550,7 @@
 			"substeps": [
 				{
 					"id": 1,
-					"text": "It says: \"Venture Capitalists? More like Denture Crapitalists.\""
+					"text": "Sign: \"Venture Capitalists? More like Denture Crapitalists.\" Aggresive!"
 				}
 			],
 			"choices": [
@@ -612,7 +613,7 @@
 				"You avoid his scary gaze and notice the same image from the paper carved into the wooden bartop. It has an anarchy symbol scratched over top.",
 				"After listening to the anti-authority crust punks you feel like you know a thing or two.",
 				"\"...A fellow hardcore anarchist, that's who,\" you nod towards the carving. \"And can I have one of those fruity coconut-pineapple drinks? Yes with the fun umbrella.\"",
-				"\"You mean a Painkiller?\" The bartender guffaws. \"Right, the owner Max is rather anti-authority. I'm libertarian myself. But he hates his old company so much he did that when we opened this place.\"",
+				"\"You mean a Painkiller?\" The bartender guffaws. \"Right, the owner Max is rather anti-authority. He hates his old company so much he did that when we opened this place.\"",
 				"Ehh? Just a company logo? Is this all some elaborate commercial?",
 				"The barkeep polishes a glass pensively and remarks, \"Yeah, he quit around the time of peak mech output. The MBOT-3000 had just been released. He was their top engineer and couldn't take anymore corporate crap. You know how it goes.\"",
 				"Ah! All those broken down police mechs rusting out under bridges: covered in leaves, garbage, and talentless graffiti. Company logo slapped on the sides, still visible under all the grime.",
@@ -621,7 +622,7 @@
 			"substeps": [],
 			"choices": [
 				{
-					"text": "Tip 20%+ and peace out",
+					"text": "Tip and dip",
 					"nextStepId": 29,
 					"addInventoryItems": []
 				}
@@ -722,8 +723,8 @@
 				"You ping Ira on <span class=\"substep\" data-substep=\"1\">Friendspace</span> and she pongs back.",
 				"She asks you if you'd like to come with her to a local art show featuring her paintings.",
 				"You enthusiastically agree.",
-				"PipVanWinkle46290: \"heck ya, lady. wld luv 2 c ur art\",",
-				"xXIraBeanXx: \"lul noice! wear something jazzy & c u soon\"",
+				"PipVanWinkle46290: \"im so down its insane. wld luv 2 c ur art\",",
+				"xXIraBeanXx: \"ty, its gonna be sick af. wear something jazzy & c u soon\"",
 				"You jazz yourself up to the best of your ability, happy for a distraction.",
 				"Arriving fashionably 7 minutes late, you meet up with Ira outside the venue, an old factory building by the river.",
 				"Ira beams at you, \"Hey Pip, you clean up good! Let's check it out - I hear there are some real serious art appraisers here. Let's schmooze!\""
@@ -758,7 +759,7 @@
 			"id": 34,
 			"description": "sashay inside for an art experience",
 			"content": [
-				"Entering the factory-turned-gallery, you are met with the sounds of electric-pop-n-bass and a feast for the eyes in more ways than art.",
+				"Entering the factory-turned-gallery, you are met with the sounds of vapor-dream-pop-n-bass and a feast for the eyes in more ways than art.",
 				"The attendees are dressed in their best <span class=\"substep\" data-substep=\"1\">blasé-chic</span>, and a table full of cheeses and crackerses is laid bountifully.",
 				"You relax into the rolling crowd sounds of opinions galore.",
 				"Ira takes your wing and leads you (away from the snacks) towards a specific wall of art.",
@@ -769,13 +770,13 @@
 				"One catches your eye, a depiction of a raccoon reaching it's adorable little paw through a hole in a brick wall.",
 				"On the other side of the wall, he picks a beautiful flower.",
 				"The flower looks far too large for him to pull it back through the hole. At least without all the petals and leaves getting scraped off in the process.",
-				"Flowers, huh. Just like your dream.",
+				"Floral themes should be a good thing right?",
 				"Ira catches you staring and says, \"Oh yeah. I thought you'd be into this one, with what you've been through. Hopefully it's kinda therapeutic. What do you feel?\""
 			],
 			"substeps": [
 				{
 					"id": 1,
-					"text": "Felt hats with signature feathers, linen overalls, skinny denim, and deep-V-neck tees that reveal tattoos of bees and zodiac signs. You feel like a quaint lumberjack in your flannel n cuffed pantlegs."
+					"text": "Felt hats with signature feathers, linen overalls, denim neckerchiefs, and deep-V-neck tees that reveal tattoos of bees and zodiac signs. You feel like a quaint lumberjack in your flannel n cuffed pantlegs."
 				}
 			],
 			"choices": [
@@ -829,7 +830,7 @@
 				"You say \"It feels pointless. He can never see the flower, at least without ruining it.\"",
 				"Ira considers this for a moment.",
 				"She says, \"Maybe. But it also doesn't look like he's asking anyone for help. I bet someone would pass it to him if he asked. It would certainly fit through sideways.\"",
-				"You're taken aback. Clever girl.",
+				"You're taken aback by your own nihilistic opinions.",
 				"Then you notice there are other <span class=\"substep\" data-substep=\"1\">creatures</span> hidden in the frame outside the wall. Nearly hidden by the environment."
 			],
 			"substeps": [
@@ -882,7 +883,7 @@
 				"Ira is engaged with other connoisseurs so you slip away to the refreshment table.",
 				"While pecking at some high-end triscuits, you spot a familiar face.",
 				"\"Carl!\" you exclaim, <span class=\"substep\" data-substep=\"1\">crumbs flying everywhere</span>.",
-				"Carl plays it cool and pretends not to notice your crumb explosion, but comes over. \"Sup, man? Whatchu been up to.\"",
+				"Carl plays it cool and pretends not to notice your lack of social graces, but comes over. \"Sup, man? Whatchu been up to.\"",
 				"You share idle small talk then remember you ought to ask him about that paper.",
 				"\"So remember when we bombed down that hill big wheelie style... where did you find that paper you gave me anyways? What a weirdo prize.\"",
 				"Carl laughs. \"I don't know! It was the only thing in my pocket besides a matchbook and lovely portrait of my <span class=\"substep\" data-substep=\"2\">mother</span>.\"",
@@ -932,7 +933,7 @@
 				},
 				{
 					"id": 2,
-					"text": "Now you're sticking it to THE MAN. Who is the man? Why can't it be a woman?"
+					"text": "Now you're sticking it to THE MAN or WOMAN. Equal opportunity defiance."
 				}
 			],
 			"choices": [
