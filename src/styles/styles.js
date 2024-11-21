@@ -2,10 +2,10 @@
 import styled, { createGlobalStyle, keyframes } from 'styled-components';
 
 // Fonts
-import VT323 from './assets/fonts/VT323.ttf';
+import VT323 from '../assets/fonts/VT323.ttf';
 
 // Images
-import buttonImage from './assets/images/buttonv2.png';
+import buttonImage from '../assets/images/buttonv2.png';
 
 export const bounce = keyframes`
 	0%, 50%, 70%, 90% {transform: translateY(0);} 

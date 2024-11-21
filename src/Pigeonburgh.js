@@ -12,7 +12,7 @@ import Substep from './components/Substep';
 import Inventory from './components/Inventory';
 
 // Styling
-import { Pigeonwrap, modalStyles } from './styles';
+import { Pigeonwrap, modalStyles } from './styles/styles';
 
 Modal.setAppElement('#root');
 

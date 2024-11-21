@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import Choices from './Choices';
 
 // Styles
-import { Pigeongraph, ParagraphContainer, Chevron } from '../styles';
+import { Pigeongraph, ParagraphContainer, Chevron } from '../styles/styles';
 
 // Images
 import chevron from '../assets/images/chevron.png';
