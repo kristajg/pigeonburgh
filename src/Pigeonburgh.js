@@ -1,5 +1,4 @@
-// React & third party libaries
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 
 // Data
@@ -46,6 +45,25 @@ export default function Pigeonburgh() {
 		setSubstep(0);
 		toggleModal(false);
 	}
+
+	const handleKeyDown = event => {
+		if (event.key === 'Enter') {
+			console.log('enter key was pressed')
+		}
+	}
+	useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === 'Enter') {
+				updateCurrentParagraph();
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+
+    // Cleanup function to remove event listener
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown)
+    }
+  });
 
 	// function handleInventory() {
 	// 	toggleInventory(!inventoryOpen);
