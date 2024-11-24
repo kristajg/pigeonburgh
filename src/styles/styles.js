@@ -30,6 +30,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Pigeonwrap = styled.div`
+	margin: 0 auto;
 	padding: 5%;
 	max-width: 45%;
 	font-family: 'VT323';
