@@ -6,10 +6,9 @@
 			"description": "Game entry point. Introduces Pip and indicates city location. Corn chip choices.",
 			"content": [
 				"You are a <span class=\"substep\" data-substep=\"1\">pigeon</span> named Pip in your prime. How coo is that? You reckon it's pretty coo.",
-				"Yaaaaaaawn. What a beautiful day in the neighborhood.",
-				"The rising sun shines a few lucky rays through the thick clouds that cover the valley like the top of an indoor sports dome.",
-				"The surrounding murky rivers and steely gray-blue city buildings shift into focus.",
-				"The morning light reveals a crispy treasure on the ground.",
+				"You wake up to a beautiful day in the neighborhood.",
+				"The rising sun shines a few lucky rays through the clouds that cover the area like the top of an indoor sports dome.",
+				"The brick and steel of the surrounding city buildings shift into focus.",
 				"A corn chip rests conveniently by your feetsies..."
 			],
 			"substeps": [
@@ -20,12 +19,12 @@
 			],
 			"choices": [
 				{
-					"text": "Classic corn chip for breakfast",
+					"text": "Eat the corn chip",
 					"nextStepId": 2,
 					"addInventoryItems": []
 				},
 				{
-					"text": "Coffee over corn chips",
+					"text": "Hold out for coffee",
 					"nextStepId": 3,
 					"addInventoryItems": []
 				}
