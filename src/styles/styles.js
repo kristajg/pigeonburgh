@@ -67,6 +67,9 @@ export const ChoiceButton = styled.div`
 	width: 340px;
 	height: 100px;
 	margin-bottom: 20px;
+	&:hover {
+		opacity: .8;
+	}
 `;
 
 export const ButtonText = styled.p`
@@ -98,6 +101,7 @@ export const Chevron = styled.img`
 	width: auto;
 	animation: ${bounce} 3.5s ease infinite;
 	animation-delay: 4s;
+	cursor: pointer;
 `;
 
 export const modalStyles = {
