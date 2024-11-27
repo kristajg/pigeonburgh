@@ -6,7 +6,7 @@ export default function Substep({ text, closeSubstepModal }) {
 			<Pigeongraph>{text}</Pigeongraph>
 			<Pigeongraph>
 				<span className="substep" onClick={() => closeSubstepModal()}>
-					Go Back
+					Back
 				</span>
 			</Pigeongraph>
 		</div>
